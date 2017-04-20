@@ -5,55 +5,55 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files (x86)\FME Desktop 2016.1\fme.exe" "\\os2k05\products\Product Management\OS MasterMap Networks\Highways\FME_workbenches\v2\Geopackage\ConnectingNode.fmw"
+#    "C:\Program Files (x86)\FME Desktop 2016.1\fme.exe" D:\Vector\OSMasterMap\Highways\FME\Geopackage\ConnectingNode.fmw
 #          --SourceDataset_GML "C:\Temp\Highways_Data\Paths\Bedford_ConnectingNode.gml.gz"
 #          --DestDataset_GEOPACKAGE ""
 #    
 #    
-#!   PASSWORD=""
-#!   LOG_FILE=""
-#!   DOC_EXTENTS="3735.03 731.004"
-#!   DOC_TOP_LEFT="-59.9968 -1291.01"
-#!   LAST_SAVE_DATE="2016-12-13T11:19:13"
-#!   END_TCL=""
-#!   DESTINATION_ROUTING_FILE=""
-#!   PYTHON_COMPATIBILITY="27"
-#!   CATEGORY=""
-#!   SHOW_INFO_NODES="true"
-#!   TITLE=""
-#!   BEGIN_TCL=""
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   MAX_LOG_FEATURES="200"
-#!   FME_BUILD_NUM="16492"
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   HISTORY=""
-#!   REQUIREMENTS_KEYWORD=""
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   LEGAL_TERMS_CONDITIONS=""
-#!   LAST_SAVE_BUILD="FME(R) 2016.1.0.0 (20160419 - Build 16492 - WIN32)"
-#!   FME_DOCUMENT_GUID="7247c215-1508-4085-ae44-2d34405264b8"
-#!   SHOW_ANNOTATIONS="true"
-#!   REQUIREMENTS=""
-#!   VIEW_POSITION="322.503 362.504"
-#!   IGNORE_READER_FAILURE="No"
 #!   REDIRECT_TERMINATORS="NONE"
-#!   DESCRIPTION=""
-#!   SOURCE_ROUTING_FILE=""
-#!   BEGIN_PYTHON=""
-#!   SOURCE="NONE"
-#!   FME_DOCUMENT_PRIORGUID="707535dc-14d5-4c1d-9dd6-e15bcaaa38c1,2e1363ef-39f3-4fa8-997a-dae11fc7beb3,a9bd05e3-7cac-4981-a704-334f3f18a0ab,b3d7de6d-3b40-4cac-bbb1-2bf4fe3c5dc0,57b87f5e-82c0-4ef2-8cd6-64b8850b06e4,74cd0021-1daa-435d-877f-1bf280e330d9,4707745d-57dc-49f1-b2e7-ce0cd9047696,f720f1dd-527b-404a-ac4b-1974e79a73ba"
+#!   FME_DOCUMENT_GUID="7785ee95-c88f-454e-bc3c-577843bec5f4"
 #!   END_PYTHON=""
-#!   FME_SERVER_SERVICES=""
-#!   DESTINATION="NONE"
-#!   WORKSPACE_VERSION="1"
-#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   SOURCE_ROUTING_FILE=""
 #!   USAGE=""
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   ZOOM_SCALE="100"
 #!   LOG_MAX_RECORDED_FEATURES="200"
+#!   TITLE=""
+#!   VIEW_POSITION="322.503 45.0005"
+#!   SHOW_INFO_NODES="true"
+#!   LOG_FILE=""
+#!   WORKSPACE_VERSION="1"
+#!   LAST_SAVE_DATE="2017-04-19T15:40:34"
+#!   ZOOM_SCALE="100"
+#!   BEGIN_TCL=""
+#!   IGNORE_READER_FAILURE="No"
+#!   FME_STROKE_MAX_DEVIATION="0"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   DOC_TOP_LEFT="-59.9968 -1291.01"
+#!   DOC_EXTENTS="3735.03 731.004"
+#!   DESTINATION="NONE"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   REQUIREMENTS_KEYWORD=""
+#!   FME_BUILD_NUM="16492"
+#!   BEGIN_PYTHON=""
+#!   CATEGORY=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   PYTHON_COMPATIBILITY="27"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_DOCUMENT_PRIORGUID="707535dc-14d5-4c1d-9dd6-e15bcaaa38c1,2e1363ef-39f3-4fa8-997a-dae11fc7beb3,a9bd05e3-7cac-4981-a704-334f3f18a0ab,b3d7de6d-3b40-4cac-bbb1-2bf4fe3c5dc0,57b87f5e-82c0-4ef2-8cd6-64b8850b06e4,74cd0021-1daa-435d-877f-1bf280e330d9,4707745d-57dc-49f1-b2e7-ce0cd9047696,f720f1dd-527b-404a-ac4b-1974e79a73ba,7247c215-1508-4085-ae44-2d34405264b8,c532b4e4-6e46-4839-81d5-558fc5892c28"
+#!   HISTORY=""
+#!   LAST_SAVE_BUILD="FME(R) 2016.1.0.0 (20160419 - Build 16492 - WIN32)"
+#!   END_TCL=""
+#!   REQUIREMENTS=""
+#!   DESTINATION_ROUTING_FILE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
 #!   FME_REPROJECTION_ENGINE="FME"
+#!   SOURCE="NONE"
+#!   DESCRIPTION=""
+#!   LEGAL_TERMS_CONDITIONS=""
+#!   FME_SERVER_SERVICES=""
+#!   PASSWORD=""
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   SHOW_ANNOTATIONS="true"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -69,7 +69,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_text_string xml_char(50) fme_sweep_angle xml_real64 multi_reader_keyword xml_char(50) xml_type xml_char(50) fme_secondary_axis xml_real64 multi_reader_full_id xml_int32 fme_dataset xml_char(50) gml_parent_property xml_char(254) fme_geometry fme_char(50) fme_primary_axis xml_real64 fme_text_size xml_real64 gml_parent_id xml_char(254) fme_fill_color xml_char(50) multi_reader_type xml_char(50) fme_type xml_char(50) multi_reader_id xml_int32 fme_feature_type xml_char(50) fme_basename xml_char(50) gml_original_coordinate_system xml_char(64) fme_color xml_char(50) gml_id xml_char(254) fme_start_angle xml_real64 xml_ns_uri xml_char(254) fme_rotation xml_real64"
+#!   EXPOSABLE_ATTRS="fme_primary_axis xml_real64 fme_start_angle xml_real64 fme_geometry fme_char(50) fme_feature_type xml_char(50) multi_reader_id xml_int32 fme_color xml_char(50) multi_reader_keyword xml_char(50) fme_fill_color xml_char(50) xml_type xml_char(50) gml_parent_property xml_char(254) fme_rotation xml_real64 fme_basename xml_char(50) fme_dataset xml_char(50) gml_original_coordinate_system xml_char(64) xml_ns_uri xml_char(254) gml_id xml_char(254) fme_text_size xml_real64 multi_reader_type xml_char(50) fme_sweep_angle xml_real64 fme_text_string xml_char(50) gml_parent_id xml_char(254) fme_type xml_char(50) multi_reader_full_id xml_int32 fme_secondary_axis xml_real64"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -78,40 +78,40 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="FILE_OR_URL"
 #!   GENERATE_FME_BUILD_NUM="16492"
-#!   FEATURE_TYPES="ConnectingNode"
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
 #!   MAX_FEATURES=""
 #!   COORDSYS=""
+#!   FEATURE_TYPES="ConnectingNode"
 #!   START_FEATURE=""
-#!   MIN_FEATURES=""
-#!   MAX_FEATURES_PER_FEATURE_TYPE=""
 #! >
 #! <METAFILE_PARAMETER
-#!   NAME="DATASET_NAME"
-#!   VALUE="gml file"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a name for the GML file"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="MIME_TYPE"
-#!   VALUE="application/xml"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="READER_DATASET_HINT"
-#!   VALUE="Select the GML file(s)"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="GML_IN_SEARCH_ENVELOPE_MINX GML_IN_SEARCH_ENVELOPE_MINY GML_IN_SEARCH_ENVELOPE_MAXX GML_IN_SEARCH_ENVELOPE_MAXY GML_IN_CLIP_TO_ENVELOPE SEARCH_ENVELOPE_COORDINATE_SYSTEM"
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="ALWAYS"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_PROXY"
 #!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="NETWORK_AUTHENTICATION"
-#!   VALUE="ALWAYS"
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="GML_IN_SEARCH_ENVELOPE_MINX GML_IN_SEARCH_ENVELOPE_MINY GML_IN_SEARCH_ENVELOPE_MAXX GML_IN_SEARCH_ENVELOPE_MAXY GML_IN_CLIP_TO_ENVELOPE SEARCH_ENVELOPE_COORDINATE_SYSTEM"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE="application/xml"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the GML file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="gml file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the GML file(s)"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -127,7 +127,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="geopackage_type {FME_GEN_GEOMETRY} fme_table_handling CREATE_IF_MISSING geopackage_geometry_column &quot;&quot; geopackage_primary_index_column &quot;&quot; geopackage_create_spatial_index YES"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_type text(50) fme_rotation double geopackage_type text(255) fme_color text(50) fme_sweep_angle double fme_feature_type text(50) fme_text_string text(50) fme_fill_color text(50) fme_basename text(50) fme_dataset text(50) fme_primary_axis double fme_geometry fme_char(50) fme_text_size double fme_start_angle double fme_secondary_axis double"
+#!   EXPOSABLE_ATTRS="fme_basename text(50) fme_color text(50) geopackage_type text(255) fme_secondary_axis double fme_text_string text(50) fme_start_angle double fme_geometry fme_char(50) fme_primary_axis double fme_dataset text(50) fme_type text(50) fme_fill_color text(50) fme_text_size double fme_rotation double fme_feature_type text(50) fme_sweep_angle double"
 #!   DEFLINE_PARMS="&quot;GUI NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table Settings&quot; &quot;&quot; &quot;GUI NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE fme_table_handling Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE Table Handling&quot; CREATE_IF_MISSING &quot;GUI DISCLOSUREGROUP fme_table_creation_group geopackage_geometry_column%geopackage_primary_index_column%geopackage_create_spatial_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_geometry_column Spatial Column&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_primary_index_column Primary Index Column&quot; &quot;&quot; &quot;GUI CHOICE geopackage_create_spatial_index Yes%No Create Spatial Index&quot; Yes "
 #!   ATTR_INDEX_TYPES="indexed"
 #!   ATTR_NAME_INVALID_CHARS="\\&quot;{}()&apos;,@&amp;`~!#$%^*+-=|[]:;&lt;&gt;?./"
@@ -136,45 +136,45 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="FILE"
 #!   GENERATE_FME_BUILD_NUM="16492"
+#!   FANOUT_EXPRESSION=""
 #!   COORDSYS=""
 #!   FANOUT_GROUP="NO"
-#!   FANOUT_EXPRESSION=""
 #! >
-#! <METAFILE_PARAMETER
-#!   NAME="DATASET_NAME"
-#!   VALUE="GeoPackage file"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="ALLOW_DATASET_CONFLICT"
-#!   VALUE="YES"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a name for the GeoPackage file"
-#! />
 #! <METAFILE_PARAMETER
 #!   NAME="FEATURE_TYPE_DEFAULT_NAME"
 #!   VALUE="Table1"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="READER_DATASET_HINT"
-#!   VALUE="Select the GeoPackage file(s)"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="GEOPACKAGE_OUT_TRANSACTION_SIZE"
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="FEATURE_TYPE_NAME"
 #!   VALUE="Table"
 #! />
 #! <METAFILE_PARAMETER
+#!   NAME="ALLOW_DATASET_CONFLICT"
+#!   VALUE="YES"
+#! />
+#! <METAFILE_PARAMETER
 #!   NAME="NETWORK_PROXY"
 #!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="NETWORK_AUTHENTICATION"
-#!   VALUE="NO"
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="GEOPACKAGE_OUT_TRANSACTION_SIZE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the GeoPackage file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="GeoPackage file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the GeoPackage file(s)"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -805,10 +805,10 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="beginLifespanVersion" ATTR_TYPE="datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="reasonForChange" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="roadLink" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
@@ -917,7 +917,7 @@
 #!   BOUNDING_RECT="1046.89 -812.508 1771.89 412.504"
 #!   STICKY="true"
 #!   COLOUR="0.329412,0,0.494118"
-#!   CONTENTS="5 4 2 6 18 14 "
+#!   CONTENTS="4 18 2 5 14 6 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -935,6 +935,7 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadLink" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -958,13 +959,12 @@
 #!     <XFORM_ATTR ATTR_NAME="geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadLink.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadLink.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="roadLink.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadLink.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadLink.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="gml_id TOID RENAME_SET_DEFAULT  roadLink.xlink_href roadLink RENAME_SET_DEFAULT "/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="gml_id TOID RENAME_SET_DEFAULT "/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="4"
@@ -980,6 +980,7 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadLink" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1003,14 +1004,13 @@
 #!     <XFORM_ATTR ATTR_NAME="geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadLink.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadLink.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="roadLink.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadLink.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadLink.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date (%Y%m%d)"/>
-#!     <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="beginLifespanVersion"/>
-#!     <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
+#!     <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="FME_NULL_VALUE"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateFormatter"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
@@ -1028,6 +1028,7 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadLink" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1051,19 +1052,18 @@
 #!     <XFORM_ATTR ATTR_NAME="geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadLink.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadLink.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="roadLink.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadLink.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadLink.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="roadLink.xlink_href"/>
-#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="#"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="roadLink"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
-#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="#"/>
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -1115,13 +1115,6 @@
 #! <BREAKPOINTS>
 #! </BREAKPOINTS>
 #! <ATTR_LINKS>
-#! <ATTR_LINK
-#!   IDENTIFIER="65551"
-#!   SOURCE_NODE="6"
-#!   TARGET_NODE="8"
-#!   SOURCE_PORT_DESC="ao 0 24 OUTPUT"
-#!   TARGET_PORT_DESC="3"
-#! />
 #! </ATTR_LINKS>
 #! <SUBDOCUMENTS>
 #! </SUBDOCUMENTS>
@@ -1418,23 +1411,23 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME "ConnectingNode (GML_1) Splitter"    IN
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * AttrSetFactory    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE ConnectingNode_GML_1 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION "gml_id" "TOID" "RENAME_SET_DEFAULT" ""    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT
+FACTORY_DEF * AttrSetFactory    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE ConnectingNode_GML_1 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION "gml_id" "TOID" "RENAME_SET_DEFAULT" ""     ATTR_ACTION "roadLink.xlink_href" "roadLink" "RENAME_SET_DEFAULT" ""    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT
 
 # -------------------------------------------------------------------------
 
 Tcl2 proc DateFormatter_formatter {invalidValue} {       set dateFormat {FME Date (%Y%m%d)};       if { [string compare $dateFormat {FME Date/Time (%Y%m%d%H%M%S)}] == 0 } {          set dateFormat {%Y%m%d%H%M%S};       } elseif { [string compare $dateFormat {FME Date (%Y%m%d)}] == 0} {          set dateFormat {%Y%m%d};       } elseif { [string compare $dateFormat {FME Time (%H%M%S)}] == 0} {          set dateFormat {%H%M%S};       } elseif { [string compare $dateFormat {ISO Date (%Y-%m-%d)}] == 0} {          set dateFormat {%Y-%m-%d};       } elseif { [string compare $dateFormat {ISO DateTime (%Y-%m-%dT%H:%M:%S)}] == 0} {          set dateFormat {%Y-%m-%dT%H:%M:%S};       } elseif { [string compare $dateFormat {ISO Time (%H:%M:%S)}] == 0} {          set dateFormat {%H:%M:%S};       } elseif { [string compare $dateFormat {Locale Date (%c)}] == 0} {          set dateFormat {%c};       };     set attrs [split {beginLifespanVersion} {,}];     foreach attr $attrs {        set date [string trim [FME_GetAttribute $attr]];        set comment { Don't touch NULL or empty attribute values };        if { [string length $date] == 0 } { continue; };        set srcfmt {};        if {{FME_AUTOMATIC} != {FME_AUTOMATIC}} {            set srcfmt {FME_AUTOMATIC};        } else {           set comment { In Automatic mode we ignore the millisecond part };           regexp {^[^.]*} $date date;           set comment { Error out if single char or all numeric in AUTO mode };           if { [regexp {^.$} $date] || [regexp {^[0-9]+$} $date] } {              set date {};           };        };        set comment { An empty $date at this point is invalid, so don't process further };        set dateLen [string length $date];        if {$dateLen > 0} {           if {[string length $srcfmt] == 0} {              set attrFull $attr;              append attrFull .full;              set fullDate [FME_GetAttribute $attrFull];              if { [string compare -length $dateLen $date $fullDate] == 0 } {                 set extra [string range $fullDate $dateLen end]000000;                 set date [string range \"$date$extra\" 0 13];                 set dateLen 14              };              if {($dateLen == 14) && [regexp {^[0-9]*$} $date]} {                 set srcfmt %Y%m%d%H%M%S;              };           };           set sourceFormatOpt {};           if {[string length $srcfmt] > 0} {              set sourceFormatOpt \"-format {$srcfmt}\";           };           set comment { Compute the output value and catch any errors };           set error [catch { set seconds [eval clock scan "{$date}" $sourceFormatOpt];                              set output [clock format $seconds -format $dateFormat];           }];           set comment { If there was error then we try again by removing digits after last decimal };           if { $error != 0 } {              set index [string last "." $date];              if { $index > 0 } {                 set date [eval string range $date 0 [expr $index-1]];                 set dateLen [string length $date];                 set error [catch { set seconds [eval clock scan "{$date}" $sourceFormatOpt]; set output [clock format $seconds -format $dateFormat]; }];              };           };           if { $error == 0 } {              FME_SetAttribute $attr $output;           };        };        if { (0 == $dateLen) || ($error != 0) } {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };        };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME DateFormatter    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE DateFormatter_OUTPUT         @Tcl2("DateFormatter_formatter {_FME_NO_OP_}")
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateFormatter    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE DateFormatter_OUTPUT         @Tcl2("DateFormatter_formatter {FME_NULL_VALUE}")
 
 # -------------------------------------------------------------------------
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_c85373b6_e935_4495_bb65_39c25eeb7fcc0_replacer { findText replaceText invalidValue} {     set attrs [split \"roadLink.xlink_href\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE DateFormatter_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_c85373b6_e935_4495_bb65_39c25eeb7fcc0_replacer {#} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_7e6e0c18_e321_48cd_b0b1_bb40fad9030f0_replacer { findText replaceText invalidValue} {     set attrs [split \"roadLink\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE DateFormatter_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_7e6e0c18_e321_48cd_b0b1_bb40fad9030f0_replacer {#} {} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC StringReplacer_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>roadLink<comma>roadLink.xlink_href<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>ConnectingNode<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC StringReplacer_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>ConnectingNode<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
