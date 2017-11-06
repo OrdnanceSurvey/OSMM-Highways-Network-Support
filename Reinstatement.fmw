@@ -5,55 +5,56 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files (x86)\FME Desktop 2016.1\fme.exe" "\\os2k05\products\Product Management\OS MasterMap Networks\Highways\FME_workbenches\v2\Geopackage\Reinstatement.fmw"
-#          --SourceDataset_GML_3 "C:\Temp\Highways_Data\Paths\Bedford_Reinstatement.gml.gz"
+#    "C:\Program Files (x86)\FME Desktop 2017\fme.exe" C:\Data\OSMasterMap\Highways\FME\Update\Geopackage\Reinstatement.fmw
+#          --SourceDataset_GML_3 "C:\Data\OSMasterMap\Highways\FME\Update\Highways_Rrami_Reinstatement_FULL_001.gml.gz"
 #          --DestDataset_GEOPACKAGE ""
 #    
 #    
-#!   DESTINATION="NONE"
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   PYTHON_COMPATIBILITY="27"
-#!   BEGIN_TCL=""
-#!   DOC_EXTENTS="4728.29 1345.51"
-#!   SHOW_INFO_NODES="true"
-#!   MAX_LOG_FEATURES="200"
-#!   ZOOM_SCALE="100"
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   PASSWORD=""
-#!   VIEW_POSITION="1062.51 17.5002"
-#!   SOURCE_ROUTING_FILE=""
-#!   DOC_TOP_LEFT="-313.879 -1498.51"
-#!   SOURCE="NONE"
-#!   REQUIREMENTS=""
-#!   END_PYTHON=""
-#!   FME_DOCUMENT_GUID="d8285c00-7525-4807-8458-e01466894e27"
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   FME_BUILD_NUM="16492"
-#!   USAGE=""
+#!   FME_BUILD_NUM="17271"
+#!   DOC_EXTENTS="5429.08 2211.15"
+#!   FME_DOCUMENT_GUID="59e50cd8-2d1c-40f1-9516-89d3f438a3da"
+#!   MARKDOWN_USAGE=""
+#!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   FME_REPROJECTION_ENGINE="FME"
 #!   HISTORY=""
-#!   LOG_FILE=""
-#!   REDIRECT_TERMINATORS="NONE"
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   WORKSPACE_VERSION="1"
-#!   FME_SERVER_SERVICES=""
-#!   TITLE=""
-#!   DESCRIPTION=""
-#!   REQUIREMENTS_KEYWORD=""
-#!   BEGIN_PYTHON=""
-#!   FME_DOCUMENT_PRIORGUID="6714ccab-1e3b-4c66-aad4-4d0a3ef512f0,1ccedeed-30a0-4921-af2f-981430504eb1,483f21d4-a104-4dfd-8039-b3749f160f32,5a6e0708-9f78-4492-919a-d6abfac2805b,53bab294-0cdd-4645-8ef9-a5741eadb966,29937691-2feb-468f-807c-a00e3677efc1,60a82b86-d3f7-4ff5-9210-3b705452f015,f043fcee-63f5-45a8-9255-cc9d52e869c8,68af1123-2704-4c6d-a4cf-854b1310ba38,d3914bd1-87dc-490a-8def-d4f2be02e124,d61cc8e8-ef0e-4c86-bf7e-4ab7979b3b5d,24117758-826f-4fb8-8e28-1dc37b32cd35,c6f0138b-b64e-4208-95b2-460a1acde29e,1bb56a40-8986-4ec5-b6fc-84df204bc6ae,eb5ac5c0-019f-477b-8120-3b8f663af421,d5ffc07c-67d5-4ec4-a5be-d95d1e7ccd3c,f99cfc3e-04a6-4a88-91fb-d3e4c7dbd491,ca3a9900-4797-4d0d-90df-63d6e575f5c7,298bc589-f22c-44e2-b5a4-d4d999a45a8e,1382270d-d24d-4f89-aecf-63f0ef1dab02,fd6a127c-894b-41a3-b091-f24fbe0595f5,82b6b3b9-92fb-4c02-8d0e-482cbaef81f3,197fde0e-5a01-4fbc-a6a6-73ad932be735,25a81250-4975-4077-9070-4c8f8a99cd1c,d9201191-fa25-4adb-a625-997d3909b751,b5024c90-c69e-477c-833f-e9ae2303893e,425677b0-f6d5-440b-bd69-d3ce6c9e4f5c"
-#!   CATEGORY=""
-#!   LAST_SAVE_BUILD="FME(R) 2016.1.0.0 (20160419 - Build 16492 - WIN32)"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   IGNORE_READER_FAILURE="No"
-#!   SHOW_ANNOTATIONS="true"
-#!   END_TCL=""
-#!   LAST_SAVE_DATE="2016-12-13T11:34:50"
 #!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   SOURCE="NONE"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.1 (20170316 - Build 17271 - WIN32)"
+#!   MARKDOWN_DESCRIPTION=""
+#!   SOURCE_ROUTING_FILE=""
+#!   END_TCL=""
+#!   PASSWORD=""
+#!   MAX_LOG_FEATURES="200"
+#!   DOC_TOP_LEFT="109.251 -1498.51"
+#!   USAGE=""
+#!   SHOW_ANNOTATIONS="true"
+#!   TERMINATE_REJECTED="NO"
+#!   SHOW_INFO_NODES="true"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   VIEW_POSITION="18.7502 1396.89"
+#!   DESCRIPTION=""
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   END_PYTHON=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   TITLE=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   CATEGORY=""
+#!   PYTHON_COMPATIBILITY="27"
+#!   BEGIN_TCL=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   ZOOM_SCALE="80"
+#!   IGNORE_READER_FAILURE="No"
 #!   DESTINATION_ROUTING_FILE=""
-#!   LEGAL_TERMS_CONDITIONS=""
+#!   DESTINATION="NONE"
+#!   USE_MARKDOWN=""
+#!   WORKSPACE_VERSION="1"
+#!   LOG_FILE=""
+#!   BEGIN_PYTHON=""
+#!   FME_DOCUMENT_PRIORGUID="6714ccab-1e3b-4c66-aad4-4d0a3ef512f0,1ccedeed-30a0-4921-af2f-981430504eb1,483f21d4-a104-4dfd-8039-b3749f160f32,5a6e0708-9f78-4492-919a-d6abfac2805b,53bab294-0cdd-4645-8ef9-a5741eadb966,29937691-2feb-468f-807c-a00e3677efc1,60a82b86-d3f7-4ff5-9210-3b705452f015,f043fcee-63f5-45a8-9255-cc9d52e869c8,68af1123-2704-4c6d-a4cf-854b1310ba38,d3914bd1-87dc-490a-8def-d4f2be02e124,d61cc8e8-ef0e-4c86-bf7e-4ab7979b3b5d,24117758-826f-4fb8-8e28-1dc37b32cd35,c6f0138b-b64e-4208-95b2-460a1acde29e,1bb56a40-8986-4ec5-b6fc-84df204bc6ae,eb5ac5c0-019f-477b-8120-3b8f663af421,d5ffc07c-67d5-4ec4-a5be-d95d1e7ccd3c,f99cfc3e-04a6-4a88-91fb-d3e4c7dbd491,ca3a9900-4797-4d0d-90df-63d6e575f5c7,298bc589-f22c-44e2-b5a4-d4d999a45a8e,1382270d-d24d-4f89-aecf-63f0ef1dab02,fd6a127c-894b-41a3-b091-f24fbe0595f5,82b6b3b9-92fb-4c02-8d0e-482cbaef81f3,197fde0e-5a01-4fbc-a6a6-73ad932be735,25a81250-4975-4077-9070-4c8f8a99cd1c,d9201191-fa25-4adb-a625-997d3909b751,b5024c90-c69e-477c-833f-e9ae2303893e,425677b0-f6d5-440b-bd69-d3ce6c9e4f5c,72162b61-c7c0-49a6-86d9-9bea9d3a3bf6,435c5c2a-76b3-4a5a-be36-1f5f3c332ebb,3c0bb3ae-dcfe-4c49-8821-ba140e8ed813,c6cc242e-37f0-4e79-89de-cb7ccb698491,568efc9b-7d63-4b7b-8349-a2eecc3e22be,b1eef371-d2b6-4b9b-8546-c845a34b91c3,7716614a-1c81-4990-8c77-e0035cdb2874,08e9caa8-1fee-45af-96d9-1aaf99d9ad05"
+#!   LAST_SAVE_DATE="2017-11-06T13:52:54"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -69,7 +70,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="gml_original_coordinate_system xml_char(64) multi_reader_id xml_int32 multi_reader_keyword xml_char(50) fme_basename xml_char(50) fme_type xml_char(50) fme_fill_color xml_char(50) fme_geometry fme_char(50) fme_dataset xml_char(50) gml_id xml_char(254) fme_text_size xml_real64 multi_reader_type xml_char(50) fme_rotation xml_real64 fme_sweep_angle xml_real64 fme_secondary_axis xml_real64 fme_start_angle xml_real64 multi_reader_full_id xml_int32 xml_ns_uri xml_char(254) fme_feature_type xml_char(50) gml_parent_id xml_char(254) fme_color xml_char(50) gml_parent_property xml_char(254) fme_primary_axis xml_real64 xml_type xml_char(50) fme_text_string xml_char(50)"
+#!   EXPOSABLE_ATTRS="multi_reader_full_id xml_int32 xml_type xml_char(50) fme_feature_type xml_char(50) gml_original_coordinate_system xml_char(64) fme_primary_axis xml_real64 fme_dataset xml_char(50) multi_reader_type xml_char(50) gml_id xml_char(254) fme_text_size xml_real64 gml_parent_id xml_char(254) fme_rotation xml_real64 fme_type xml_char(50) multi_reader_keyword xml_char(50) fme_fill_color xml_char(50) gml_parent_property xml_char(254) fme_start_angle xml_real64 fme_color xml_char(50) fme_text_string xml_char(50) fme_sweep_angle xml_real64 fme_basename xml_char(50) xml_ns_uri xml_char(254) fme_geometry fme_char(50) multi_reader_id xml_int32 fme_secondary_axis xml_real64"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -78,32 +79,20 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="FILE_OR_URL"
 #!   GENERATE_FME_BUILD_NUM="16492"
+#!   MIN_FEATURES=""
+#!   START_FEATURE=""
 #!   COORDSYS=""
 #!   MAX_FEATURES=""
 #!   FEATURE_TYPES="Reinstatement"
-#!   MIN_FEATURES=""
 #!   MAX_FEATURES_PER_FEATURE_TYPE=""
-#!   START_FEATURE=""
 #! >
-#! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a name for the GML file"
-#! />
 #! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
 #!   VALUE="gml file"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="MIME_TYPE"
-#!   VALUE="application/xml"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="NETWORK_AUTHENTICATION"
-#!   VALUE="ALWAYS"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="GML_IN_SEARCH_ENVELOPE_MINX GML_IN_SEARCH_ENVELOPE_MINY GML_IN_SEARCH_ENVELOPE_MAXX GML_IN_SEARCH_ENVELOPE_MAXY GML_IN_CLIP_TO_ENVELOPE SEARCH_ENVELOPE_COORDINATE_SYSTEM"
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the GML file"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="READER_DATASET_HINT"
@@ -112,6 +101,18 @@
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_PROXY"
 #!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE="application/xml"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="GML_IN_SEARCH_ENVELOPE_MINX GML_IN_SEARCH_ENVELOPE_MINY GML_IN_SEARCH_ENVELOPE_MAXX GML_IN_SEARCH_ENVELOPE_MAXY GML_IN_CLIP_TO_ENVELOPE SEARCH_ENVELOPE_COORDINATE_SYSTEM"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="ALWAYS"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -125,24 +126,32 @@
 #!   ATTR_CASE="ANY"
 #!   ALLOWED_FEAT_TYPES=""
 #!   WRITE_DEFS="true"
-#!   DEFLINE_TEMPLATE="geopackage_type {FME_GEN_GEOMETRY} fme_table_handling CREATE_IF_MISSING geopackage_geometry_column &quot;&quot; geopackage_primary_index_column &quot;&quot; geopackage_create_spatial_index YES"
+#!   DEFLINE_TEMPLATE="geopackage_type {FME_GEN_GEOMETRY} fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_ID fme_match_id_attribute &quot;geopackage_fid&quot; geopackage_geometry_column &quot;&quot; geopackage_primary_index_column &quot;&quot; geopackage_create_spatial_index YES"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_sweep_angle double fme_primary_axis double fme_color text(50) fme_text_size double geopackage_type text(255) fme_dataset text(50) fme_feature_type text(50) fme_secondary_axis double fme_start_angle double fme_fill_color text(50) fme_basename text(50) fme_rotation double fme_type text(50) fme_geometry fme_char(50) fme_text_string text(50)"
-#!   DEFLINE_PARMS="&quot;GUI NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table Settings&quot; &quot;&quot; &quot;GUI NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE fme_table_handling Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE Table Handling&quot; CREATE_IF_MISSING &quot;GUI DISCLOSUREGROUP fme_table_creation_group geopackage_geometry_column%geopackage_primary_index_column%geopackage_create_spatial_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_geometry_column Spatial Column&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_primary_index_column Primary Index Column&quot; &quot;&quot; &quot;GUI CHOICE geopackage_create_spatial_index Yes%No Create Spatial Index&quot; Yes "
-#!   ATTR_INDEX_TYPES="indexed"
+#!   EXPOSABLE_ATTRS="fme_dataset text(50) fme_feature_type text(50) fme_primary_axis double fme_fill_color text(50) fme_secondary_axis double fme_type text(50) fme_text_string text(50) fme_basename text(50) fme_geometry fme_char(50) fme_start_angle double fme_rotation double fme_sweep_angle double fme_text_size double geopackage_type text(255) fme_color text(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE Table Handling&quot; CREATE_IF_MISSING &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_match_id_attribute Row Selection&quot; &quot;&quot; &quot;GUI WHOLE_LINE ATTR fme_match_id_attribute \&quot; \&quot; ID Attribute&quot; geopackage_fid &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group geopackage_geometry_column%geopackage_primary_index_column%geopackage_create_spatial_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_geometry_column Spatial Column&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_primary_index_column Primary Index Column&quot; &quot;&quot; &quot;GUI CHOICE geopackage_create_spatial_index Yes%No Create Spatial Index&quot; Yes "
+#!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS="\\&quot;{}()&apos;,@&amp;`~!#$%^*+-=|[]:;&lt;&gt;?./"
 #!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
 #!   ENABLED="true"
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="FILE"
-#!   GENERATE_FME_BUILD_NUM="16492"
-#!   COORDSYS=""
+#!   GENERATE_FME_BUILD_NUM="17271"
 #!   FANOUT_EXPRESSION=""
+#!   COORDSYS=""
 #!   FANOUT_GROUP="NO"
 #! >
 #! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a name for the GeoPackage file"
+#!   NAME="ALLOW_DATASET_CONFLICT"
+#!   VALUE="YES"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
@@ -153,28 +162,16 @@
 #!   VALUE="Table1"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="NETWORK_AUTHENTICATION"
-#!   VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="GEOPACKAGE_OUT_TRANSACTION_SIZE"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="Table"
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the GeoPackage file"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="READER_DATASET_HINT"
 #!   VALUE="Select the GeoPackage file(s)"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="NETWORK_PROXY"
-#!   VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="ALLOW_DATASET_CONFLICT"
-#!   VALUE="YES"
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="GEOPACKAGE_OUT_TRANSACTION_SIZE"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -597,7 +594,19 @@
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_point_xyzm"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
 #!   FORMAT_TYPE="wkb_multi_point_xyz"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_point_xym"
 #!   FME_TYPE="fme_point"
 #!   FORMAT="GEOPACKAGE"
 #! />
@@ -609,7 +618,19 @@
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_point_xyzm"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
 #!   FORMAT_TYPE="wkb_point_xyz"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_point_xym"
 #!   FME_TYPE="fme_point"
 #!   FORMAT="GEOPACKAGE"
 #! />
@@ -621,13 +642,25 @@
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_point_xyz"
+#!   FORMAT_TYPE="wkb_point_xyzm"
 #!   FME_TYPE="fme_text"
 #!   FORMAT="GEOPACKAGE"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_line_xyzm"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
 #!   FORMAT_TYPE="wkb_multi_line_xyz"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_line_xym"
 #!   FME_TYPE="fme_line"
 #!   FORMAT="GEOPACKAGE"
 #! />
@@ -639,7 +672,19 @@
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xyzm"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
 #!   FORMAT_TYPE="wkb_line_xyz"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xym"
 #!   FME_TYPE="fme_line"
 #!   FORMAT="GEOPACKAGE"
 #! />
@@ -651,25 +696,37 @@
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_line_xyz"
+#!   FORMAT_TYPE="wkb_line_xyzm"
 #!   FME_TYPE="fme_arc"
 #!   FORMAT="GEOPACKAGE"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_line_xyz"
+#!   FORMAT_TYPE="wkb_line_xyzm"
 #!   FME_TYPE="fme_solid"
 #!   FORMAT="GEOPACKAGE"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_line_xyz"
+#!   FORMAT_TYPE="wkb_line_xyzm"
 #!   FME_TYPE="fme_surface"
 #!   FORMAT="GEOPACKAGE"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_polygon_xyzm"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
 #!   FORMAT_TYPE="wkb_multi_polygon_xyz"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_polygon_xym"
 #!   FME_TYPE="fme_area"
 #!   FORMAT="GEOPACKAGE"
 #! />
@@ -681,7 +738,19 @@
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
 #!   FORMAT_TYPE="wkb_polygon_xyz"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xym"
 #!   FME_TYPE="fme_area"
 #!   FORMAT="GEOPACKAGE"
 #! />
@@ -693,37 +762,49 @@
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_polygon_xyz"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
 #!   FME_TYPE="fme_ellipse"
 #!   FORMAT="GEOPACKAGE"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_polygon_xyz"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
 #!   FME_TYPE="fme_rectangle"
 #!   FORMAT="GEOPACKAGE"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_polygon_xyz"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
 #!   FME_TYPE="fme_rounded_rectangle"
 #!   FORMAT="GEOPACKAGE"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_polygon_xyz"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
 #!   FME_TYPE="fme_raster"
 #!   FORMAT="GEOPACKAGE"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_polygon_xyz"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
 #!   FME_TYPE="fme_point_cloud"
 #!   FORMAT="GEOPACKAGE"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry_collection_xyzm"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
 #!   FORMAT_TYPE="wkb_geometry_collection_xyz"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry_collection_xym"
 #!   FME_TYPE="fme_collection"
 #!   FORMAT="GEOPACKAGE"
 #! />
@@ -754,40 +835,6 @@
 #! </GEOM_TYPES>
 #! <FEATURE_TYPES>
 #! <FEATURE_TYPE
-#!   IS_SOURCE="false"
-#!   NODE_NAME="Reinstatement"
-#!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER=""
-#!   IS_EDITABLE="true"
-#!   IDENTIFIER="26"
-#!   FEAT_GEOMTYPE="All"
-#!   POSITION="3850.04 -330.501"
-#!   BOUNDING_RECT="3850.04 -330.501 -1 -1"
-#!   ORDER="5e+14"
-#!   COLLAPSED="true"
-#!   KEYWORD="GEOPACKAGE_1"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   SCHEMA_ATTRIBUTE_SOURCE="1"
-#! >
-#!     <FEAT_ATTRIBUTE ATTR_NAME="ID" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="localId" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="beginLifespanVersion" ATTR_TYPE="datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="validFrom" ATTR_TYPE="datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="reinstatementType" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="partialReference" ATTR_TYPE="text(5)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="reasonForChange" ATTR_TYPE="text(32)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="locationDescription" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="referenceToStreetUSRN" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#! </FEATURE_TYPE>
-#! <FEATURE_TYPE
 #!   IS_SOURCE="true"
 #!   NODE_NAME="Reinstatement"
 #!   FEATURE_TYPE_NAME=""
@@ -795,8 +842,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="24"
 #!   FEAT_GEOMTYPE="xml_point xml_aggregate"
-#!   POSITION="-171.878 -363.502"
-#!   BOUNDING_RECT="-171.878 -363.502 -1 -1"
+#!   POSITION="251.252 308.38"
+#!   BOUNDING_RECT="251.252 308.38 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
 #!   KEYWORD="GML_1"
@@ -934,17 +981,165 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="gml_original_coordinate_system" ATTR_TYPE="xml_char(28)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="xml_ns_uri" ATTR_TYPE="xml_char(64)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="Reinstatement_point"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="41"
+#!   FEAT_GEOMTYPE="All"
+#!   POSITION="5005.53 562.132"
+#!   BOUNDING_RECT="5005.53 562.132 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="GEOPACKAGE_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ID" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="localId" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="beginLifespanVersion" ATTR_TYPE="datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="validFrom" ATTR_TYPE="datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="reinstatementType" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="partialReference" ATTR_TYPE="text(5)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="reasonForChange" ATTR_TYPE="text(32)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="locationDescription" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="referenceToStreetUSRN" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="Reinstatement_line"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="43"
+#!   FEAT_GEOMTYPE="All"
+#!   POSITION="5005.53 447.661"
+#!   BOUNDING_RECT="5005.53 447.661 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="GEOPACKAGE_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ID" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="localId" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="beginLifespanVersion" ATTR_TYPE="datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="validFrom" ATTR_TYPE="datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="reinstatementType" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="partialReference" ATTR_TYPE="text(5)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="reasonForChange" ATTR_TYPE="text(32)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="locationDescription" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="referenceToStreetUSRN" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="Reinstatement_area"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="45"
+#!   FEAT_GEOMTYPE="All"
+#!   POSITION="5005.53 312.13"
+#!   BOUNDING_RECT="5005.53 312.13 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="GEOPACKAGE_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ID" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="localId" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="beginLifespanVersion" ATTR_TYPE="datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="validFrom" ATTR_TYPE="datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="reinstatementType" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="partialReference" ATTR_TYPE="text(5)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="reasonForChange" ATTR_TYPE="text(32)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="locationDescription" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="referenceToStreetUSRN" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="Reinstatement_noGeom"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="47"
+#!   FEAT_GEOMTYPE="All"
+#!   POSITION="5005.53 168.379"
+#!   BOUNDING_RECT="5005.53 168.379 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="GEOPACKAGE_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ID" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="localId" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="beginLifespanVersion" ATTR_TYPE="datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="validFrom" ATTR_TYPE="datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="reinstatementType" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="partialReference" ATTR_TYPE="text(5)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="reasonForChange" ATTR_TYPE="text(32)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="locationDescription" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="referenceToStreetUSRN" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_GML_3 GML_Files(*.gml;*.gz;*.xml)|*.gml;*gz;*.xml|GML_Files(*.gml)|*.gml|Compressed_GML_Files(*.gz)|*.gz|GML_Files(*.xml)|*.xml|All_Files|* Source Geography Markup Language (GML) File(s):"
-#!   DEFAULT_VALUE="C:\Temp\Highways_Data\Paths\Bedford_Reinstatement.gml.gz"
+#!   DEFAULT_VALUE="C:\Data\OSMasterMap\Highways\FME\Update\Highways_Rrami_Reinstatement_FULL_001.gml.gz"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI FILENAME DestDataset_GEOPACKAGE GeoPackage_Files(*.gpkg)|*.gpkg|All_files(*)|* Destination GeoPackage File:"
+#!   GUI_LINE="GUI FILENAME DestDataset_GEOPACKAGE GeoPackage_Files(*.gpkg)|*.gpkg|All_files(*)|* GeoPackage File:"
 #!   DEFAULT_VALUE=""
 #!   IS_STAND_ALONE="false"
 #! />
@@ -953,10 +1148,10 @@
 #! <COMMENT
 #!   IDENTIFIER="30"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This is an example output, writer will need to be added for specific output&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="3786.04 -534.507"
-#!   TOP_LEFT="3786.04 -534.507"
-#!   BOTTOM_RIGHT="4359.04 -705.508"
-#!   BOUNDING_RECT="3786.04 -534.507 573.003 171.001"
+#!   POSITION="4914.18 53.7797"
+#!   TOP_LEFT="4914.18 53.7797"
+#!   BOTTOM_RIGHT="5487.18 -117.221"
+#!   BOUNDING_RECT="4914.18 53.7797 573.003 171.001"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -968,10 +1163,10 @@
 #! <COMMENT
 #!   IDENTIFIER="13"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Pull out the first network reference,&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;there will only ever be one.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="467.379 -521.502"
-#!   TOP_LEFT="467.379 -521.502"
-#!   BOTTOM_RIGHT="466.379 -520.502"
-#!   BOUNDING_RECT="467.379 -521.502 -1 -1"
+#!   POSITION="1177.54 344.132"
+#!   TOP_LEFT="1177.54 344.132"
+#!   BOTTOM_RIGHT="1176.54 345.132"
+#!   BOUNDING_RECT="1177.54 344.132 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -983,10 +1178,10 @@
 #! <COMMENT
 #!   IDENTIFIER="14"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;remove # from the &lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;feature references&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="3312.66 -489.503"
-#!   TOP_LEFT="3312.66 -489.503"
-#!   BOTTOM_RIGHT="3311.66 -488.503"
-#!   BOUNDING_RECT="3312.66 -489.503 -1 -1"
+#!   POSITION="3870.48 376.131"
+#!   TOP_LEFT="3870.48 376.131"
+#!   BOTTOM_RIGHT="3869.48 377.131"
+#!   BOUNDING_RECT="3870.48 376.131 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -998,10 +1193,10 @@
 #! <COMMENT
 #!   IDENTIFIER="15"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Identify if the Reinstatement feature  partially references the Network. If the result is &amp;quot;True&amp;quot; then the network reference is held in a different attribute and splitting here will enable bringing the Network reference into the same attribute in the final result.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="2017.14 -636.508"
-#!   TOP_LEFT="2017.14 -636.508"
-#!   BOTTOM_RIGHT="2767.14 -686.508"
-#!   BOUNDING_RECT="2017.14 -636.508 750 50"
+#!   POSITION="2688.24 229.126"
+#!   TOP_LEFT="2688.24 229.126"
+#!   BOTTOM_RIGHT="3438.24 179.126"
+#!   BOUNDING_RECT="2688.24 229.126 750 50"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1028,14 +1223,14 @@
 #! <COMMENT
 #!   IDENTIFIER="31"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Change to local input&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-313.879 -220.001"
-#!   TOP_LEFT="-313.879 -220.001"
-#!   BOTTOM_RIGHT="-314.879 -219.001"
-#!   BOUNDING_RECT="-313.879 -220.001 -1 -1"
+#!   POSITION="109.251 451.881"
+#!   TOP_LEFT="109.251 451.881"
+#!   BOTTOM_RIGHT="108.251 452.881"
+#!   BOUNDING_RECT="109.251 451.881 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="24"
@@ -1048,12 +1243,12 @@
 #!   IDENTIFIER="29"
 #!   NAME="Create Reinstatement feature. The network reference is included in this feature output."
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="397.634 -153.001"
-#!   BOTTOM_RIGHT="4414.41 -1029.01"
-#!   BOUNDING_RECT="397.634 -153.001 4016.78 876.009"
+#!   TOP_LEFT="1197.64 712.633"
+#!   BOTTOM_RIGHT="5538.33 -163.376"
+#!   BOUNDING_RECT="1197.64 712.633 4340.69 876.009"
 #!   STICKY="true"
 #!   COLOUR="0.227451,0.654902,0.054902"
-#!   CONTENTS="27 15 13 8 10 9 11 30 12 22 20 23 21 14 7 19 26 18 "
+#!   CONTENTS="33 41 43 14 44 15 42 30 21 45 22 32 34 18 10 47 11 7 19 8 9 20 12 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -1061,10 +1256,10 @@
 #!   IDENTIFIER="7"
 #!   TYPE="ListIndexer"
 #!   VERSION="1"
-#!   POSITION="553.879 -303.502"
-#!   BOUNDING_RECT="553.879 -303.502 430 71"
+#!   POSITION="1264.04 562.132"
+#!   BOUNDING_RECT="1264.04 562.132 430 71"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="15250"
 #! >
@@ -1294,18 +1489,18 @@
 #!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.fromPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="networkRef{}"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="0"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer"/>
 #!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="net_ref_"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="networkRef{}"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="8"
 #!   TYPE="AttributeRenamer"
 #!   VERSION="3"
-#!   POSITION="1079.38 -303.502"
-#!   BOUNDING_RECT="1079.38 -303.502 -1 -1"
+#!   POSITION="1801.26 562.132"
+#!   BOUNDING_RECT="1801.26 562.132 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1539,17 +1734,19 @@
 #!     <XFORM_ATTR ATTR_NAME="referenceToStreetUSRN" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_2"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="inspireId.Identifier.localId,localId,,inspireId.Identifier.versionId,versionID,,gml_id,ID,,networkRef&lt;opencurly&gt;0&lt;closecurly&gt;.NetworkReference.element.xlink_href,referenceToStreetUSRN,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="9"
 #!   TYPE="DateFormatter"
 #!   VERSION="4"
-#!   POSITION="1643.39 -303.502"
-#!   BOUNDING_RECT="1643.39 -303.502 -1 -1"
+#!   POSITION="2314.49 562.132"
+#!   BOUNDING_RECT="2314.49 562.132 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="15250"
+#!   LAST_PARM_EDIT="16492"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -1778,21 +1975,21 @@
 #!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="referenceToStreetUSRN" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="beginLifespanVersion,endLifespanVersion,validFrom,validTo"/>
-#!     <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date (%Y%m%d)"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateFormatter"/>
+#!     <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date (%Y%m%d)"/>
 #!     <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="%Y&quot;-&quot;%m&quot;-&quot;%d&quot;T&quot;%T"/>
-#!     <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="FME_NULL_VALUE"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateFormatter"/>
+#!     <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="beginLifespanVersion,endLifespanVersion,validFrom,validTo"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="10"
 #!   TYPE="AttributeRenamer"
 #!   VERSION="3"
-#!   POSITION="2750.39 -423.502"
-#!   BOUNDING_RECT="2750.39 -423.502 -1 -1"
+#!   POSITION="3382.43 442.132"
+#!   BOUNDING_RECT="3382.43 442.132 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="15250"
 #! >
@@ -2023,15 +2220,17 @@
 #!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="net_ref_NetworkReferenceLocation.element.xlink_href,referenceToStreetUSRN,,net_ref_NetworkReferenceLocation.locationDescription,locationDescription,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="11"
 #!   TYPE="TestFilter"
 #!   VERSION="1"
-#!   POSITION="2172.02 -303.502"
-#!   BOUNDING_RECT="2172.02 -303.502 -1 -1"
+#!   POSITION="2843.12 562.132"
+#!   BOUNDING_RECT="2843.12 562.132 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="15250"
 #! >
@@ -2713,18 +2912,18 @@
 #!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.fromPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="referenceToStreetUSRN" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;partialReference&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;false&lt;quote&gt;,False,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;partialReference&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;true&lt;quote&gt;,True"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;partialReference&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;false&lt;quote&gt;,False,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;partialReference&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;true&lt;quote&gt;,True"/>
 #!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="12"
 #!   TYPE="StringReplacer"
 #!   VERSION="3"
-#!   POSITION="3279.65 -303.502"
-#!   BOUNDING_RECT="3279.65 -303.502 -1 -1"
+#!   POSITION="3837.47 562.132"
+#!   BOUNDING_RECT="3837.47 562.132 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="15250"
 #! >
@@ -2864,8 +3063,8 @@
 #!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.locationDescription" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="referenceToStreetUSRN" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="locationDescription" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.locationStart" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.locationEnd" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2953,18 +3152,934 @@
 #!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.fromPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="referenceToStreetUSRN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="locationDescription" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="#"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="no"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer"/>
 #!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="referenceToStreetUSRN"/>
-#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="no"/>
-#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
-#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="#"/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="33"
+#!   TYPE="GeometryFilter"
+#!   VERSION="7"
+#!   POSITION="4288.89 447.661"
+#!   BOUNDING_RECT="4288.89 447.661 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17271"
+#! >
+#!     <OUTPUT_FEAT NAME="POINT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.locationDescription" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.locationStart" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.locationEnd" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.location" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.linkReference{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.linkReference{}.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.linkReference{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.linkReference{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.atPosition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.atPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.offset" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.atPosition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.atPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.offset" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.atPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.fromPosition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.fromPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.toPosition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.toPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.offset" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.fromPosition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.fromPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.toPosition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.toPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.offset" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.fromPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.toPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.namespace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="versionID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="validTo" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="validTo.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="validTo.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reinstatementType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reinstatementType.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="partialReference" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="referenceToStreetUSRN" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="locationDescription" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.locationStart" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.locationEnd" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.location" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.linkReference{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.linkReference{}.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.linkReference{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.linkReference{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.atPosition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.atPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.offset" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.atPosition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.atPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.offset" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.atPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.fromPosition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.fromPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.toPosition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.toPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.offset" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.fromPosition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.fromPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPosition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.fromPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="LINE"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.element.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.locationDescription" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.locationStart" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.locationEnd" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.location" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.linkReference{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.linkReference{}.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.linkReference{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.linkReference{}.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.atPosition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.atPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.offset" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.atPosition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.atPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.offset" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.atPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.fromPosition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.fromPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.toPosition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.toPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.offset" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.fromPosition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.fromPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.toPosition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.toPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.offset" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.fromPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.toPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.namespace" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="versionID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="validTo" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="validTo.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="validTo.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="reinstatementType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="reinstatementType.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="partialReference" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.element.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="referenceToStreetUSRN" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="locationDescription" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.locationStart" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.locationEnd" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.location" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.linkReference{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.linkReference{}.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.linkReference{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.linkReference{}.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.atPosition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.atPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.offset" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.atPosition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.atPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.offset" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.atPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.fromPosition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.fromPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.toPosition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.toPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.offset" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.fromPosition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.fromPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPosition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.fromPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="AREA"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="ID" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.element.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.locationDescription" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.locationStart" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.locationEnd" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.location" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.linkReference{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.linkReference{}.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.linkReference{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.linkReference{}.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.atPosition" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.atPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.offset" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.atPosition" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.atPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.offset" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.atPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.fromPosition" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.fromPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.toPosition" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.toPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.offset" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.fromPosition" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.fromPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.toPosition" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.toPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.offset" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.fromPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.toPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.namespace" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="versionID" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="validTo" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="validTo.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="validTo.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="reinstatementType" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="reinstatementType.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="partialReference" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.element.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="referenceToStreetUSRN" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="locationDescription" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.locationStart" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.locationEnd" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.location" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.linkReference{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.linkReference{}.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.linkReference{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.linkReference{}.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.atPosition" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.atPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.offset" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.atPosition" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.atPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.offset" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.atPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.fromPosition" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.fromPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.toPosition" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.toPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.offset" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.fromPosition" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.fromPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPosition" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.fromPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="&lt;UNFILTERED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="ID" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.element.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.locationDescription" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.locationStart" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NetworkReferenceLocation.locationEnd" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.location" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.linkReference{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.linkReference{}.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.linkReference{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.NodeReference.linkReference{}.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinkReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.atPosition" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.atPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.offset" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimplePointReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.atPosition" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.atPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.offset" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.PointReference.atPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.fromPosition" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.fromPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.toPosition" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.toPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.offset" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.SimpleLinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.fromPosition" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.fromPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.toPosition" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.toPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.offset" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.fromPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="networkRef{}.LinearReference.toPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.namespace" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="versionID" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="validTo" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="validTo.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="validTo.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="reinstatementType" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="reinstatementType.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="partialReference" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.element.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="referenceToStreetUSRN" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="locationDescription" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.locationStart" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NetworkReferenceLocation.locationEnd" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.location" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.linkReference{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.linkReference{}.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.linkReference{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_NodeReference.linkReference{}.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinkReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.atPosition" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.atPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.offset" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimplePointReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.atPosition" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.atPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.offset" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_PointReference.atPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.fromPosition" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.fromPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.toPosition" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.toPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.offset" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_SimpleLinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.element.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.element.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.element.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.element.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.owns" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.applicableDirection.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.fromPosition" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.fromPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPosition" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPosition.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset.nilReason" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset.uom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.offset.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.fromPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="net_ref_LinearReference.toPositionGeometry" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="BREAK_AGG" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GeometryFilter"/>
+#!     <XFORM_PARM PARM_NAME="GEOM_PORT_NAMES" PARM_VALUE="Point Line Area"/>
+#!     <XFORM_PARM PARM_NAME="INSTANTIATE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -3024,9 +4139,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="23"
+#!   IDENTIFIER="32"
 #!   SOURCE_NODE="11"
-#!   TARGET_NODE="12"
+#!   TARGET_NODE="10"
 #!   SOURCE_PORT_DESC="fo 0 False"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -3035,10 +4150,21 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="27"
+#!   IDENTIFIER="34"
 #!   SOURCE_NODE="12"
-#!   TARGET_NODE="26"
+#!   TARGET_NODE="33"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="42"
+#!   SOURCE_NODE="33"
+#!   TARGET_NODE="41"
+#!   SOURCE_PORT_DESC="fo 0 POINT"
 #!   TARGET_PORT_DESC="-1"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -3056,6 +4182,39 @@
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
+#! <FEAT_LINK
+#!   IDENTIFIER="44"
+#!   SOURCE_NODE="33"
+#!   TARGET_NODE="43"
+#!   SOURCE_PORT_DESC="fo 1 LINE"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="46"
+#!   SOURCE_NODE="33"
+#!   TARGET_NODE="45"
+#!   SOURCE_PORT_DESC="fo 2 AREA"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="48"
+#!   SOURCE_NODE="33"
+#!   TARGET_NODE="47"
+#!   SOURCE_PORT_DESC="fo 3 &lt;lt&gt;UNFILTERED&lt;gt&gt;"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
 #! </FEAT_LINKS>
 #! <BREAKPOINTS>
 #! </BREAKPOINTS>
@@ -3068,10 +4227,10 @@
 #! </WORKSPACE>
 FME_PYTHON_VERSION 27
 GUI IGNORE SourceDataset_GML_1,GML_IN_IGNORE_APPLICATON_SCHEMA_GML_1,GML_IN_XSD_DOC_GML_1,GML_IN_VALIDATE_DATASET_GML_1,GML_IN_SKIP_SCHEMA_LOCATION_IN_DATASET_GML_1,GML_IN_MAP_FEATURE_COLLECTION_GML_1,GML_IN_GML_FEATURE_ELEMENTS_GML_1,GML_IN_SRS_GEOMETRY_PARAMETERS_GML_1,GML_IN_SRS_AXIS_ORDER_GML_1,GML_IN_SRS_ANGLE_DIRECTION_GML_1,GML_IN_ENFORCE_PATH_CONTINUITY_BY_GML_1,GML_IN_FEATURE_PROPERTIES_READER_GML_1,GML_IN_MAP_EMBEDDED_OBJECTS_AS_GML_1,GML_IN_MAP_PREDEFINED_GML_PROPERTIES_GML_1,GML_IN_MAP_GEOMETRY_COLUMNS_GML_1,GML_IN_MAP_ALL_SUBSTITUTABLE_PROPERTIES_GML_1,GML_IN_ADD_NAMESPACE_PREFIX_TO_NAMES_GML_1,GML_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_GML_1,GML_IN_ATTRIBUTE_HANDLING_GML_1,GML_IN_MAP_COMPLEX_PROPERTIES_AS_GML_1,GML_IN_MAX_MULTI_LIST_LEVEL_GML_1,GML_IN_ADD_GEOMETRIES_AS_XML_FRAGMENTS_GML_1,GML_IN_XML_FRAGMENTS_AS_DOCUMENTS_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_GML_1,GML_IN_GML_READER_GROUP_GML_1,GML_IN_USE_OLD_READER_GML_1,GML_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_GML_1,GML_IN_DISABLE_XML_NAMESPACE_PROCESSING_GML_1,GML_IN_EXPOSE_ATTRS_GROUP_GML_1,GML_IN_SEARCH_ENVELOPE_MINX_GML_1,GML_IN_SEARCH_ENVELOPE_MINY_GML_1,GML_IN_SEARCH_ENVELOPE_MAXX_GML_1,GML_IN_SEARCH_ENVELOPE_MAXY_GML_1,GML_IN_CLIP_TO_ENVELOPE_GML_1,GML_IN_GML_RDR_ADV_GML_1,GML_IN_CONTINUE_ON_GEOM_ERROR_GML_1,GML_IN_SYSTEM_ENCODING_GML_1,GML_IN_CACHE_XSD_GML_1,GML_IN_CACHE_XSD_EXPIRY_TIME_GML_1,GML_IN_MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV_GML_1,GML_IN_NETWORK_AUTHENTICATION_GML_1,SEARCH_ENVELOPE_COORDINATE_SYSTEM_GML_1,DestDataset_GEOPACKAGE_1,GEOPACKAGE_OUT_OVERWRITE_DATASET_GEOPACKAGE_1,GEOPACKAGE_OUT_DATASET_TEMPLATE_GEOPACKAGE_1,GEOPACKAGE_OUT_GEOPACKAGE_WRT_ADV_PARM_GEOPACKAGE_1,GEOPACKAGE_OUT_TRANSACTION_SIZE_GEOPACKAGE_1
-DEFAULT_MACRO SourceDataset_GML_3 C:\Temp\Highways_Data\Paths\Bedford_Reinstatement.gml.gz
+DEFAULT_MACRO SourceDataset_GML_3 C:\Data\OSMasterMap\Highways\FME\Update\Highways_Rrami_Reinstatement_FULL_001.gml.gz
 GUI MULTIFILE SourceDataset_GML_3 GML_Files(*.gml;*.gz;*.xml)|*.gml;*gz;*.xml|GML_Files(*.gml)|*.gml|Compressed_GML_Files(*.gz)|*.gz|GML_Files(*.xml)|*.xml|All_Files|* Source Geography Markup Language (GML) File(s):
 DEFAULT_MACRO DestDataset_GEOPACKAGE 
-GUI FILENAME DestDataset_GEOPACKAGE GeoPackage_Files(*.gpkg)|*.gpkg|All_files(*)|* Destination GeoPackage File:
+GUI FILENAME DestDataset_GEOPACKAGE GeoPackage_Files(*.gpkg)|*.gpkg|All_files(*)|* GeoPackage File:
 INCLUDE [ if {{$(SourceDataset_GML_3)} == {}} { puts_real {Parameter 'SourceDataset_GML_3' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(DestDataset_GEOPACKAGE)} == {}} { puts_real {Parameter 'DestDataset_GEOPACKAGE' must be given a value.}; exit 1; }; ]
 #! START_HEADER
@@ -3134,7 +4293,7 @@ GUI CHOICE GML_IN_SKIP_SCHEMA_LOCATION_IN_DATASET_GML_1 Yes%No Ignore xsi:schema
 DEFAULT_MACRO GML_IN_MAP_FEATURE_COLLECTION_GML_1 
 GML_1_MAP_FEATURE_COLLECTION "$(GML_IN_MAP_FEATURE_COLLECTION_GML_1)"
 GUI OPTIONAL LOOKUP_LISTBOX GML_IN_MAP_FEATURE_COLLECTION_GML_1 gml:FeatureCollection,gml%wfs:FeatureCollection,wfs Map FeatureCollection:
-DEFAULT_MACRO GML_IN_GML_FEATURE_ELEMENTS_GML_1 <Unused>
+DEFAULT_MACRO GML_IN_GML_FEATURE_ELEMENTS_GML_1 <lt>Unused<gt>
 GML_1_GML_FEATURE_ELEMENTS "$(GML_IN_GML_FEATURE_ELEMENTS_GML_1)"
 GUI OPTIONAL TEXT_EDIT_ GML_IN_GML_FEATURE_ELEMENTS_GML_1 GML Feature Elements:
 # ============================================================================
@@ -3287,16 +4446,7 @@ MACRO WB_KEYWORD "GEOPACKAGE_1"
 # The following GUI line prompts for a file to be used as the
 # destination of the GEOPACKAGE File. The user input is stored
 # in a macro, which is then used to define the dataset to be written.
-#! END_DEST_HEADER
-#! START_WB_HEADER
-DEFAULT_MACRO DestDataset
-INCLUDE [ if {"$(DestDataset)" != ""} {                          \
- puts {DEFAULT_MACRO DestDataset_GEOPACKAGE_1 $(DestDataset)}         \
- } ]
-#! END_WB_HEADER
-#! START_DEST_HEADER GEOPACKAGE GEOPACKAGE_1
-DEFAULT_MACRO DestDataset_GEOPACKAGE_1 $(DestDataset_GEOPACKAGE)
-GUI FILENAME DestDataset_GEOPACKAGE_1 GeoPackage_Files(*.gpkg)|*.gpkg|All_files(*)|* Destination GeoPackage File:
+GUI MULTIFILE DestDataset_GEOPACKAGE_1 GeoPackage_Files(*.gpkg)|*.gpkg|All_files(*)|* GeoPackage File:
 DEFAULT_MACRO GEOPACKAGE_OUT_OVERWRITE_DATASET_GEOPACKAGE_1 NO
 GEOPACKAGE_1_OVERWRITE_DATASET "$(GEOPACKAGE_OUT_OVERWRITE_DATASET_GEOPACKAGE_1)"
 GUI ACTIVECHECK GEOPACKAGE_OUT_OVERWRITE_DATASET_GEOPACKAGE_1 YES%NO,GEOPACKAGE_OUT_DATASET_TEMPLATE Overwrite Database:
@@ -3313,6 +4463,17 @@ DEFAULT_MACRO GEOPACKAGE_OUT_DESTINATION_DATASETTYPE_VALIDATION_GEOPACKAGE_1 Yes
 GEOPACKAGE_1_DESTINATION_DATASETTYPE_VALIDATION "$(GEOPACKAGE_OUT_DESTINATION_DATASETTYPE_VALIDATION_GEOPACKAGE_1)"
 DEFAULT_MACRO GEOPACKAGE_OUT_COORDINATE_SYSTEM_GRANULARITY_GEOPACKAGE_1 FEATURE_TYPE
 GEOPACKAGE_1_COORDINATE_SYSTEM_GRANULARITY "$(GEOPACKAGE_OUT_COORDINATE_SYSTEM_GRANULARITY_GEOPACKAGE_1)"
+DEFAULT_MACRO GEOPACKAGE_OUT_ENCODE_FEATURE_TYPE_AND_ATTR_NAMES_GEOPACKAGE_1 YES
+GEOPACKAGE_1_ENCODE_FEATURE_TYPE_AND_ATTR_NAMES "$(GEOPACKAGE_OUT_ENCODE_FEATURE_TYPE_AND_ATTR_NAMES_GEOPACKAGE_1)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_GEOPACKAGE_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER GEOPACKAGE GEOPACKAGE_1
+DEFAULT_MACRO DestDataset_GEOPACKAGE_1 $(DestDataset_GEOPACKAGE)
 GEOPACKAGE_1_DATASET "$(DestDataset_GEOPACKAGE_1)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
@@ -3366,7 +4527,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRenamer_2    INPUT  FEATURE_TY
 # -------------------------------------------------------------------------
 
 Tcl2 proc DateFormatter_formatter {invalidValue} {       set dateFormat {FME Date (%Y%m%d)};       if { [string compare $dateFormat {FME Date/Time (%Y%m%d%H%M%S)}] == 0 } {          set dateFormat {%Y%m%d%H%M%S};       } elseif { [string compare $dateFormat {FME Date (%Y%m%d)}] == 0} {          set dateFormat {%Y%m%d};       } elseif { [string compare $dateFormat {FME Time (%H%M%S)}] == 0} {          set dateFormat {%H%M%S};       } elseif { [string compare $dateFormat {ISO Date (%Y-%m-%d)}] == 0} {          set dateFormat {%Y-%m-%d};       } elseif { [string compare $dateFormat {ISO DateTime (%Y-%m-%dT%H:%M:%S)}] == 0} {          set dateFormat {%Y-%m-%dT%H:%M:%S};       } elseif { [string compare $dateFormat {ISO Time (%H:%M:%S)}] == 0} {          set dateFormat {%H:%M:%S};       } elseif { [string compare $dateFormat {Locale Date (%c)}] == 0} {          set dateFormat {%c};       };     set attrs [split {beginLifespanVersion,endLifespanVersion,validFrom,validTo} {,}];     foreach attr $attrs {        set date [string trim [FME_GetAttribute $attr]];        set srcfmt {};        if {{%Y"-"%m"-"%d"T"%T} != {FME_AUTOMATIC}} {            set srcfmt {%Y"-"%m"-"%d"T"%T};        } else {          set comment { In Automatic mode we ignore the millisecond part };          regexp {^[^.]*} $date date;        };        set dateLen [string length $date];        if {$dateLen > 0} {           if {[string length $srcfmt] == 0} {              set attrFull $attr;              append attrFull .full;              set fullDate [FME_GetAttribute $attrFull];              if { [string compare -length $dateLen $date $fullDate] == 0 } {                 set extra [string range $fullDate $dateLen end]000000;                 set date [string range \"$date$extra\" 0 13];                 set dateLen 14              };              if {($dateLen == 14) && [regexp {^[0-9]*$} $date]} {                 set srcfmt %Y%m%d%H%M%S;              };           };        };        set sourceFormatOpt {};        if {[string length $srcfmt] > 0} {           set sourceFormatOpt \"-format {$srcfmt}\";        };        set comment { Compute the output value and catch any errors };        set error [catch { set seconds [eval clock scan "{$date}" $sourceFormatOpt];                           set output [clock format $seconds -format $dateFormat];        }];        set comment { If there was error then we try again by removing digits after last decimal };        if { $error != 0 } {           set index [string last "." $date];           if { $index > 0 } {              set date [eval string range $date 0 [expr $index-1]];              set dateLen [string length $date];              set error [catch { set seconds [eval clock scan "{$date}" $sourceFormatOpt]; set output [clock format $seconds -format $dateFormat]; }];           };        };        if { $error == 0 } {           FME_SetAttribute $attr $output;        };        if { (0 == $dateLen) || ($error != 0) } {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };        };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME DateFormatter    INPUT  FEATURE_TYPE AttributeRenamer_2_OUTPUT    OUTPUT FEATURE_TYPE DateFormatter_OUTPUT         @Tcl2("DateFormatter_formatter {_FME_NO_OP_}")
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateFormatter    INPUT  FEATURE_TYPE AttributeRenamer_2_OUTPUT    OUTPUT FEATURE_TYPE DateFormatter_OUTPUT         @Tcl2("DateFormatter_formatter {FME_NULL_VALUE}")
 
 # -------------------------------------------------------------------------
 
@@ -3378,22 +4539,49 @@ FACTORY_DEF * TeeFactory FACTORY_NAME TestFilter_<lt>UNFILTERED<gt> INPUT FEATUR
 FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter <lt>UNFILTERED<gt> Output Nuker"   INPUT FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE TestFilter_True    OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT         @RenameAttributes(ATTR_LIST_DEF_VAL_ENCODED, net_ref_NetworkReferenceLocation.element.xlink_href,referenceToStreetUSRN,,net_ref_NetworkReferenceLocation.locationDescription,locationDescription,)
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE TestFilter_False    INPUT  FEATURE_TYPE TestFilter_True    OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT         @RenameAttributes(ATTR_LIST_DEF_VAL_ENCODED, net_ref_NetworkReferenceLocation.element.xlink_href,referenceToStreetUSRN,,net_ref_NetworkReferenceLocation.locationDescription,locationDescription,)
 
 
 # -------------------------------------------------------------------------
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_f4e66042_fdb5_4687_80ad_a1a1f473a7752_replacer { findText replaceText invalidValue} {     set attrs [split \"referenceToStreetUSRN\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    INPUT  FEATURE_TYPE TestFilter_False    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_f4e66042_fdb5_4687_80ad_a1a1f473a7752_replacer {#} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_048ad2b6_e937_4409_b7a1_4b99cfe3edd23_replacer { findText replaceText invalidValue} {     set attrs [split \"referenceToStreetUSRN\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_048ad2b6_e937_4409_b7a1_4b99cfe3edd23_replacer {#} {} {_FME_NO_OP_}")
+
+# -------------------------------------------------------------------------
+MACRO OUTPUT_POINT_FTYPE not_selected
+MACRO OUTPUT_POINT_FTYPE GeometryFilter_POINT
+MACRO OUTPUT_LINE_FTYPE not_selected
+MACRO OUTPUT_LINE_FTYPE GeometryFilter_LINE
+MACRO OUTPUT_AREA_FTYPE not_selected
+MACRO OUTPUT_AREA_FTYPE GeometryFilter_AREA
+MACRO OUTPUT_INSTANCE_FTYPE not_selected
+
+Lookup GeometryFilter_RouterTable   ""  "not_selected"   fme_point $(OUTPUT_POINT_FTYPE)   fme_line $(OUTPUT_LINE_FTYPE)   fme_area $(OUTPUT_AREA_FTYPE)
+
+MACRO COLLECTION_HANDLING NOT_THIS_TIME
+MACRO INSTANCE_FILTERING *
+INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_InputPassThrough    INPUT  FEATURE_TYPE StringReplacer_OUTPUT    OUTPUT FEATURE_TYPE GeometryFilter___Input___       @Geometry(FIX_FMETYPE_FMEGEOMETRY)
+FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_InstanceTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Input___
+FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_CollectionTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter___Collection___
+FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_Deagg    INPUT FEATURE_TYPE GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_db9b4955_f2de_405e_837e_e84629ae89173_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_db9b4955_f2de_405e_837e_e84629ae89173_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_db9b4955_f2de_405e_837e_e84629ae89173_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_db9b4955_f2de_405e_837e_e84629ae89173_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_db9b4955_f2de_405e_837e_e84629ae89173_targetFeatureType)
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC StringReplacer_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Reinstatement<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC GeometryFilter_AREA TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Reinstatement_area<closeparen> GEOMETRY    ROUTE FME_GENERIC GeometryFilter_LINE TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Reinstatement_line<closeparen> GEOMETRY    ROUTE FME_GENERIC GeometryFilter_POINT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Reinstatement_point<closeparen> GEOMETRY    ROUTE FME_GENERIC GeometryFilter_<UNFILTERED> TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Reinstatement_noGeom<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-GEOPACKAGE_1_DEF Reinstatement   geopackage_type              All   fme_table_handling           CREATE_IF_MISSING   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   ID                           text(20)   localId                      text(20)   beginLifespanVersion         datetime   validFrom                    datetime   reinstatementType            text(120)   partialReference             text(5)   reasonForChange              text(32)   locationDescription          text(120)   referenceToStreetUSRN        text(20)
+GEOPACKAGE_1_DEF Reinstatement_area   geopackage_type              All   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   ID                           text(20)   localId                      text(20)   beginLifespanVersion         datetime   validFrom                    datetime   reinstatementType            text(120)   partialReference             text(5)   reasonForChange              text(32)   locationDescription          text(120)   referenceToStreetUSRN        text(20)
+# -------------------------------------------------------------------------
+GEOPACKAGE_1_DEF Reinstatement_line   geopackage_type              All   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   ID                           text(20)   localId                      text(20)   beginLifespanVersion         datetime   validFrom                    datetime   reinstatementType            text(120)   partialReference             text(5)   reasonForChange              text(32)   locationDescription          text(120)   referenceToStreetUSRN        text(20)
+# -------------------------------------------------------------------------
+GEOPACKAGE_1_DEF Reinstatement_point   geopackage_type              All   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   ID                           text(20)   localId                      text(20)   beginLifespanVersion         datetime   validFrom                    datetime   reinstatementType            text(120)   partialReference             text(5)   reasonForChange              text(32)   locationDescription          text(120)   referenceToStreetUSRN        text(20)
+# -------------------------------------------------------------------------
+GEOPACKAGE_1_DEF Reinstatement_noGeom   geopackage_type              All   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   ID                           text(20)   localId                      text(20)   beginLifespanVersion         datetime   validFrom                    datetime   reinstatementType            text(120)   partialReference             text(5)   reasonForChange              text(32)   locationDescription          text(120)   referenceToStreetUSRN        text(20)

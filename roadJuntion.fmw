@@ -1,0 +1,1762 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    "C:\Program Files (x86)\FME Desktop 2017\fme.exe" C:\Data\OSMasterMap\Highways\FME\Update\Geopackage\roadJuntion.fmw
+#          --SourceDataset_GML "C:\Data\OSMasterMap\Highways\FME\Update\Geopackage\HighwaysSampleData_1708\FULL\Highways_Rrami_RoadJunction_FULL_001.gml"
+#          --DestDataset_GEOPACKAGE ""
+#    
+#    
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   HISTORY=""
+#!   TERMINATE_REJECTED="YES"
+#!   FME_DOCUMENT_PRIORGUID="ffcd12b5-c394-4c15-b43a-aa3e34a7ec4f,27d0a7b6-18a4-4355-9ecd-f6ff5051ec13,a221ab59-3a05-4cbf-b84f-b3fdb37d625a,64cc002c-15fa-49cd-b6be-d1909c597dd0,340d660c-2c30-4d3e-ac60-04686e0f0655,699cae03-ca67-4a1c-97ef-6be4175ad251,b319caec-8310-4a30-97cd-dd138dd7f8a5,a2e86f7f-0573-4869-bbb9-3a3eac3b7017"
+#!   SHOW_INFO_NODES="true"
+#!   MARKDOWN_DESCRIPTION=""
+#!   REDIRECT_TERMINATORS="NONE"
+#!   MARKDOWN_USAGE=""
+#!   SOURCE="NONE"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   BEGIN_TCL=""
+#!   FME_SERVER_SERVICES=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.1 (20170316 - Build 17271 - WIN32)"
+#!   FME_BUILD_NUM="17271"
+#!   SHOW_ANNOTATIONS="true"
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="90"
+#!   SOURCE_ROUTING_FILE=""
+#!   LOG_FILE=""
+#!   FME_DOCUMENT_GUID="2ce375fb-9d53-4e84-bcb2-8fb83862ffe5"
+#!   TITLE=""
+#!   VIEW_POSITION="-2102.8 341.67"
+#!   MAX_LOG_FEATURES="200"
+#!   END_TCL=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   USE_MARKDOWN=""
+#!   DESCRIPTION=""
+#!   IGNORE_READER_FAILURE="No"
+#!   CATEGORY=""
+#!   DESTINATION="NONE"
+#!   PYTHON_COMPATIBILITY="27"
+#!   END_PYTHON=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   DOC_EXTENTS="3006.95 1125.01"
+#!   PASSWORD=""
+#!   LAST_SAVE_DATE="2017-11-06T13:25:41"
+#!   DESTINATION_ROUTING_FILE=""
+#!   USAGE=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   DOC_TOP_LEFT="-1156.26 -1486.12"
+#! >
+#! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="GML"
+#!   DATASET="$(SourceDataset_GML)"
+#!   KEYWORD="GML_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_basename xml_char(50) fme_start_angle xml_real64 gml_id xml_char(254) multi_reader_full_id xml_int32 fme_rotation xml_real64 gml_parent_id xml_char(254) fme_geometry fme_char(50) fme_sweep_angle xml_real64 fme_secondary_axis xml_real64 fme_text_string xml_char(50) multi_reader_id xml_int32 xml_type xml_char(50) multi_reader_type xml_char(50) xml_ns_uri xml_char(254) gml_parent_property xml_char(254) fme_fill_color xml_char(50) fme_text_size xml_real64 multi_reader_keyword xml_char(50) fme_dataset xml_char(50) fme_type xml_char(50) gml_original_coordinate_system xml_char(64) fme_color xml_char(50) fme_primary_axis xml_real64 fme_feature_type xml_char(50)"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE_OR_URL"
+#!   GENERATE_FME_BUILD_NUM="17271"
+#!   START_FEATURE=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   COORDSYS="EPSG:27700"
+#!   MIN_FEATURES=""
+#!   FEATURE_TYPES="RoadJunction"
+#!   MAX_FEATURES=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="ALWAYS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the GML file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the GML file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE="application/xml"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="gml file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="GML_IN_SYSTEM_ENCODING GML_IN_CONTINUE_ON_GEOM_ERROR GML_IN_CACHE_XSD GML_IN_CACHE_XSD_EXPIRY_TIME GML_IN_MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV GML_IN_MAP_GEOMETRY_COLUMNS GML_IN_MAP_ALL_SUBSTITUTABLE_PROPERTIES GML_IN_ADD_NAMESPACE_PREFIX_TO_NAMES GML_IN_MAX_MULTI_LIST_LEVEL GML_IN_XML_FRAGMENTS_AS_DOCUMENTS GML_IN_USE_OLD_READER GML_IN_DISABLE_XML_NAMESPACE_PROCESSING GML_IN_FLATTEN_XML_FRAGMENTS GML_IN_XML_FRAGMENTS_AS_DOCUMENTS GML_IN_ADD_GEOMETRIES_AS_XML_FRAGMENTS GML_IN_MAP_COMPLEX_PROPERTIES_AS GML_IN_SRS_ANGLE_DIRECTION GML_IN_ENFORCE_PATH_CONTINUITY_BY GML_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE GML_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE GML_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR GML_IN_MAP_PREDEFINED_GML_PROPERTIES GML_IN_MAP_EMBEDDED_OBJECTS_AS GML_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="GEOPACKAGE"
+#!   DATASET="$(DestDataset_GEOPACKAGE)"
+#!   KEYWORD="GEOPACKAGE_1"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="256"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="geopackage_type {FME_GEN_GEOMETRY} fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_ID fme_match_id_attribute &quot;geopackage_fid&quot; geopackage_geometry_column &quot;&quot; geopackage_primary_index_column &quot;&quot; geopackage_create_spatial_index YES"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_dataset text(50) fme_start_angle double geopackage_type text(255) fme_sweep_angle double fme_color text(50) fme_fill_color text(50) fme_primary_axis double fme_type text(50) fme_text_string text(50) fme_feature_type text(50) fme_text_size double fme_basename text(50) fme_geometry fme_char(50) fme_rotation double fme_secondary_axis double"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE Table Handling&quot; CREATE_IF_MISSING &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_match_id_attribute Row Selection&quot; &quot;&quot; &quot;GUI WHOLE_LINE ATTR fme_match_id_attribute \&quot; \&quot; ID Attribute&quot; geopackage_fid &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group geopackage_geometry_column%geopackage_primary_index_column%geopackage_create_spatial_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_geometry_column Spatial Column&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_primary_index_column Primary Index Column&quot; &quot;&quot; &quot;GUI CHOICE geopackage_create_spatial_index Yes%No Create Spatial Index&quot; Yes "
+#!   ATTR_INDEX_TYPES="Indexed"
+#!   ATTR_NAME_INVALID_CHARS="\\&quot;{}()&apos;,@&amp;`~!#$%^*+-=|[]:;&lt;&gt;?./"
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE"
+#!   GENERATE_FME_BUILD_NUM="17271"
+#!   COORDSYS=""
+#!   FANOUT_EXPRESSION=""
+#!   FANOUT_GROUP="NO"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the GeoPackage file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the GeoPackage file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="GeoPackage file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ALLOW_DATASET_CONFLICT"
+#!   VALUE="YES"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="GEOPACKAGE_OUT_TRANSACTION_SIZE"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_buffer"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_buffer"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_buffer"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_xml"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_datetime"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_date"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_time"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_int64"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_uint64"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_int32"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_uint32"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_int16"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_uint16"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_byte"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_ubyte"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_real32"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_real64"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_decimal(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_boolean"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_char(20)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_char(8)"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_char(12)"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_geometry"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="blob"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="blob(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="blob(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="boolean"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tinyint"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="mediumint"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="mediumint"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text(20)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_no_geom"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_area"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_aggregate"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_text"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_area"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_area"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_area"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_arc"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_surface"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_solid"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_mesh"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_raster"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_area"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_area"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml_no_geom"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="GML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_point_xyzm"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_point_xyz"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_point_xym"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_point_xyzm"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_point_xyz"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_point_xym"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_point_xyzm"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_line_xyzm"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_line_xyz"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_line_xym"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xyzm"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xyz"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xym"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xyzm"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xyzm"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xyzm"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_polygon_xyzm"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_polygon_xyz"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_polygon_xym"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyz"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xym"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry_collection_xyzm"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry_collection_xyz"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry_collection_xym"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry_collection"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="RoadJunction"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="24"
+#!   FEAT_GEOMTYPE="xml_no_geom"
+#!   POSITION="-1156.26 -877.232"
+#!   BOUNDING_RECT="-1156.26 -877.232 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="GML_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER="*"
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="false"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="beginLifespanVersion" ATTR_TYPE="xml_datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="beginLifespanVersion.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="beginLifespanVersion.xsi_nil" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="inspireId.Identifier.localId" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="inspireId.Identifier.namespace" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="inspireId.Identifier.versionId" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="inspireId.Identifier.versionId.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="inspireId.Identifier.versionId.xsi_nil" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="endLifespanVersion" ATTR_TYPE="xml_datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="endLifespanVersion.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="endLifespanVersion.xsi_nil" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="inNetwork{}.owns" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="inNetwork{}.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="inNetwork{}.gml_remoteSchema" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="inNetwork{}.xlink_href" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="inNetwork{}.xsi_nil" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="reasonForChange" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="reasonForChange.codeSpace" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="junctionType" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="junctionType.codeSpace" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="junctionName{}" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="junctionName{}.xml_lang" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="roadClassificationNumber" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="junctionNumber" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="node{}.nilReason" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="node{}.gml_remoteSchema" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="node{}.xlink_href" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="node{}.owns" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_property" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="xml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="RoadJunction"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="29"
+#!   FEAT_GEOMTYPE="All"
+#!   POSITION="1792.88 -463.339"
+#!   BOUNDING_RECT="1792.88 -463.339 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="GEOPACKAGE_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="TOID" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="identifier" ATTR_TYPE="text(37)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="beginLifespanVersion" ATTR_TYPE="datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="reasonForChange" ATTR_TYPE="text(32)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="junctionType" ATTR_TYPE="text(26)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="junctionName1" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="junctionName2" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="roadClassificationNumber" ATTR_TYPE="text(5)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="junctionNumber" ATTR_TYPE="text(3)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="roadJunctionNode"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="25"
+#!   FEAT_GEOMTYPE="&lt;NO_GEOMETRY&gt;"
+#!   POSITION="1850.69 -1277.23"
+#!   BOUNDING_RECT="1850.69 -1277.23 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="GEOPACKAGE_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="TOID" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="node" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_GML GML_Files(*.gml;*.gz;*.xml)|*.gml;*gz;*.xml|GML_Files(*.gml)|*.gml|Compressed_GML_Files(*.gz)|*.gz|GML_Files(*.xml)|*.xml|All_Files|* Source Geography Markup Language (GML) File(s):"
+#!   DEFAULT_VALUE="$(FME_MF_DIR)HighwaysSampleData_1708\FULL\Highways_Rrami_RoadJunction_FULL_001.gml"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI FILENAME DestDataset_GEOPACKAGE GeoPackage_Files(*.gpkg)|*.gpkg|All_files(*)|* GeoPackage File:"
+#!   DEFAULT_VALUE=""
+#!   IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="26"
+#!   NAME="Create link table for road node references"
+#!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="-350.309 -1008.34"
+#!   BOTTOM_RIGHT="1460.12 -1486.12"
+#!   BOUNDING_RECT="-350.309 -1008.34 1810.43 477.783"
+#!   STICKY="true"
+#!   COLOUR="1,0,0"
+#!   CONTENTS="15 18 14 20 12 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="28"
+#!   NAME="Create roadJuntion attribution"
+#!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="-522.227 -361.115"
+#!   BOTTOM_RIGHT="1658.35 -819.453"
+#!   BOUNDING_RECT="-522.227 -361.115 2180.58 458.338"
+#!   STICKY="true"
+#!   COLOUR="1,0,0"
+#!   CONTENTS="23 10 9 21 4 13 2 "
+#! />
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="2"
+#!   TYPE="DateFormatter"
+#!   VERSION="5"
+#!   POSITION="-416.976 -529.102"
+#!   BOUNDING_RECT="-416.976 -529.102 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17271"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.namespace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionType.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionName{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionName{}.xml_lang" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadClassificationNumber" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionNumber" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="node{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="node{}.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="node{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="node{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateFormatter"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="beginLifespanVersion"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date (%Y%m%d)"/>
+#!     <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="4"
+#!   TYPE="AttributeRenamer"
+#!   VERSION="4"
+#!   POSITION="609.775 -523.894"
+#!   BOUNDING_RECT="609.775 -523.894 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17271"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.namespace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionType.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionName{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionName{}.xml_lang" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadClassificationNumber" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionNumber" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="node{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="node{}.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="node{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="node{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="gml_id TOID RENAME_SET_DEFAULT  inspireId.Identifier.localId identifier RENAME_SET_DEFAULT  junctionName&lt;opencurly&gt;0&lt;closecurly&gt; junctionName1 RENAME_SET_DEFAULT  junctionName&lt;opencurly&gt;1&lt;closecurly&gt; junctionName2 RENAME_SET_DEFAULT "/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="9"
+#!   TYPE="StringReplacer"
+#!   VERSION="4"
+#!   POSITION="92.7507 -529.102"
+#!   BOUNDING_RECT="92.7507 -529.102 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17271"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.namespace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionType.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionName{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionName{}.xml_lang" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadClassificationNumber" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionNumber" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="node{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="node{}.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="node{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="node{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="T00:00:00.000"/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="beginLifespanVersion"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="000000"/>
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="12"
+#!   TYPE="ListExploder"
+#!   VERSION="6"
+#!   POSITION="-276.309 -1154.71"
+#!   BOUNDING_RECT="-276.309 -1154.71 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17271"
+#! >
+#!     <OUTPUT_FEAT NAME="ELEMENTS"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.namespace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionType.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionName{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionName{}.xml_lang" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadClassificationNumber" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionNumber" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.localId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.namespace" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.versionId.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="endLifespanVersion.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="junctionType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="junctionType.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="junctionName{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="junctionName{}.xml_lang" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="roadClassificationNumber" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="junctionNumber" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_remoteSchema" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="INCOMING_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListExploder"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="node{}"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use List Attribute Values"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge List Attributes"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="14"
+#!   TYPE="AttributeManager"
+#!   VERSION="1"
+#!   POSITION="339.669 -1158.6"
+#!   BOUNDING_RECT="339.669 -1158.6 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17271"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="node" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="beginLifespanVersion beginLifespanVersion  REMOVE beginLifespanVersion.nilReason beginLifespanVersion.nilReason  REMOVE beginLifespanVersion.xsi_nil beginLifespanVersion.xsi_nil  REMOVE inspireId.Identifier.localId inspireId.Identifier.localId  REMOVE inspireId.Identifier.namespace inspireId.Identifier.namespace  REMOVE inspireId.Identifier.versionId inspireId.Identifier.versionId  REMOVE inspireId.Identifier.versionId.nilReason inspireId.Identifier.versionId.nilReason  REMOVE inspireId.Identifier.versionId.xsi_nil inspireId.Identifier.versionId.xsi_nil  REMOVE endLifespanVersion endLifespanVersion  REMOVE endLifespanVersion.nilReason endLifespanVersion.nilReason  REMOVE endLifespanVersion.xsi_nil endLifespanVersion.xsi_nil  REMOVE inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.owns inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.owns  REMOVE inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.nilReason inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.nilReason  REMOVE inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.gml_remoteSchema inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.gml_remoteSchema  REMOVE inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  REMOVE inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xsi_nil inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xsi_nil  REMOVE reasonForChange reasonForChange  REMOVE reasonForChange.codeSpace reasonForChange.codeSpace  REMOVE junctionType junctionType  REMOVE junctionType.codeSpace junctionType.codeSpace  REMOVE junctionName&lt;opencurly&gt;&lt;closecurly&gt; junctionName&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE junctionName&lt;opencurly&gt;&lt;closecurly&gt;.xml_lang junctionName&lt;opencurly&gt;&lt;closecurly&gt;.xml_lang  REMOVE roadClassificationNumber roadClassificationNumber  REMOVE junctionNumber junctionNumber  REMOVE nilReason nilReason  REMOVE gml_remoteSchema gml_remoteSchema  REMOVE xlink_href node  RENAME_SET_VALUE owns owns  REMOVE gml_parent_id gml_parent_id  REMOVE gml_parent_property gml_parent_property  REMOVE gml_id TOID  RENAME_SET_VALUE _element_index _element_index  REMOVE"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="18"
+#!   TYPE="AttributeTrimmer"
+#!   VERSION="3"
+#!   POSITION="875.785 -1158.6"
+#!   BOUNDING_RECT="875.785 -1158.6 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17271"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="node" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeTrimmer"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRIM_TYPE" PARM_VALUE="Left"/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="node"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRIM_CHARS" PARM_VALUE="#"/>
+#!     <XFORM_PARM PARM_NAME="TRIM_TO_NONE" PARM_VALUE="Yes"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="21"
+#!   TYPE="AttributeManager"
+#!   VERSION="1"
+#!   POSITION="1143.45 -523.894"
+#!   BOUNDING_RECT="1143.45 -523.894 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17271"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadClassificationNumber" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="junctionNumber" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_2"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="TOID TOID  NO_OP identifier identifier  NO_OP junctionName1 junctionName1  NO_OP junctionName2 junctionName2  NO_OP beginLifespanVersion beginLifespanVersion  NO_OP beginLifespanVersion.nilReason beginLifespanVersion.nilReason  REMOVE beginLifespanVersion.xsi_nil beginLifespanVersion.xsi_nil  REMOVE inspireId.Identifier.namespace inspireId.Identifier.namespace  REMOVE inspireId.Identifier.versionId inspireId.Identifier.versionId  REMOVE inspireId.Identifier.versionId.nilReason inspireId.Identifier.versionId.nilReason  REMOVE inspireId.Identifier.versionId.xsi_nil inspireId.Identifier.versionId.xsi_nil  REMOVE endLifespanVersion endLifespanVersion  REMOVE endLifespanVersion.nilReason endLifespanVersion.nilReason  REMOVE endLifespanVersion.xsi_nil endLifespanVersion.xsi_nil  REMOVE inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.owns inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.owns  REMOVE inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.nilReason inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.nilReason  REMOVE inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.gml_remoteSchema inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.gml_remoteSchema  REMOVE inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  REMOVE inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xsi_nil inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xsi_nil  REMOVE reasonForChange reasonForChange  NO_OP reasonForChange.codeSpace reasonForChange.codeSpace  REMOVE junctionType junctionType  NO_OP junctionType.codeSpace junctionType.codeSpace  REMOVE junctionName&lt;opencurly&gt;&lt;closecurly&gt; junctionName&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE junctionName&lt;opencurly&gt;&lt;closecurly&gt;.xml_lang junctionName&lt;opencurly&gt;&lt;closecurly&gt;.xml_lang  REMOVE roadClassificationNumber roadClassificationNumber  NO_OP junctionNumber junctionNumber  NO_OP node&lt;opencurly&gt;&lt;closecurly&gt;.nilReason node&lt;opencurly&gt;&lt;closecurly&gt;.nilReason  REMOVE node&lt;opencurly&gt;&lt;closecurly&gt;.gml_remoteSchema node&lt;opencurly&gt;&lt;closecurly&gt;.gml_remoteSchema  REMOVE node&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href node&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  REMOVE node&lt;opencurly&gt;&lt;closecurly&gt;.owns node&lt;opencurly&gt;&lt;closecurly&gt;.owns  REMOVE gml_parent_id gml_parent_id  REMOVE gml_parent_property gml_parent_property  REMOVE"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="11"
+#!   SOURCE_NODE="24"
+#!   TARGET_NODE="2"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="16"
+#!   SOURCE_NODE="24"
+#!   TARGET_NODE="12"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="10"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="23"
+#!   SOURCE_NODE="4"
+#!   TARGET_NODE="21"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="13"
+#!   SOURCE_NODE="9"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="15"
+#!   SOURCE_NODE="12"
+#!   TARGET_NODE="14"
+#!   SOURCE_PORT_DESC="fo 0 ELEMENTS"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="20"
+#!   SOURCE_NODE="14"
+#!   TARGET_NODE="18"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="27"
+#!   SOURCE_NODE="18"
+#!   TARGET_NODE="25"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="30"
+#!   SOURCE_NODE="21"
+#!   TARGET_NODE="29"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+FME_PYTHON_VERSION 27
+GUI IGNORE SourceDataset_GML_1,GML_IN_IGNORE_APPLICATON_SCHEMA_GML_1,GML_IN_XSD_DOC_GML_1,GML_IN_VALIDATE_DATASET_GML_1,GML_IN_SKIP_SCHEMA_LOCATION_IN_DATASET_GML_1,GML_IN_MAP_FEATURE_COLLECTION_GML_1,GML_IN_GML_FEATURE_ELEMENTS_GML_1,GML_IN_SRS_GEOMETRY_PARAMETERS_GML_1,GML_IN_SRS_AXIS_ORDER_GML_1,GML_IN_SRS_ANGLE_DIRECTION_GML_1,GML_IN_ENFORCE_PATH_CONTINUITY_BY_GML_1,GML_IN_FEATURE_PROPERTIES_READER_GML_1,GML_IN_MAP_EMBEDDED_OBJECTS_AS_GML_1,GML_IN_MAP_PREDEFINED_GML_PROPERTIES_GML_1,GML_IN_MAP_GEOMETRY_COLUMNS_GML_1,GML_IN_MAP_ALL_SUBSTITUTABLE_PROPERTIES_GML_1,GML_IN_ADD_NAMESPACE_PREFIX_TO_NAMES_GML_1,GML_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_GML_1,GML_IN_ATTRIBUTE_HANDLING_GML_1,GML_IN_MAP_COMPLEX_PROPERTIES_AS_GML_1,GML_IN_MAX_MULTI_LIST_LEVEL_GML_1,GML_IN_ADD_GEOMETRIES_AS_XML_FRAGMENTS_GML_1,GML_IN_XML_FRAGMENTS_AS_DOCUMENTS_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_GML_1,GML_IN_GML_READER_GROUP_GML_1,GML_IN_USE_OLD_READER_GML_1,GML_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_GML_1,GML_IN_DISABLE_XML_NAMESPACE_PROCESSING_GML_1,GML_IN_EXPOSE_ATTRS_GROUP_GML_1,GML_IN_SEARCH_ENVELOPE_MINX_GML_1,GML_IN_SEARCH_ENVELOPE_MINY_GML_1,GML_IN_SEARCH_ENVELOPE_MAXX_GML_1,GML_IN_SEARCH_ENVELOPE_MAXY_GML_1,GML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_GML_1,GML_IN_CLIP_TO_ENVELOPE_GML_1,GML_IN_GML_RDR_ADV_GML_1,GML_IN_CONTINUE_ON_GEOM_ERROR_GML_1,GML_IN_SYSTEM_ENCODING_GML_1,GML_IN_CACHE_XSD_GML_1,GML_IN_CACHE_XSD_EXPIRY_TIME_GML_1,GML_IN_MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV_GML_1,GML_IN_NETWORK_AUTHENTICATION_GML_1,DestDataset_GEOPACKAGE_1,GEOPACKAGE_OUT_OVERWRITE_DATASET_GEOPACKAGE_1,GEOPACKAGE_OUT_DATASET_TEMPLATE_GEOPACKAGE_1,GEOPACKAGE_OUT_GEOPACKAGE_WRT_ADV_PARM_GEOPACKAGE_1,GEOPACKAGE_OUT_TRANSACTION_SIZE_GEOPACKAGE_1
+DEFAULT_MACRO SourceDataset_GML $(FME_MF_DIR)HighwaysSampleData_1708\FULL\Highways_Rrami_RoadJunction_FULL_001.gml
+GUI MULTIFILE SourceDataset_GML GML_Files(*.gml;*.gz;*.xml)|*.gml;*gz;*.xml|GML_Files(*.gml)|*.gml|Compressed_GML_Files(*.gz)|*.gz|GML_Files(*.xml)|*.xml|All_Files|* Source Geography Markup Language (GML) File(s):
+DEFAULT_MACRO DestDataset_GEOPACKAGE 
+GUI FILENAME DestDataset_GEOPACKAGE GeoPackage_Files(*.gpkg)|*.gpkg|All_files(*)|* GeoPackage File:
+INCLUDE [ if {{$(SourceDataset_GML)} == {}} { puts_real {Parameter 'SourceDataset_GML' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_GEOPACKAGE)} == {}} { puts_real {Parameter 'DestDataset_GEOPACKAGE' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE GML
+READER_KEYWORD GML_1
+READER_GEN_DIRECTIVES MAP_GEOMETRY_COLUMNS,YES,SRS_ANGLE_DIRECTION,,ENFORCE_PATH_CONTINUITY_BY,SNAPPING_END_POINTS,CONTINUE_ON_GEOM_ERROR,yes,MAX_MULTI_LIST_LEVEL,,QNAMES_FOR_PROPERTIES_TO_IGNORE,,EXPOSE_ATTRS_GROUP,,FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE,,SEARCH_ENVELOPE_MAXX,0,FLATTEN_XML_FRAGMENTS,NO,MAP_COMPLEX_PROPERTIES_AS,Nested<space>Attributes,GML_FEATURE_ELEMENTS,<lt>Unused<gt>,NETWORK_AUTHENTICATION,,MAP_PREDEFINED_GML_PROPERTIES,NO,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MINX,0,ATTRIBUTE_HANDLING,FME_DISCLOSURE_CLOSED,GML_EXPOSE_FORMAT_ATTRS,,ADD_NAMESPACE_PREFIX_TO_NAMES,,FEATURE_TYPES_SCHEMA_MODE,XML_SCHEMA,SRS_GEOMETRY_PARAMETERS,FME_DISCLOSURE_CLOSED,IGNORE_APPLICATON_SCHEMA,no,SRS_AXIS_ORDER,,MAP_ALL_SUBSTITUTABLE_PROPERTIES,YES,SKIP_SCHEMA_LOCATION_IN_DATASET,No,DISABLE_XML_NAMESPACE_PROCESSING,NO,CLIP_TO_ENVELOPE,NO,VALIDATE_DATASET,no,CACHE_XSD,yes,SEARCH_ENVELOPE_MAXY,0,FLATTEN_XML_FRAGMENTS_SEPARATOR,,DISABLE_AUTOMATIC_READER_TYPE_SELECTION,NO,SYSTEM_ENCODING,,GML_READER_GROUP,,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,USE_OLD_READER,NO,MAP_FEATURE_COLLECTION,,ADD_GEOMETRIES_AS_XML_FRAGMENTS,NO,FEATURE_PROPERTIES_READER,FME_DISCLOSURE_CLOSED,XSD_DOC,,CACHE_XSD_EXPIRY_TIME,,XML_FRAGMENTS_AS_DOCUMENTS,YES,FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE,,_MERGE_SCHEMAS,YES,MAP_EMBEDDED_OBJECTS_AS,ATTRIBUTES,MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV,no,USE_SEARCH_ENVELOPE,NO,GML_RDR_ADV,
+
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} GEOPACKAGE
+MULTI_WRITER_KEYWORD{0} GEOPACKAGE_1
+#! END_WB_HEADER
+
+#! START_WB_HEADER
+MACRO WB_KEYWORD "GML_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER GML GML_1
+# ============================================================================
+# The following GUI lines prompt for a GML file to be used as the
+# the source of the data.
+# The user input is stored in a macro, which is then used to define
+# the dataset to be written.
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_GML_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER GML GML_1
+DEFAULT_MACRO SourceDataset_GML_1 $(SourceDataset_GML)
+GUI MULTIFILE SourceDataset_GML_1 GML_Files(*.gml;*.gz;*.xml)|*.gml;*gz;*.xml|GML_Files(*.gml)|*.gml|Compressed_GML_Files(*.gz)|*.gz|GML_Files(*.xml)|*.xml|All_Files|* Source Geography Markup Language (GML) File(s):
+# ============================================================================
+DEFAULT_MACRO GML_IN_IGNORE_APPLICATON_SCHEMA_GML_1 no
+GML_1_IGNORE_APPLICATON_SCHEMA "$(GML_IN_IGNORE_APPLICATON_SCHEMA_GML_1)"
+GUI ACTIVECHOICE GML_IN_IGNORE_APPLICATON_SCHEMA_GML_1 no,GML_IN_GML_FEATURE_ELEMENTS%yes,GML_IN_XSD_DOC,GML_IN_VALIDATE_DATASET,GML_IN_FEATURE_TYPES_SCHEMA_MODE,GML_IN_SKIP_SCHEMA_LOCATION_IN_DATASET,GML_IN_MAP_FEATURE_COLLECTION,GML_IN_FEATURE_PROPERTIES_READER,GML_IN_ATTRIBUTE_HANDLING,GML_IN_GML_READER_GROUP Ignore Application Schema:
+# ============================================================================
+# The XSD_DOC keyword overwrites the location of the XML Schema document that
+# is specified in the xsi:schemaLocation of the XML dataset.
+DEFAULT_MACRO GML_IN_XSD_DOC_GML_1 
+GML_1_XSD_DOC "$(GML_IN_XSD_DOC_GML_1)"
+GUI OPTIONAL FILE_OR_URL GML_IN_XSD_DOC_GML_1 GML_Schema_File(*.xsd)|*.xsd|All_Files(*)|* Application Schema:
+# ============================================================================
+# This specifies whether the XML dataset should be validated against its
+# DTD file. If set to 'auto', the XML document will only be validated if
+# its DTD file is available.
+DEFAULT_MACRO GML_IN_VALIDATE_DATASET_GML_1 no
+GML_1_VALIDATE_DATASET "$(GML_IN_VALIDATE_DATASET_GML_1)"
+GUI CHOICE GML_IN_VALIDATE_DATASET_GML_1 yes%no Validate GML Dataset File:
+# ============================================================================
+# Specifies whether we should only show feature types from XSD or dataset
+DEFAULT_MACRO GML_IN_FEATURE_TYPES_SCHEMA_MODE_GML_1 XML_SCHEMA
+GML_1_FEATURE_TYPES_SCHEMA_MODE "$(GML_IN_FEATURE_TYPES_SCHEMA_MODE_GML_1)"
+DEFAULT_MACRO GML_IN_SKIP_SCHEMA_LOCATION_IN_DATASET_GML_1 No
+GML_1_SKIP_SCHEMA_LOCATION_IN_DATASET "$(GML_IN_SKIP_SCHEMA_LOCATION_IN_DATASET_GML_1)"
+GUI CHOICE GML_IN_SKIP_SCHEMA_LOCATION_IN_DATASET_GML_1 Yes%No Ignore xsi:schemaLocation in Dataset:
+DEFAULT_MACRO GML_IN_MAP_FEATURE_COLLECTION_GML_1 
+GML_1_MAP_FEATURE_COLLECTION "$(GML_IN_MAP_FEATURE_COLLECTION_GML_1)"
+GUI OPTIONAL LOOKUP_LISTBOX GML_IN_MAP_FEATURE_COLLECTION_GML_1 gml:FeatureCollection,gml%wfs:FeatureCollection,wfs Map FeatureCollection:
+DEFAULT_MACRO GML_IN_GML_FEATURE_ELEMENTS_GML_1 <Unused>
+GML_1_GML_FEATURE_ELEMENTS "$(GML_IN_GML_FEATURE_ELEMENTS_GML_1)"
+GUI OPTIONAL TEXT_EDIT_ GML_IN_GML_FEATURE_ELEMENTS_GML_1 GML Feature Elements:
+# ============================================================================
+GUI DISCLOSUREGROUP GML_IN_SRS_GEOMETRY_PARAMETERS_GML_1 SRS_AXIS_ORDER%SRS_ANGLE_DIRECTION%ENFORCE_PATH_CONTINUITY_BY GML SRS/Geometry Parameters
+DEFAULT_MACRO GML_IN_SRS_AXIS_ORDER_GML_1 
+GML_1_SRS_AXIS_ORDER "$(GML_IN_SRS_AXIS_ORDER_GML_1)"
+GUI OPTIONAL CHOICE GML_IN_SRS_AXIS_ORDER_GML_1 1,2%2,1%1,2,3%2,1,3 GML SRS Axis Order:
+DEFAULT_MACRO GML_IN_SRS_ANGLE_DIRECTION_GML_1 
+GML_1_SRS_ANGLE_DIRECTION "$(GML_IN_SRS_ANGLE_DIRECTION_GML_1)"
+GUI OPTIONAL LOOKUP_CHOICE GML_IN_SRS_ANGLE_DIRECTION_GML_1 Counterclockwise,CCW%Clockwise,CW GML SRS Angle Direction:
+DEFAULT_MACRO GML_IN_ENFORCE_PATH_CONTINUITY_BY_GML_1 SNAPPING_END_POINTS
+GML_1_ENFORCE_PATH_CONTINUITY_BY "$(GML_IN_ENFORCE_PATH_CONTINUITY_BY_GML_1)"
+GUI OPTIONAL LOOKUP_CHOICE GML_IN_ENFORCE_PATH_CONTINUITY_BY_GML_1 "Snapping End Points",SNAPPING_END_POINTS%"Inserting New Segment",INSERTING_NEW_SEGMENT Enforce Path Continuity By:
+# ============================================================================
+GUI DISCLOSUREGROUP GML_IN_FEATURE_PROPERTIES_READER_GML_1 MAP_EMBEDDED_OBJECTS_AS%MAP_PREDEFINED_GML_PROPERTIES%MAP_GEOMETRY_COLUMNS%MAP_ALL_SUBSTITUTABLE_PROPERTIES%ADD_NAMESPACE_PREFIX_TO_NAMES%QNAMES_FOR_PROPERTIES_TO_IGNORE Feature Properties
+DEFAULT_MACRO GML_IN_MAP_EMBEDDED_OBJECTS_AS_GML_1 ATTRIBUTES
+GML_1_MAP_EMBEDDED_OBJECTS_AS "$(GML_IN_MAP_EMBEDDED_OBJECTS_AS_GML_1)"
+GUI LOOKUP_CHOICE GML_IN_MAP_EMBEDDED_OBJECTS_AS_GML_1 "Attributes",ATTRIBUTES%"Geometries",GEOMETRIES%"Feature Types",FEATURE_TYPES Map Embedded Objects as:
+DEFAULT_MACRO GML_IN_MAP_PREDEFINED_GML_PROPERTIES_GML_1 NO
+GML_1_MAP_PREDEFINED_GML_PROPERTIES "$(GML_IN_MAP_PREDEFINED_GML_PROPERTIES_GML_1)"
+GUI CHECKBOX GML_IN_MAP_PREDEFINED_GML_PROPERTIES_GML_1 YES%NO Map Predefined Properties
+DEFAULT_MACRO GML_IN_MAP_GEOMETRY_COLUMNS_GML_1 YES
+GML_1_MAP_GEOMETRY_COLUMNS "$(GML_IN_MAP_GEOMETRY_COLUMNS_GML_1)"
+GUI CHECKBOX GML_IN_MAP_GEOMETRY_COLUMNS_GML_1 YES%NO Map Geometry Columns
+DEFAULT_MACRO GML_IN_MAP_ALL_SUBSTITUTABLE_PROPERTIES_GML_1 YES
+GML_1_MAP_ALL_SUBSTITUTABLE_PROPERTIES "$(GML_IN_MAP_ALL_SUBSTITUTABLE_PROPERTIES_GML_1)"
+GUI CHECKBOX GML_IN_MAP_ALL_SUBSTITUTABLE_PROPERTIES_GML_1 YES%NO Map All Substitutable Properties
+DEFAULT_MACRO GML_IN_ADD_NAMESPACE_PREFIX_TO_NAMES_GML_1 
+GML_1_ADD_NAMESPACE_PREFIX_TO_NAMES "$(GML_IN_ADD_NAMESPACE_PREFIX_TO_NAMES_GML_1)"
+GUI OPTIONAL LOOKUP_CHOICE GML_IN_ADD_NAMESPACE_PREFIX_TO_NAMES_GML_1 "Feature Types",FEATURE_TYPES%"Feature Types and Attributes",FEATURE_TYPES_AND_ATTRIBUTES Add XML Namespace Prefix to:
+DEFAULT_MACRO GML_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_GML_1 
+GML_1_QNAMES_FOR_PROPERTIES_TO_IGNORE "$(GML_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_GML_1)"
+GUI OPTIONAL TEXT_EDIT_XML GML_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_GML_1 Properties to Ignore:
+# ============================================================================
+GUI DISCLOSUREGROUP GML_IN_ATTRIBUTE_HANDLING_GML_1 MAP_COMPLEX_PROPERTIES_AS%MAX_MULTI_LIST_LEVEL%ADD_GEOMETRIES_AS_XML_FRAGMENTS%XML_FRAGMENTS_AS_DOCUMENTS%FLATTEN_XML_FRAGMENTS Feature Properties - Attribute Handling
+DEFAULT_MACRO GML_IN_MAP_COMPLEX_PROPERTIES_AS_GML_1 Nested Attributes
+GML_1_MAP_COMPLEX_PROPERTIES_AS "$(GML_IN_MAP_COMPLEX_PROPERTIES_AS_GML_1)"
+GUI ACTIVECHOICE GML_IN_MAP_COMPLEX_PROPERTIES_AS_GML_1 "Nested Attributes"%"XML Fragments",GML_IN_MAX_MULTI_LIST_LEVEL Map Complex Properties as:
+DEFAULT_MACRO GML_IN_MAX_MULTI_LIST_LEVEL_GML_1 
+GML_1_MAX_MULTI_LIST_LEVEL "$(GML_IN_MAX_MULTI_LIST_LEVEL_GML_1)"
+GUI OPTIONAL CHOICE GML_IN_MAX_MULTI_LIST_LEVEL_GML_1 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20 Limit Number of Lists in Nested Attributes:
+DEFAULT_MACRO GML_IN_ADD_GEOMETRIES_AS_XML_FRAGMENTS_GML_1 NO
+GML_1_ADD_GEOMETRIES_AS_XML_FRAGMENTS "$(GML_IN_ADD_GEOMETRIES_AS_XML_FRAGMENTS_GML_1)"
+GUI CHECKBOX GML_IN_ADD_GEOMETRIES_AS_XML_FRAGMENTS_GML_1 YES%NO Add Geometries as XML Fragments
+DEFAULT_MACRO GML_IN_XML_FRAGMENTS_AS_DOCUMENTS_GML_1 YES
+GML_1_XML_FRAGMENTS_AS_DOCUMENTS "$(GML_IN_XML_FRAGMENTS_AS_DOCUMENTS_GML_1)"
+GUI CHECKBOX GML_IN_XML_FRAGMENTS_AS_DOCUMENTS_GML_1 YES%NO Include XML Declaration in XML Fragments
+DEFAULT_MACRO GML_IN_FLATTEN_XML_FRAGMENTS_GML_1 NO
+GML_1_FLATTEN_XML_FRAGMENTS "$(GML_IN_FLATTEN_XML_FRAGMENTS_GML_1)"
+GUI ACTIVEDISCLOSUREGROUP GML_IN_FLATTEN_XML_FRAGMENTS_GML_1 FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE%FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE%FLATTEN_XML_FRAGMENTS_SEPARATOR Flatten XML Fragments
+DEFAULT_MACRO GML_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_GML_1 
+GML_1_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE "$(GML_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_GML_1)"
+GUI OPTIONAL STRING_OR_CHOICE GML_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_GML_1 {%_%-%empty_string Substitute Open List Brace:
+DEFAULT_MACRO GML_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_GML_1 
+GML_1_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE "$(GML_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_GML_1)"
+GUI OPTIONAL STRING_OR_CHOICE GML_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_GML_1 }%_%-%empty_string Substitute Close List Brace:
+DEFAULT_MACRO GML_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_GML_1 
+GML_1_FLATTEN_XML_FRAGMENTS_SEPARATOR "$(GML_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_GML_1)"
+GUI OPTIONAL STRING_OR_CHOICE GML_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_GML_1 .%_%empty_string Substitute Element List Separator:
+# ============================================================================
+GUI DISCLOSUREGROUP GML_IN_GML_READER_GROUP_GML_1 USE_OLD_READER%DISABLE_AUTOMATIC_READER_TYPE_SELECTION%DISABLE_XML_NAMESPACE_PROCESSING Version and XML Namespace Processing
+DEFAULT_MACRO GML_IN_USE_OLD_READER_GML_1 NO
+GML_1_USE_OLD_READER "$(GML_IN_USE_OLD_READER_GML_1)"
+GUI ACTIVECHECK GML_IN_USE_OLD_READER_GML_1 YES,GML_IN_MAP_ALL_SUBSTITUTABLE_PROPERTIES%NO Use Old Reader for GML v3.1.1 and v2.1.2 Documents
+DEFAULT_MACRO GML_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_GML_1 NO
+GML_1_DISABLE_AUTOMATIC_READER_TYPE_SELECTION "$(GML_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_GML_1)"
+GUI CHECKBOX GML_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_GML_1 YES%NO Disable Automatic Reader Type Selection
+DEFAULT_MACRO GML_IN_DISABLE_XML_NAMESPACE_PROCESSING_GML_1 NO
+GML_1_DISABLE_XML_NAMESPACE_PROCESSING "$(GML_IN_DISABLE_XML_NAMESPACE_PROCESSING_GML_1)"
+GUI CHECKBOX GML_IN_DISABLE_XML_NAMESPACE_PROCESSING_GML_1 YES%NO Disable XML Namespace Processing
+DEFAULT_MACRO GML_IN_EXPOSE_ATTRS_GROUP_GML_1 
+GML_1_EXPOSE_ATTRS_GROUP "$(GML_IN_EXPOSE_ATTRS_GROUP_GML_1)"
+GUI DISCLOSUREGROUP GML_IN_EXPOSE_ATTRS_GROUP_GML_1 GML_EXPOSE_FORMAT_ATTRS Schema Attributes
+# Include this file in source setting section to add external search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+# ===========================================================================
+DEFAULT_MACRO GML_IN_SEARCH_ENVELOPE_MINX_GML_1 0
+GML_1_SEARCH_ENVELOPE "$(GML_IN_SEARCH_ENVELOPE_MINX_GML_1)"
+GUI OPTIONAL FLOAT GML_IN_SEARCH_ENVELOPE_MINX_GML_1 Minimum X:
+# ===========================================================================
+DEFAULT_MACRO GML_IN_SEARCH_ENVELOPE_MINY_GML_1 0
+GML_1_SEARCH_ENVELOPE "$(GML_IN_SEARCH_ENVELOPE_MINY_GML_1)"
+GUI OPTIONAL FLOAT GML_IN_SEARCH_ENVELOPE_MINY_GML_1 Minimum Y:
+# ===========================================================================
+DEFAULT_MACRO GML_IN_SEARCH_ENVELOPE_MAXX_GML_1 0
+GML_1_SEARCH_ENVELOPE "$(GML_IN_SEARCH_ENVELOPE_MAXX_GML_1)"
+GUI OPTIONAL FLOAT GML_IN_SEARCH_ENVELOPE_MAXX_GML_1 Maximum X:
+# ===========================================================================
+DEFAULT_MACRO GML_IN_SEARCH_ENVELOPE_MAXY_GML_1 0
+GML_1_SEARCH_ENVELOPE "$(GML_IN_SEARCH_ENVELOPE_MAXY_GML_1)"
+GUI OPTIONAL FLOAT GML_IN_SEARCH_ENVELOPE_MAXY_GML_1 Maximum Y:
+# ===========================================================================
+DEFAULT_MACRO GML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_GML_1 
+GML_1_SEARCH_ENVELOPE "$(GML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_GML_1)"
+GUI OPTIONAL COORDSYS GML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_GML_1 Search Envelope Coordinate System:
+# ===========================================================================
+# BUG18999: We now have a soft clip to fall back on like native spatial index
+# thus we are reintroducing the clip to envelop as an option for users.
+# Defualt to soft clip as per the existing database readers we are emulating
+DEFAULT_MACRO GML_IN_CLIP_TO_ENVELOPE_GML_1 NO
+GML_1_CLIP_TO_ENVELOPE "$(GML_IN_CLIP_TO_ENVELOPE_GML_1)"
+GUI OPTIONAL CHECKBOX GML_IN_CLIP_TO_ENVELOPE_GML_1 YES%NO Clip to Search Envelope
+GUI DISCLOSUREGROUP GML_IN_GML_RDR_ADV_GML_1 CONTINUE_ON_GEOM_ERROR%SYSTEM_ENCODING%CACHE_XSD%CACHE_XSD_EXPIRY_TIME%MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV Advanced
+# ============================================================================
+# This keyword allows the GML reader to continue reading the input dataset when
+# it encounters an error reading a feature's geometry.
+DEFAULT_MACRO GML_IN_CONTINUE_ON_GEOM_ERROR_GML_1 yes
+GML_1_CONTINUE_ON_GEOM_ERROR "$(GML_IN_CONTINUE_ON_GEOM_ERROR_GML_1)"
+GUI CHOICE GML_IN_CONTINUE_ON_GEOM_ERROR_GML_1 yes%no Continue on Geometry Error:
+# ============================================================================
+# This keyword specifies what encoding the GML schema and data features should
+# be in when they are output to the FME. The default value for this keyword
+# is the system's encoding.
+DEFAULT_MACRO GML_IN_SYSTEM_ENCODING_GML_1 
+GML_1_SYSTEM_ENCODING "$(GML_IN_SYSTEM_ENCODING_GML_1)"
+GUI OPTIONAL TEXT GML_IN_SYSTEM_ENCODING_GML_1 System Encoding:
+# ============================================================================
+# This keyword allows XML Schemas to be temporarily cached thereby minimizing
+# the number of network fetches.
+DEFAULT_MACRO GML_IN_CACHE_XSD_GML_1 yes
+GML_1_CACHE_XSD "$(GML_IN_CACHE_XSD_GML_1)"
+GUI CHOICE GML_IN_CACHE_XSD_GML_1 yes%no Cache XSD Documents:
+# ============================================================================
+# Specifies the amount of time in seconds an XML Schema document is allowed
+# to be cached before it expires.
+DEFAULT_MACRO GML_IN_CACHE_XSD_EXPIRY_TIME_GML_1 
+GML_1_CACHE_XSD_EXPIRY_TIME "$(GML_IN_CACHE_XSD_EXPIRY_TIME_GML_1)"
+GUI OPTIONAL INTEGER GML_IN_CACHE_XSD_EXPIRY_TIME_GML_1 Cache XSD Expiry Time:
+DEFAULT_MACRO GML_IN_MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV_GML_1 no
+GML_1_MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV "$(GML_IN_MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV_GML_1)"
+GUI CHOICE GML_IN_MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV_GML_1 no%yes Simple multi-valued properties as csv:
+# ===========================================================================
+DEFAULT_MACRO GML_IN_NETWORK_AUTHENTICATION_GML_1 
+GML_1_NETWORK_AUTHENTICATION "$(GML_IN_NETWORK_AUTHENTICATION_GML_1)"
+GUI OPTIONAL AUTHENTICATOR GML_IN_NETWORK_AUTHENTICATION_GML_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ===========================================================================
+DEFAULT_MACRO GML_IN_ATTRIBUTE_READING_GML_1 ALL
+GML_1_ATTRIBUTE_READING "$(GML_IN_ATTRIBUTE_READING_GML_1)"
+GML_1_DATASET "$(SourceDataset_GML_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "GEOPACKAGE_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER GEOPACKAGE GEOPACKAGE_1
+# ============================================================================
+# The following GUI line prompts for a file to be used as the
+# destination of the GEOPACKAGE File. The user input is stored
+# in a macro, which is then used to define the dataset to be written.
+GUI MULTIFILE DestDataset_GEOPACKAGE_1 GeoPackage_Files(*.gpkg)|*.gpkg|All_files(*)|* GeoPackage File:
+DEFAULT_MACRO GEOPACKAGE_OUT_OVERWRITE_DATASET_GEOPACKAGE_1 NO
+GEOPACKAGE_1_OVERWRITE_DATASET "$(GEOPACKAGE_OUT_OVERWRITE_DATASET_GEOPACKAGE_1)"
+GUI ACTIVECHECK GEOPACKAGE_OUT_OVERWRITE_DATASET_GEOPACKAGE_1 YES%NO,GEOPACKAGE_OUT_DATASET_TEMPLATE Overwrite Database:
+DEFAULT_MACRO GEOPACKAGE_OUT_DATASET_TEMPLATE_GEOPACKAGE_1 
+GEOPACKAGE_1_DATASET_TEMPLATE "$(GEOPACKAGE_OUT_DATASET_TEMPLATE_GEOPACKAGE_1)"
+GUI OPTIONAL FILENAME_MUSTEXIST GEOPACKAGE_OUT_DATASET_TEMPLATE_GEOPACKAGE_1 GeoPackage_Files(*.gpkg)|*.gpkg|All_files(*)|* Template File:
+GUI DISCLOSUREGROUP GEOPACKAGE_OUT_GEOPACKAGE_WRT_ADV_PARM_GEOPACKAGE_1 TRANSACTION_SIZE Advanced
+DEFAULT_MACRO GEOPACKAGE_OUT_TRANSACTION_SIZE_GEOPACKAGE_1 5000
+GEOPACKAGE_1_TRANSACTION_SIZE "$(GEOPACKAGE_OUT_TRANSACTION_SIZE_GEOPACKAGE_1)"
+GUI INTEGER GEOPACKAGE_OUT_TRANSACTION_SIZE_GEOPACKAGE_1 Features Per Transaction:
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO GEOPACKAGE_OUT_DESTINATION_DATASETTYPE_VALIDATION_GEOPACKAGE_1 Yes
+GEOPACKAGE_1_DESTINATION_DATASETTYPE_VALIDATION "$(GEOPACKAGE_OUT_DESTINATION_DATASETTYPE_VALIDATION_GEOPACKAGE_1)"
+DEFAULT_MACRO GEOPACKAGE_OUT_COORDINATE_SYSTEM_GRANULARITY_GEOPACKAGE_1 FEATURE_TYPE
+GEOPACKAGE_1_COORDINATE_SYSTEM_GRANULARITY "$(GEOPACKAGE_OUT_COORDINATE_SYSTEM_GRANULARITY_GEOPACKAGE_1)"
+DEFAULT_MACRO GEOPACKAGE_OUT_ENCODE_FEATURE_TYPE_AND_ATTR_NAMES_GEOPACKAGE_1 YES
+GEOPACKAGE_1_ENCODE_FEATURE_TYPE_AND_ATTR_NAMES "$(GEOPACKAGE_OUT_ENCODE_FEATURE_TYPE_AND_ATTR_NAMES_GEOPACKAGE_1)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_GEOPACKAGE_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER GEOPACKAGE GEOPACKAGE_1
+DEFAULT_MACRO DestDataset_GEOPACKAGE_1 $(DestDataset_GEOPACKAGE)
+GEOPACKAGE_1_DATASET "$(DestDataset_GEOPACKAGE_1)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)roadJuntion.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_FILTER_MASK -1
+DEFAULT_MACRO DATASET_KEYWORD_GML_1 GML_1
+DEFAULT_MACRO DATASET_KEYWORD_GEOPACKAGE_1 GEOPACKAGE_1
+# -------------------------------------------------------------------------
+
+GML_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+GML_1_COORDINATE_SYSTEM EPSG:27700
+GML_1_FEATURE_TYPES RoadJunction
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME roadJuntion
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+GML_1_DEF RoadJunction   beginLifespanVersion         xml_datetime   beginLifespanVersion.nilReason xml_buffer   beginLifespanVersion.xsi_nil xml_boolean   inspireId.Identifier.localId xml_buffer   inspireId.Identifier.namespace xml_buffer   inspireId.Identifier.versionId xml_buffer   inspireId.Identifier.versionId.nilReason xml_buffer   inspireId.Identifier.versionId.xsi_nil xml_boolean   endLifespanVersion           xml_datetime   endLifespanVersion.nilReason xml_buffer   endLifespanVersion.xsi_nil   xml_boolean   inNetwork{}.owns             xml_boolean   inNetwork{}.nilReason        xml_buffer   inNetwork{}.gml_remoteSchema xml_buffer   inNetwork{}.xlink_href       xml_buffer   inNetwork{}.xsi_nil          xml_boolean   reasonForChange              xml_buffer   reasonForChange.codeSpace    xml_buffer   junctionType                 xml_buffer   junctionType.codeSpace       xml_buffer   junctionName{}               xml_buffer   junctionName{}.xml_lang      xml_buffer   roadClassificationNumber     xml_buffer   junctionNumber               xml_buffer   node{}.nilReason             xml_buffer   node{}.gml_remoteSchema      xml_buffer   node{}.xlink_href            xml_buffer   node{}.owns                  xml_boolean
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD GML_1   INPUT FEATURE_TYPE *    ROUTE GML GML_1::RoadJunction TO FME_GENERIC ::RoadJunction ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+GML_1_MERGE_DEF GML_1::RoadJunction EXACT RoadJunction
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "RoadJunction (GML_1) Splitter"    INPUT FEATURE_TYPE RoadJunction    OUTPUT FEATURE_TYPE RoadJunction_GML_1_0_q4b3Xzyn8pE=    OUTPUT FEATURE_TYPE RoadJunction_GML_1_1_w3+34DWEicc=
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * ElementFactory    FACTORY_NAME ListExploder    INPUT  FEATURE_TYPE RoadJunction_GML_1_1_w3+34DWEicc=    LIST_NAME "node{}"    ELEMENT_NUMBER_FIELD "_element_index"    CLONE_GEOMETRY    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    OUTPUT ELEMENT FEATURE_TYPE ListExploder_ELEMENTS         @RemoveAttributes(ElementFactory.baseCloned)    OUTPUT NOLIST FEATURE_TYPE ListExploder_<REJECTED>         @RemoveAttributes(ElementFactory.baseCloned)         fme_rejection_code MISSING_PARAMETER_LIST
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME ListExploder_<Rejected> INPUT FEATURE_TYPE ListExploder_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, ListExploder<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>if<space>features<space>are<space>rejected<comma><space>change<space>the<space>workspace<space>parameter<space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+
+FACTORY_DEF * AttrSetFactory    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE ListExploder_ELEMENTS    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "beginLifespanVersion" "beginLifespanVersion" "" "REMOVE"     ATTR_ACTION "beginLifespanVersion.nilReason" "beginLifespanVersion.nilReason" "" "REMOVE"     ATTR_ACTION "beginLifespanVersion.xsi_nil" "beginLifespanVersion.xsi_nil" "" "REMOVE"     ATTR_ACTION "inspireId.Identifier.localId" "inspireId.Identifier.localId" "" "REMOVE"     ATTR_ACTION "inspireId.Identifier.namespace" "inspireId.Identifier.namespace" "" "REMOVE"     ATTR_ACTION "inspireId.Identifier.versionId" "inspireId.Identifier.versionId" "" "REMOVE"     ATTR_ACTION "inspireId.Identifier.versionId.nilReason" "inspireId.Identifier.versionId.nilReason" "" "REMOVE"     ATTR_ACTION "inspireId.Identifier.versionId.xsi_nil" "inspireId.Identifier.versionId.xsi_nil" "" "REMOVE"     ATTR_ACTION "endLifespanVersion" "endLifespanVersion" "" "REMOVE"     ATTR_ACTION "endLifespanVersion.nilReason" "endLifespanVersion.nilReason" "" "REMOVE"     ATTR_ACTION "endLifespanVersion.xsi_nil" "endLifespanVersion.xsi_nil" "" "REMOVE"     ATTR_ACTION "inNetwork<opencurly><closecurly>.owns" "inNetwork<opencurly><closecurly>.owns" "" "REMOVE"     ATTR_ACTION "inNetwork<opencurly><closecurly>.nilReason" "inNetwork<opencurly><closecurly>.nilReason" "" "REMOVE"     ATTR_ACTION "inNetwork<opencurly><closecurly>.gml_remoteSchema" "inNetwork<opencurly><closecurly>.gml_remoteSchema" "" "REMOVE"     ATTR_ACTION "inNetwork<opencurly><closecurly>.xlink_href" "inNetwork<opencurly><closecurly>.xlink_href" "" "REMOVE"     ATTR_ACTION "inNetwork<opencurly><closecurly>.xsi_nil" "inNetwork<opencurly><closecurly>.xsi_nil" "" "REMOVE"     ATTR_ACTION "reasonForChange" "reasonForChange" "" "REMOVE"     ATTR_ACTION "reasonForChange.codeSpace" "reasonForChange.codeSpace" "" "REMOVE"     ATTR_ACTION "junctionType" "junctionType" "" "REMOVE"     ATTR_ACTION "junctionType.codeSpace" "junctionType.codeSpace" "" "REMOVE"     ATTR_ACTION "junctionName<opencurly><closecurly>" "junctionName<opencurly><closecurly>" "" "REMOVE"     ATTR_ACTION "junctionName<opencurly><closecurly>.xml_lang" "junctionName<opencurly><closecurly>.xml_lang" "" "REMOVE"     ATTR_ACTION "roadClassificationNumber" "roadClassificationNumber" "" "REMOVE"     ATTR_ACTION "junctionNumber" "junctionNumber" "" "REMOVE"     ATTR_ACTION "nilReason" "nilReason" "" "REMOVE"     ATTR_ACTION "gml_remoteSchema" "gml_remoteSchema" "" "REMOVE"     ATTR_ACTION "xlink_href" "node" "" "RENAME_SET_VALUE"     ATTR_ACTION "owns" "owns" "" "REMOVE"     ATTR_ACTION "gml_parent_id" "gml_parent_id" "" "REMOVE"     ATTR_ACTION "gml_parent_property" "gml_parent_property" "" "REMOVE"     ATTR_ACTION "gml_id" "TOID" "" "RENAME_SET_VALUE"     ATTR_ACTION "_element_index" "_element_index" "" "REMOVE"    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
+
+# -------------------------------------------------------------------------
+
+Tcl2 proc AttributeTrimmer_32452118_c5f6_44c2_a81d_6578d54d79270_trimmer { trimChars} {    set attrs [split {node} {,}];    set trimChars [FME_DecodeText $trimChars];    foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set length [string length $attrVal];       if {$length > 0} {          if {[string length $trimChars] == 0} {             set result [string trimleft $attrVal];         } else {             set result [string trimleft $attrVal $trimChars];         };          if {[string length $result] == 0 && {Yes} == {No}} {              if { {trimleft} == {trimleft}} {                set lastPos [expr $length - 1];                set result [string range $attrVal $lastPos $lastPos ];              } elseif { {trimleft} == {trimright}} {                set result [string range $attrVal 0 0];              } else {                set midPos [expr $length / 2];                set result [string range $attrVal $midPos $midPos];              };          };          FME_SetAttribute $attr $result;       };    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeTrimmer    INPUT  FEATURE_TYPE AttributeManager_OUTPUT    OUTPUT FEATURE_TYPE AttributeTrimmer_OUTPUT      @Tcl2("AttributeTrimmer_32452118_c5f6_44c2_a81d_6578d54d79270_trimmer {#} ")
+
+# -------------------------------------------------------------------------
+
+Tcl2 proc DateFormatter_formatter {invalidValue} {       set dateFormat {FME Date (%Y%m%d)};       if { [string compare $dateFormat {FME Date/Time (%Y%m%d%H%M%S)}] == 0 } {          set dateFormat {%Y%m%d%H%M%S};       } elseif { [string compare $dateFormat {FME Date (%Y%m%d)}] == 0} {          set dateFormat {%Y%m%d};       } elseif { [string compare $dateFormat {FME Time (%H%M%S)}] == 0} {          set dateFormat {%H%M%S};       } elseif { [string compare $dateFormat {ISO Date (%Y-%m-%d)}] == 0} {          set dateFormat {%Y-%m-%d};       } elseif { [string compare $dateFormat {ISO DateTime (%Y-%m-%dT%H:%M:%S)}] == 0} {          set dateFormat {%Y-%m-%dT%H:%M:%S};       } elseif { [string compare $dateFormat {ISO Time (%H:%M:%S)}] == 0} {          set dateFormat {%H:%M:%S};       } elseif { [string compare $dateFormat {Locale Date (%c)}] == 0} {          set dateFormat {%c};       };     set attrs [split {beginLifespanVersion} {,}];     foreach attr $attrs {        set date [string trim [FME_GetAttribute $attr]];        set comment { Don't touch NULL or empty attribute values };        if { [string length $date] == 0 } { continue; };        set srcfmt {};        if {{FME_AUTOMATIC} != {FME_AUTOMATIC}} {            set srcfmt {FME_AUTOMATIC};        } else {           set comment { In Automatic mode we ignore the millisecond part };           regexp {^[^.]*} $date date;           set comment { Treat single char as invalid date };           if { [regexp {^.$} $date] } {              set date {};           };        };        set comment { An empty $date at this point is invalid, so don't process further };        set dateLen [string length $date];        if {$dateLen > 0} {           if {[string length $srcfmt] == 0} {              set attrFull $attr;              append attrFull .full;              set fullDate [FME_GetAttribute $attrFull];              if { [string compare -length $dateLen $date $fullDate] == 0 } {                 set extra [string range $fullDate $dateLen end]000000;                 set date [string range \"$date$extra\" 0 13];                 set dateLen 14              };              if {($dateLen == 14) && [regexp {^[0-9]*$} $date]} {                 set srcfmt %Y%m%d%H%M%S;              };           };           set sourceFormatOpt {};           if {[string length $srcfmt] > 0} {              set sourceFormatOpt \"-format {$srcfmt}\";           };           set comment { Compute the output value and catch any errors };           set error [catch { set seconds [eval clock scan "{$date}" $sourceFormatOpt];                              set output [clock format $seconds -format $dateFormat];           }];           set comment { If there was error then we try again by removing digits after last decimal };           if { $error != 0 } {              set index [string last "." $date];              if { $index > 0 } {                 set date [eval string range $date 0 [expr $index-1]];                 set dateLen [string length $date];                 set error [catch { set seconds [eval clock scan "{$date}" $sourceFormatOpt]; set output [clock format $seconds -format $dateFormat]; }];              };           };           if { $error == 0 } {              FME_SetAttribute $attr $output;           };        };        if { (0 == $dateLen) || ($error != 0) } {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };        };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateFormatter    INPUT  FEATURE_TYPE RoadJunction_GML_1_0_q4b3Xzyn8pE=    OUTPUT FEATURE_TYPE DateFormatter_OUTPUT         @Tcl2("DateFormatter_formatter {_FME_NO_OP_}")
+
+# -------------------------------------------------------------------------
+
+MACRO casemac
+INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
+Tcl2 proc StringReplacer_2321f134_6d62_4e55_aa54_c301bdb0c0530_replacer { findText replaceText invalidValue} {     set attrs [split \"beginLifespanVersion\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE DateFormatter_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_2321f134_6d62_4e55_aa54_c301bdb0c0530_replacer {T00:00:00.000} {000000} {_FME_NO_OP_}")
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * AttrSetFactory    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE StringReplacer_OUTPUT 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION "gml_id" "TOID" "RENAME_SET_DEFAULT" ""     ATTR_ACTION "inspireId.Identifier.localId" "identifier" "RENAME_SET_DEFAULT" ""     ATTR_ACTION "junctionName<opencurly>0<closecurly>" "junctionName1" "RENAME_SET_DEFAULT" ""     ATTR_ACTION "junctionName<opencurly>1<closecurly>" "junctionName2" "RENAME_SET_DEFAULT" ""    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT
+
+# -------------------------------------------------------------------------
+
+
+FACTORY_DEF * AttrSetFactory    FACTORY_NAME AttributeManager_2    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "beginLifespanVersion.nilReason" "beginLifespanVersion.nilReason" "" "REMOVE"     ATTR_ACTION "beginLifespanVersion.xsi_nil" "beginLifespanVersion.xsi_nil" "" "REMOVE"     ATTR_ACTION "inspireId.Identifier.namespace" "inspireId.Identifier.namespace" "" "REMOVE"     ATTR_ACTION "inspireId.Identifier.versionId" "inspireId.Identifier.versionId" "" "REMOVE"     ATTR_ACTION "inspireId.Identifier.versionId.nilReason" "inspireId.Identifier.versionId.nilReason" "" "REMOVE"     ATTR_ACTION "inspireId.Identifier.versionId.xsi_nil" "inspireId.Identifier.versionId.xsi_nil" "" "REMOVE"     ATTR_ACTION "endLifespanVersion" "endLifespanVersion" "" "REMOVE"     ATTR_ACTION "endLifespanVersion.nilReason" "endLifespanVersion.nilReason" "" "REMOVE"     ATTR_ACTION "endLifespanVersion.xsi_nil" "endLifespanVersion.xsi_nil" "" "REMOVE"     ATTR_ACTION "inNetwork<opencurly><closecurly>.owns" "inNetwork<opencurly><closecurly>.owns" "" "REMOVE"     ATTR_ACTION "inNetwork<opencurly><closecurly>.nilReason" "inNetwork<opencurly><closecurly>.nilReason" "" "REMOVE"     ATTR_ACTION "inNetwork<opencurly><closecurly>.gml_remoteSchema" "inNetwork<opencurly><closecurly>.gml_remoteSchema" "" "REMOVE"     ATTR_ACTION "inNetwork<opencurly><closecurly>.xlink_href" "inNetwork<opencurly><closecurly>.xlink_href" "" "REMOVE"     ATTR_ACTION "inNetwork<opencurly><closecurly>.xsi_nil" "inNetwork<opencurly><closecurly>.xsi_nil" "" "REMOVE"     ATTR_ACTION "reasonForChange.codeSpace" "reasonForChange.codeSpace" "" "REMOVE"     ATTR_ACTION "junctionType.codeSpace" "junctionType.codeSpace" "" "REMOVE"     ATTR_ACTION "junctionName<opencurly><closecurly>" "junctionName<opencurly><closecurly>" "" "REMOVE"     ATTR_ACTION "junctionName<opencurly><closecurly>.xml_lang" "junctionName<opencurly><closecurly>.xml_lang" "" "REMOVE"     ATTR_ACTION "node<opencurly><closecurly>.nilReason" "node<opencurly><closecurly>.nilReason" "" "REMOVE"     ATTR_ACTION "node<opencurly><closecurly>.gml_remoteSchema" "node<opencurly><closecurly>.gml_remoteSchema" "" "REMOVE"     ATTR_ACTION "node<opencurly><closecurly>.xlink_href" "node<opencurly><closecurly>.xlink_href" "" "REMOVE"     ATTR_ACTION "node<opencurly><closecurly>.owns" "node<opencurly><closecurly>.owns" "" "REMOVE"     ATTR_ACTION "gml_parent_id" "gml_parent_id" "" "REMOVE"     ATTR_ACTION "gml_parent_property" "gml_parent_property" "" "REMOVE"    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_2_OUTPUT
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeManager_2_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>RoadJunction<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeTrimmer_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>roadJunctionNode<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+GEOPACKAGE_1_DEF RoadJunction   geopackage_type              All   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   identifier                   text(37)   beginLifespanVersion         datetime   reasonForChange              text(32)   junctionType                 text(26)   junctionName1                text(120)   junctionName2                text(120)   roadClassificationNumber     text(5)   junctionNumber               text(3)
+# -------------------------------------------------------------------------
+GEOPACKAGE_1_DEF roadJunctionNode   geopackage_type              <NO_GEOMETRY>   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   node                         text(20)
