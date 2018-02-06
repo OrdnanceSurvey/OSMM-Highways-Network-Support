@@ -5,55 +5,56 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files (x86)\FME Desktop 2016.1\fme.exe" "\\os2k05\products\Product Management\OS MasterMap Networks\Highways\FME_workbenches\v2\Geopackage\RoadLink.fmw"
+#    "C:\Program Files (x86)\FME Desktop 2017\fme.exe" C:\Data\OSMasterMap\Highways\FME\Geopackage\RoadLink.fmw
 #          --Enter_ContractID "SJ"
-#          --SourceDataset_GML "C:\Temp\Highways_Data\Highways_RoadsAndRAM_RoadLink_001.gml.gz"
-#          --DestDataset_GEOPACKAGE ""
+#          --SourceDataset_GML "C:\Data\OSMasterMap\Highways\Data\SampleData\Highways_Rrami_RoadLink_FULL_001.gml"
+#          --DestDataset_GEOPACKAGE "C:\Data\OSMasterMap\Highways\Data\SampleData\exeter.gpkg"
 #    
 #    
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   DESTINATION="NONE"
-#!   IGNORE_READER_FAILURE="No"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   LAST_SAVE_BUILD="FME(R) 2016.1.0.0 (20160419 - Build 16492 - WIN32)"
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   DOC_EXTENTS="6512.64 3732.04"
-#!   LEGAL_TERMS_CONDITIONS=""
-#!   FME_SERVER_SERVICES=""
-#!   MAX_LOG_FEATURES="200"
-#!   TITLE=""
-#!   VIEW_POSITION="-1253.39 679.061"
-#!   WORKSPACE_VERSION="1"
-#!   CATEGORY=""
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   REDIRECT_TERMINATORS="NONE"
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   SHOW_ANNOTATIONS="true"
-#!   SOURCE_ROUTING_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
 #!   SHOW_INFO_NODES="true"
-#!   HISTORY=""
-#!   LOG_FILE=""
-#!   FME_BUILD_NUM="16492"
-#!   END_PYTHON=""
-#!   FME_DOCUMENT_GUID="3e4f11dd-5be8-45b5-a8bb-b297141a71fe"
-#!   PYTHON_COMPATIBILITY="27"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   LAST_SAVE_DATE="2016-12-13T11:52:37"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   FME_REPROJECTION_ENGINE="FME"
 #!   DESTINATION_ROUTING_FILE=""
-#!   FME_DOCUMENT_PRIORGUID="903d7ed4-eb5c-475a-8a05-86ed80992d60,1e4cc095-e756-4daf-9eaf-bc77e9f09a35,9e27f501-5f38-48b5-aa8f-70af68b64b91,cefe17ae-d86c-463e-9fb2-b4f1a0aad32a,3a0ea031-af2e-4405-8f24-ed0e8c1f0d0d,63d913a8-24b5-451b-b8b8-311fe024908f,5ba934f7-3105-458b-99f4-07fd56415e2d,967e1c8b-72df-416a-a836-149eb6d56378,e0a6a4cb-66e3-41bd-bfc7-f1a2169d61b5,7ebdcf83-52c6-469a-8266-f9395a79011a,304581e1-43e5-45b7-b65f-def2fd016d4a,f1c15b75-447b-4866-92ba-bd4572e4ff00,576ed9fc-c529-40b9-978c-3e39ad11238c,6e860167-7cfa-4959-8e84-894001ee8d22,266d6a47-505c-479f-a475-ee35c7b8c7a9,bca783af-a243-45d6-a405-cb4e4f6010ae,aa23f75b-a62e-4a85-961e-279e787ac0c1,a2427103-5e09-4901-9bdb-2c6674619579,1aed6eec-f2b3-4828-b81c-4be763b08c2f,2aeb1e77-a8b2-4348-b53e-092b6e9792b0,3d61c799-f16d-43a9-8be7-fe225dfb9bc6,d228d0ff-4b5d-48d2-8a5e-9b8433bcc302,d10b00d5-a7b0-414b-a564-a9d361590dd7,1de156d9-9cd3-467e-bac3-5130568cf544,30cabedf-ed3a-4b52-a1e6-c803306f8825,2a996fc3-7fdd-4e28-b5e0-4d9ad58bd9db,91fe1081-359e-4573-a2cf-a362e71b10fd,a1cd5dfc-11a5-472c-ad3f-f75ab3514819,d31f0597-9aee-4880-a107-97b7b027d543,322be2b2-fa0b-4610-95ea-004e4f16ea01,41b45168-ac3f-4c93-978e-2b8d38245e1d,75e61626-e9fd-4e4d-a342-4cc5cf2d916e,a1bac474-e125-49f3-855c-3c5c90c03325,1510154f-b25d-4afd-8990-5beb818f51a4,429039e8-bf8d-4235-b83c-6b52df7605af,6735177c-a329-483a-8ea7-d72f60ef915f,a235388d-6507-498a-8eed-214a9ca9985d,5b7f801a-64bb-4da0-807a-c505a27fbafa,4091e5c6-c4c5-4804-9470-2b6c33712283,39dfc367-6d65-49dd-9e11-65d1ded8c93a,e9c85cb2-ca5b-4ad4-8482-d4249962761c,2eef985e-e055-4116-8be3-f0540cda9791,9e9a5a81-8826-439e-9dc5-eb5ef09981e4,7ae9758f-411d-4302-85ff-2317a0421cf0,da6b172f-212c-4976-9097-57ac4540acf0,10a552c1-35ca-4829-9d77-ecbba95fe76f,1c61f9b4-abbd-46d2-9d1a-d318458a8eac,02013f1b-e8f1-4909-95a0-0d6a0c91fb8f,aeba3df9-474e-416e-beda-b72a55393689,48633ea8-5dd7-470d-8b3c-e1f20a1a71c5,eadd8d85-b356-4068-969a-a6444d929b42,f794708c-998a-4751-8a43-0560963417df,1677dcd7-b05e-43e9-9258-866347f91bb2,04ff613d-30de-40d1-a7a4-c5254599d85b,437f20d0-c150-4bec-aa89-07eb46bd7f5a,f24b4db5-efb9-4f1f-ac99-f7a20c41c27a,aa67ee9e-f038-4c91-ad61-04ffbf6f8446,533d5b2d-60ac-4c8e-9361-7401f515d7b8,58dc9cce-42ee-44bf-a97f-9be839381a6f,6dc41cb7-d107-4060-9b41-06165d8fe885"
-#!   BEGIN_PYTHON=""
-#!   END_TCL=""
-#!   USAGE=""
-#!   REQUIREMENTS_KEYWORD=""
-#!   DESCRIPTION=""
-#!   ZOOM_SCALE="74"
-#!   REQUIREMENTS=""
-#!   DOC_TOP_LEFT="-3275.61 -3081.03"
+#!   FME_STROKE_MAX_DEVIATION="0"
 #!   BEGIN_TCL=""
+#!   ZOOM_SCALE="74"
+#!   MARKDOWN_DESCRIPTION=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   WORKSPACE_VERSION="1"
+#!   SOURCE_ROUTING_FILE=""
+#!   FME_DOCUMENT_PRIORGUID="903d7ed4-eb5c-475a-8a05-86ed80992d60,1e4cc095-e756-4daf-9eaf-bc77e9f09a35,9e27f501-5f38-48b5-aa8f-70af68b64b91,cefe17ae-d86c-463e-9fb2-b4f1a0aad32a,3a0ea031-af2e-4405-8f24-ed0e8c1f0d0d,63d913a8-24b5-451b-b8b8-311fe024908f,5ba934f7-3105-458b-99f4-07fd56415e2d,967e1c8b-72df-416a-a836-149eb6d56378,e0a6a4cb-66e3-41bd-bfc7-f1a2169d61b5,7ebdcf83-52c6-469a-8266-f9395a79011a,304581e1-43e5-45b7-b65f-def2fd016d4a,f1c15b75-447b-4866-92ba-bd4572e4ff00,576ed9fc-c529-40b9-978c-3e39ad11238c,6e860167-7cfa-4959-8e84-894001ee8d22,266d6a47-505c-479f-a475-ee35c7b8c7a9,bca783af-a243-45d6-a405-cb4e4f6010ae,aa23f75b-a62e-4a85-961e-279e787ac0c1,a2427103-5e09-4901-9bdb-2c6674619579,1aed6eec-f2b3-4828-b81c-4be763b08c2f,2aeb1e77-a8b2-4348-b53e-092b6e9792b0,3d61c799-f16d-43a9-8be7-fe225dfb9bc6,d228d0ff-4b5d-48d2-8a5e-9b8433bcc302,d10b00d5-a7b0-414b-a564-a9d361590dd7,1de156d9-9cd3-467e-bac3-5130568cf544,30cabedf-ed3a-4b52-a1e6-c803306f8825,2a996fc3-7fdd-4e28-b5e0-4d9ad58bd9db,91fe1081-359e-4573-a2cf-a362e71b10fd,a1cd5dfc-11a5-472c-ad3f-f75ab3514819,d31f0597-9aee-4880-a107-97b7b027d543,322be2b2-fa0b-4610-95ea-004e4f16ea01,41b45168-ac3f-4c93-978e-2b8d38245e1d,75e61626-e9fd-4e4d-a342-4cc5cf2d916e,a1bac474-e125-49f3-855c-3c5c90c03325,1510154f-b25d-4afd-8990-5beb818f51a4,429039e8-bf8d-4235-b83c-6b52df7605af,6735177c-a329-483a-8ea7-d72f60ef915f,a235388d-6507-498a-8eed-214a9ca9985d,5b7f801a-64bb-4da0-807a-c505a27fbafa,4091e5c6-c4c5-4804-9470-2b6c33712283,39dfc367-6d65-49dd-9e11-65d1ded8c93a,e9c85cb2-ca5b-4ad4-8482-d4249962761c,2eef985e-e055-4116-8be3-f0540cda9791,9e9a5a81-8826-439e-9dc5-eb5ef09981e4,7ae9758f-411d-4302-85ff-2317a0421cf0,da6b172f-212c-4976-9097-57ac4540acf0,10a552c1-35ca-4829-9d77-ecbba95fe76f,1c61f9b4-abbd-46d2-9d1a-d318458a8eac,02013f1b-e8f1-4909-95a0-0d6a0c91fb8f,aeba3df9-474e-416e-beda-b72a55393689,48633ea8-5dd7-470d-8b3c-e1f20a1a71c5,eadd8d85-b356-4068-969a-a6444d929b42,f794708c-998a-4751-8a43-0560963417df,1677dcd7-b05e-43e9-9258-866347f91bb2,04ff613d-30de-40d1-a7a4-c5254599d85b,437f20d0-c150-4bec-aa89-07eb46bd7f5a,f24b4db5-efb9-4f1f-ac99-f7a20c41c27a,aa67ee9e-f038-4c91-ad61-04ffbf6f8446,533d5b2d-60ac-4c8e-9361-7401f515d7b8,58dc9cce-42ee-44bf-a97f-9be839381a6f,6dc41cb7-d107-4060-9b41-06165d8fe885,3e4f11dd-5be8-45b5-a8bb-b297141a71fe,70808c59-8537-4794-91a3-4f42fed10120,9821d822-2c5d-40f9-8a11-3cd3130ba530"
+#!   END_PYTHON=""
+#!   DESCRIPTION=""
+#!   TITLE=""
+#!   DOC_TOP_LEFT="-3275.61 -3081.03"
+#!   FME_BUILD_NUM="17271"
+#!   VIEW_POSITION="-3277.06 226.354"
+#!   MAX_LOG_FEATURES="200"
+#!   USE_MARKDOWN=""
+#!   END_TCL=""
+#!   DESTINATION="NONE"
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.1 (20170316 - Build 17271 - WIN32)"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   BEGIN_PYTHON=""
+#!   REDIRECT_TERMINATORS="NONE"
+#!   IGNORE_READER_FAILURE="No"
+#!   TERMINATE_REJECTED="NO"
+#!   ATTR_TYPE_ENCODING="SDF"
 #!   SOURCE="NONE"
+#!   FME_SERVER_SERVICES=""
+#!   FME_DOCUMENT_GUID="2233d498-febd-4698-bc2e-df1fc723d5c0"
+#!   LOG_FILE=""
+#!   USAGE=""
+#!   MARKDOWN_USAGE=""
+#!   DOC_EXTENTS="6512.64 3732.04"
+#!   HISTORY=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   LAST_SAVE_DATE="2018-02-06T10:00:17"
+#!   PYTHON_COMPATIBILITY="27"
+#!   SHOW_ANNOTATIONS="true"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   CATEGORY=""
 #!   PASSWORD=""
 #! >
 #! <DATASETS>
@@ -70,7 +71,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_type xml_char(50) fme_color xml_char(50) multi_reader_keyword xml_char(50) fme_fill_color xml_char(50) fme_text_string xml_char(50) fme_dataset xml_char(50) xml_ns_uri xml_char(254) fme_type xml_char(50) fme_sweep_angle xml_real64 fme_secondary_axis xml_real64 gml_id xml_char(254) fme_geometry fme_char(50) fme_feature_type xml_char(50) gml_parent_id xml_char(254) gml_parent_property xml_char(254) fme_rotation xml_real64 gml_original_coordinate_system xml_char(64) fme_text_size xml_real64 multi_reader_id xml_int32 multi_reader_full_id xml_int32 fme_start_angle xml_real64 xml_type xml_char(50) fme_primary_axis xml_real64 fme_basename xml_char(50)"
+#!   EXPOSABLE_ATTRS="xml_type xml_char(50) fme_text_size xml_real64 fme_feature_type xml_char(50) xml_ns_uri xml_char(254) fme_sweep_angle xml_real64 fme_primary_axis xml_real64 fme_dataset xml_char(50) fme_geometry fme_char(50) fme_rotation xml_real64 gml_parent_id xml_char(254) fme_basename xml_char(50) fme_type xml_char(50) fme_text_string xml_char(50) multi_reader_keyword xml_char(50) multi_reader_full_id xml_int32 fme_secondary_axis xml_real64 multi_reader_type xml_char(50) multi_reader_id xml_int32 gml_id xml_char(254) gml_parent_property xml_char(254) fme_color xml_char(50) gml_original_coordinate_system xml_char(64) fme_start_angle xml_real64 fme_fill_color xml_char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -80,19 +81,19 @@
 #!   DATASET_TYPE="FILE_OR_URL"
 #!   GENERATE_FME_BUILD_NUM="16492"
 #!   FEATURE_TYPES="RoadLink"
-#!   MAX_FEATURES=""
 #!   MIN_FEATURES=""
 #!   MAX_FEATURES_PER_FEATURE_TYPE=""
-#!   COORDSYS=""
 #!   START_FEATURE=""
+#!   COORDSYS=""
+#!   MAX_FEATURES=""
 #! >
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_AUTHENTICATION"
 #!   VALUE="ALWAYS"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="READER_DATASET_HINT"
-#!   VALUE="Select the GML file(s)"
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="GML_IN_SEARCH_ENVELOPE_MINX GML_IN_SEARCH_ENVELOPE_MINY GML_IN_SEARCH_ENVELOPE_MAXX GML_IN_SEARCH_ENVELOPE_MAXY GML_IN_CLIP_TO_ENVELOPE SEARCH_ENVELOPE_COORDINATE_SYSTEM"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="WRITER_DATASET_HINT"
@@ -103,16 +104,16 @@
 #!   VALUE="application/xml"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="GML_IN_SEARCH_ENVELOPE_MINX GML_IN_SEARCH_ENVELOPE_MINY GML_IN_SEARCH_ENVELOPE_MAXX GML_IN_SEARCH_ENVELOPE_MAXY GML_IN_CLIP_TO_ENVELOPE SEARCH_ENVELOPE_COORDINATE_SYSTEM"
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
 #!   VALUE="gml file"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="NETWORK_PROXY"
-#!   VALUE="NO"
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the GML file(s)"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -128,8 +129,8 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="geopackage_type {FME_GEN_GEOMETRY} fme_table_handling CREATE_IF_MISSING geopackage_geometry_column &quot;&quot; geopackage_primary_index_column &quot;&quot; geopackage_create_spatial_index YES"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_text_string text(50) fme_sweep_angle double fme_primary_axis double fme_secondary_axis double fme_basename text(50) fme_fill_color text(50) fme_rotation double fme_feature_type text(50) fme_type text(50) geopackage_type text(255) fme_dataset text(50) fme_start_angle double fme_color text(50) fme_geometry fme_char(50) fme_text_size double"
-#!   DEFLINE_PARMS="&quot;GUI NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table Settings&quot; &quot;&quot; &quot;GUI NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE fme_table_handling Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE Table Handling&quot; CREATE_IF_MISSING &quot;GUI DISCLOSUREGROUP fme_table_creation_group geopackage_geometry_column%geopackage_primary_index_column%geopackage_create_spatial_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_geometry_column Spatial Column&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_primary_index_column Primary Index Column&quot; &quot;&quot; &quot;GUI CHOICE geopackage_create_spatial_index Yes%No Create Spatial Index&quot; Yes "
+#!   EXPOSABLE_ATTRS="fme_color text(50) fme_feature_type text(50) fme_text_size double fme_sweep_angle double fme_fill_color text(50) fme_secondary_axis double geopackage_type text(255) fme_type text(50) fme_dataset text(50) fme_text_string text(50) fme_primary_axis double fme_basename text(50) fme_start_angle double fme_rotation double fme_geometry fme_char(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE fme_table_handling Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE Table Handling&quot; CREATE_IF_MISSING &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group geopackage_geometry_column%geopackage_primary_index_column%geopackage_create_spatial_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_geometry_column Spatial Column&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_primary_index_column Primary Index Column&quot; &quot;&quot; &quot;GUI CHOICE geopackage_create_spatial_index Yes%No Create Spatial Index&quot; Yes "
 #!   ATTR_INDEX_TYPES="indexed"
 #!   ATTR_NAME_INVALID_CHARS="\\&quot;{}()&apos;,@&amp;`~!#$%^*+-=|[]:;&lt;&gt;?./"
 #!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
@@ -137,33 +138,29 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="FILE"
 #!   GENERATE_FME_BUILD_NUM="16492"
-#!   FANOUT_GROUP="NO"
-#!   FANOUT_EXPRESSION=""
 #!   COORDSYS=""
+#!   FANOUT_GROUP="NO"
+#!   FANOUT_EXPRESSION="&lt;Unused&gt;"
 #! >
 #! <METAFILE_PARAMETER
-#!   NAME="ALLOW_DATASET_CONFLICT"
-#!   VALUE="YES"
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_AUTHENTICATION"
 #!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="READER_DATASET_HINT"
-#!   VALUE="Select the GeoPackage file(s)"
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="GEOPACKAGE_OUT_TRANSACTION_SIZE"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="WRITER_DATASET_HINT"
 #!   VALUE="Specify a name for the GeoPackage file"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="GEOPACKAGE_OUT_TRANSACTION_SIZE"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="DATASET_NAME"
-#!   VALUE="GeoPackage file"
+#!   NAME="ALLOW_DATASET_CONFLICT"
+#!   VALUE="YES"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_PROXY"
@@ -174,8 +171,12 @@
 #!   VALUE="Table"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
-#!   VALUE="Table1"
+#!   NAME="DATASET_NAME"
+#!   VALUE="GeoPackage file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the GeoPackage file(s)"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -808,13 +809,13 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="elevationGainOppositeDirection" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="startNode" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="endNode" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
@@ -836,13 +837,13 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="TOID" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="alternateIdentifier" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="alternateIdentifierSchema" ATTR_TYPE="text(50)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
@@ -864,13 +865,13 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="TOID" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="formsPartOf" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="refType" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="true"
@@ -888,7 +889,7 @@
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   HIDDEN_USER_ATTRS=""
-#!   MERGE_FILTER=""
+#!   MERGE_FILTER="*"
 #!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
 #!   MERGE_FILTER_CASE_SENSITIVE="true"
 #!   DYNAMIC_SCHEMA="false"
@@ -915,10 +916,6 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="formOfWay" ATTR_TYPE="xml_char(32)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="formsPartOf{}.owns" ATTR_TYPE="xml_char(6)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="formsPartOf{}.xlink_href" ATTR_TYPE="xml_char(22)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="xml_char(21)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_original_coordinate_system" ATTR_TYPE="xml_char(28)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="xml_char(12)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_property" ATTR_TYPE="xml_char(14)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="inNetwork{}.owns" ATTR_TYPE="xml_char(6)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="inNetwork{}.xlink_href" ATTR_TYPE="xml_char(18)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="inspireId.Identifier.localId" ATTR_TYPE="xml_decimal(17,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -958,6 +955,11 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="validFrom" ATTR_TYPE="xml_char(1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="validFrom.nilReason" ATTR_TYPE="xml_char(8)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="validFrom.xsi_nil" ATTR_TYPE="xml_char(5)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="roadStructure" ATTR_TYPE="xml_char(15)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="xml_char(21)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_original_coordinate_system" ATTR_TYPE="xml_char(28)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="xml_char(12)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_property" ATTR_TYPE="xml_char(14)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="xml_ns_uri" ATTR_TYPE="xml_char(53)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
@@ -981,13 +983,13 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="direction" ATTR_TYPE="text(50)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="minMaxNumberOfLanes" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="numberOfLanes" ATTR_TYPE="mediumint" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
@@ -1008,13 +1010,13 @@
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="TOID" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="RelatedRoadAreaTOID" ATTR_TYPE="text(39)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -1027,12 +1029,12 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_GML GML_Files(*.gml;*.gz;*.xml)|*.gml;*gz;*.xml|GML_Files(*.gml)|*.gml|Compressed_GML_Files(*.gz)|*.gz|GML_Files(*.xml)|*.xml|All_Files|* Source Geography Markup Language (GML) File(s):"
-#!   DEFAULT_VALUE="C:\Temp\Highways_Data\Highways_RoadsAndRAM_RoadLink_001.gml.gz"
+#!   DEFAULT_VALUE="C:\Data\OSMasterMap\Highways\Data\SampleData\Highways_Rrami_RoadLink_FULL_001.gml"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI FILENAME DestDataset_GEOPACKAGE GeoPackage_Files(*.gpkg)|*.gpkg|All_files(*)|* Destination GeoPackage File:"
-#!   DEFAULT_VALUE=""
+#!   DEFAULT_VALUE="C:\Data\OSMasterMap\Highways\Data\SampleData\exeter.gpkg"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -1382,7 +1384,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="88"
@@ -1397,7 +1399,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="124"
@@ -1415,7 +1417,7 @@
 #!   BOUNDING_RECT="-1232.73 315.74 584.942 1344.72"
 #!   STICKY="true"
 #!   COLOUR="1,0.847059,0.992157"
-#!   CONTENTS="25 26 23 19 31 33 22 30 27 24 32 "
+#!   CONTENTS="27 33 30 26 24 32 25 22 31 23 19 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="57"
@@ -1426,7 +1428,7 @@
 #!   BOUNDING_RECT="-558.722 324.003 588.824 1352.98"
 #!   STICKY="true"
 #!   COLOUR="0.529412,0.0784314,0.839216"
-#!   CONTENTS="53 51 59 48 50 55 60 54 52 58 61 "
+#!   CONTENTS="48 53 58 61 54 59 52 50 55 51 60 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="92"
@@ -1437,7 +1439,7 @@
 #!   BOUNDING_RECT="-1365.35 -2596.46 2589.36 484.571"
 #!   STICKY="true"
 #!   COLOUR="0.0156863,0.156863,0.737255"
-#!   CONTENTS="89 102 91 90 145 87 152 103 "
+#!   CONTENTS="103 90 87 145 89 91 152 102 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="93"
@@ -1448,7 +1450,7 @@
 #!   BOUNDING_RECT="-1365.35 -1789.57 4083.38 662.32"
 #!   STICKY="true"
 #!   COLOUR="0.156863,0.419608,0.458824"
-#!   CONTENTS="71 82 86 80 78 73 83 126 79 122 77 127 74 75 81 85 72 84 100 "
+#!   CONTENTS="126 84 73 80 83 71 75 72 127 85 122 78 74 77 79 86 81 100 82 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="94"
@@ -1459,7 +1461,7 @@
 #!   BOUNDING_RECT="-1281.3 -1188.01 2256.31 462.005"
 #!   STICKY="true"
 #!   COLOUR="0.211765,0.784314,0.729412"
-#!   CONTENTS="67 116 106 62 69 "
+#!   CONTENTS="106 69 67 116 62 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="97"
@@ -1470,7 +1472,7 @@
 #!   BOUNDING_RECT="-1281.3 651.007 4518.33 1728.02"
 #!   STICKY="true"
 #!   COLOUR="0.0784314,0.556863,0.627451"
-#!   CONTENTS="134 110 25 133 104 142 58 50 52 4 143 19 30 131 59 140 108 146 130 138 51 135 27 114 56 115 29 159 154 136 98 33 105 144 141 137 132 53 155 99 129 149 31 32 128 124 57 113 23 147 150 24 109 123 26 107 54 151 125 55 22 61 60 139 48 148 "
+#!   CONTENTS="143 136 147 139 29 107 159 113 19 22 26 148 141 109 151 55 131 135 142 128 144 61 110 129 108 30 138 60 125 132 33 133 48 140 50 99 150 155 23 59 115 56 123 98 146 31 58 105 25 104 51 57 54 24 52 134 149 53 114 130 32 4 124 154 137 27 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="144"
@@ -1481,7 +1483,7 @@
 #!   BOUNDING_RECT="703.455 -472.923 1831.3 479.348"
 #!   STICKY="true"
 #!   COLOUR="0.247059,0.0509804,0.239216"
-#!   CONTENTS="136 141 138 147 139 "
+#!   CONTENTS="138 136 139 147 141 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -1520,10 +1522,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1563,6 +1561,11 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1572,14 +1575,16 @@
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_StartTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="inspireId.Identifier.localId,localId,,inspireId.Identifier.namespace,identifierNamespace,,inspireId.Identifier.versionId,identifierVersionId,,operationalState.OperationalStateType.state,operationalState_State,,operationalState.OperationalStateType.reason,operationsState_Reason,,startNode.xlink_href,startNode,,endNode.xlink_href,endNode,,operationalState.OperationalStateType.validTime.gml_TimePeriod.gml_beginPosition,operationalState_StartTime,,operationalState.OperationalStateType.validTime.gml_TimePeriod.gml_endPosition,operationalState_EndTime,,cycleFacility.CycleFacilityType.cycleFacility,cycleFacility,"/>
+#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="inspireId.Identifier.localId,localId,,inspireId.Identifier.namespace,identifierNamespace,,inspireId.Identifier.versionId,identifierVersionId,,operationalState.OperationalStateType.state,operationalState_State,,operationalState.OperationalStateType.reason,operationsState_Reason,,startNode.xlink_href,startNode,,endNode.xlink_href,endNode,,operationalState.OperationalStateType.validTime.gml_TimePeriod.gml_beginPosition,operationalState_StartTime,,operationalState.OperationalStateType.validTime.gml_TimePeriod.gml_endPosition,operationalState_EndTime,,cycleFacility.CycleFacilityType.cycleFacility,cycleFacility,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="19"
@@ -1616,10 +1621,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1659,14 +1660,19 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1_roadName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="roadName1_"/>
-#!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="0"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="roadName{}"/>
+#!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="roadName1_"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="0"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="22"
@@ -1703,10 +1709,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1746,11 +1748,18 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="roadName1_roadName,roadName1,,roadName1_xml_lang,roadName1_Language,"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_2"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="roadName1_roadName,roadName1,,roadName1_xml_lang,roadName1_Language,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="24"
@@ -1787,10 +1796,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1830,16 +1835,21 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName2_roadName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="roadName2_"/>
-#!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="1"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer_2"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="roadName{}"/>
+#!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="roadName2_"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="1"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="25"
@@ -1876,10 +1886,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1919,13 +1925,20 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="roadName2_roadName,roadName2,,roadName2_xml_lang,roadName2_Language,"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_3"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="roadName2_roadName,roadName2,,roadName2_xml_lang,roadName2_Language,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="48"
@@ -1962,10 +1975,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2005,18 +2014,23 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1_alternateName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="alternativeName1_"/>
-#!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="0"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer_5"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="alternateName{}"/>
+#!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="alternativeName1_"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="0"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="51"
@@ -2053,10 +2067,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2096,6 +2106,11 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2103,8 +2118,10 @@
 #!     <XFORM_ATTR ATTR_NAME="roadName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="alternativeName1_alternateName,alternativeName1,,alternativeName1_xml_lang,alternativeName1_Language,"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_6"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="alternativeName1_alternateName,alternativeName1,,alternativeName1_xml_lang,alternativeName1_Language,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="50"
@@ -2141,10 +2158,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2184,6 +2197,11 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2192,12 +2210,12 @@
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2_alternateName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="alternativeName2_"/>
-#!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="1"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer_6"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="alternateName{}"/>
+#!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="alternativeName2_"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="1"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="54"
@@ -2234,10 +2252,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2277,6 +2291,11 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2286,8 +2305,10 @@
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="alternativeName2_alternateName,alternativeName2,,localName2_xml_lang,alternativeName2_Language,"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_7"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="alternativeName2_alternateName,alternativeName2,,localName2_xml_lang,alternativeName2_Language,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="63"
@@ -2298,7 +2319,7 @@
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="15485"
+#!   LAST_PARM_EDIT="16492"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -2324,10 +2345,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inspireId.Identifier.localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2367,14 +2384,19 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateFormatter"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="beginLifespanVersion,validFrom"/>
+#!     <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="FME_NULL_VALUE"/>
 #!     <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date (%Y%m%d)"/>
-#!     <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="_FME_NO_OP_"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="62"
@@ -2411,10 +2433,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2454,6 +2472,11 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="NOT_FOUND"/>
@@ -2478,10 +2501,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2521,16 +2540,21 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INCOMING_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Incoming List"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListExploder"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="alternateIdentifier{}"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Original"/>
+#!     <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Incoming List"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="67"
@@ -2567,10 +2591,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2610,10 +2630,17 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="ThematicIdentifier.identifier,alternateIdentifier,,ThematicIdentifier.identifierScheme,alternateIdentifierSchema,"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_8"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="ThematicIdentifier.identifier,alternateIdentifier,,ThematicIdentifier.identifierScheme,alternateIdentifierSchema,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="72"
@@ -2650,10 +2677,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2693,6 +2716,11 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="NOT_FOUND"/>
@@ -2717,10 +2745,6 @@
 #!     <XFORM_ATTR ATTR_NAME="endNode.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fictitious" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2760,16 +2784,21 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INCOMING_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Incoming List"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListExploder_2"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="formsPartOf{}"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Original"/>
+#!     <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Incoming List"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="73"
@@ -2806,10 +2835,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2849,11 +2874,18 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="refType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="xlink_href,formsPartOf,"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_9"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="xlink_href,formsPartOf,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="74"
@@ -2890,10 +2922,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2933,6 +2961,11 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="usrn"/>
@@ -2959,10 +2992,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -3002,6 +3031,11 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
@@ -3028,10 +3062,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -3071,11 +3101,16 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;xlink_href&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;#osgb&lt;quote&gt;,osgb,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;xlink_href&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;#usrn&lt;quote&gt;,usrn"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter"/>
 #!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;xlink_href&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;#osgb&lt;quote&gt;,osgb,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;xlink_href&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;#usrn&lt;quote&gt;,usrn"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="77"
@@ -3112,10 +3147,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3155,16 +3186,23 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="refType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="refType,Road"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="80"
@@ -3201,10 +3239,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3244,16 +3278,23 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="refType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="refType,Street"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="82"
@@ -3290,10 +3331,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3333,16 +3370,23 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="refType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="refType,Other"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="89"
@@ -3379,10 +3423,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3422,6 +3462,11 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="NOT_FOUND"/>
@@ -3448,10 +3493,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -3489,16 +3530,21 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INCOMING_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Incoming List"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListExploder_3"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="relatedRoadArea{}"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Original"/>
+#!     <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Incoming List"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="90"
@@ -3535,10 +3581,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3578,10 +3620,17 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="xlink_href,RelatedRoadAreaTOID,"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_10"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="xlink_href,RelatedRoadAreaTOID,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="98"
@@ -3618,10 +3667,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3661,6 +3706,11 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3670,22 +3720,22 @@
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_StartTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="no"/>
-#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="endNode,startNode"/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="#"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="no"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="#"/>
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="endNode,startNode"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="no"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="100"
@@ -3722,10 +3772,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3765,19 +3811,24 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="refType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="no"/>
-#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="formsPartOf"/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="#"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_2"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="no"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="#"/>
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="formsPartOf"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="no"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="102"
@@ -3814,10 +3865,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3857,18 +3904,23 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="no"/>
-#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="RelatedRoadAreaTOID"/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="#"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_3"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="no"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="#"/>
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="RelatedRoadAreaTOID"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="no"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="104"
@@ -3905,10 +3957,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3948,6 +3996,11 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3957,21 +4010,21 @@
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_StartTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="directinality_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="DELIMITER" PARM_VALUE="&lt;solidus&gt;"/>
-#!     <XFORM_PARM PARM_NAME="DROP_EMPTY_PARTS" PARM_VALUE="No"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeSplitter"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="directionality.xlink_href"/>
-#!     <XFORM_PARM PARM_NAME="TRIM_OPTION" PARM_VALUE="Both"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DELIMITER" PARM_VALUE="&lt;solidus&gt;"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRIM_OPTION" PARM_VALUE="Both"/>
 #!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="directinality_list"/>
+#!     <XFORM_PARM PARM_NAME="DROP_EMPTY_PARTS" PARM_VALUE="No"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="107"
@@ -4008,10 +4061,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4051,6 +4100,11 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4060,16 +4114,18 @@
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_StartTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="directinality_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="directionality" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="directinality_list&lt;opencurly&gt;5&lt;closecurly&gt;,directionality,"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_4"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="directinality_list&lt;opencurly&gt;5&lt;closecurly&gt;,directionality,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="111"
@@ -4106,10 +4162,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4149,9 +4201,16 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="gml_id,TOID,,inspireId.Identifier.localId,identifier,"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_5"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="gml_id,TOID,,inspireId.Identifier.localId,identifier,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="110"
@@ -4252,16 +4311,17 @@
 #!     <XFORM_ATTR ATTR_NAME="elevationGainInDirection" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevationGainOppositeDirection" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifier alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifier  NO_OP alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifierScheme alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifierScheme  NO_OP alternateName&lt;opencurly&gt;&lt;closecurly&gt; alternateName&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP beginLifespanVersion beginLifespanVersion  NO_OP cycleFacility cycleFacility  NO_OP cycleFacility.CycleFacilityType.cycleFacility.codeSpace cycleFacility.CycleFacilityType.cycleFacility.codeSpace  NO_OP cycleFacility.CycleFacilityType.wholeLink cycleFacility.CycleFacilityType.wholeLink  NO_OP cycleFacility.CycleFacilityType.wholeLink.nilReason cycleFacility.CycleFacilityType.wholeLink.nilReason  NO_OP cycleFacility.CycleFacilityType.wholeLink.xsi_nil cycleFacility.CycleFacilityType.wholeLink.xsi_nil  NO_OP directionality.owns directionality.owns  NO_OP directionality.xlink_href directionality.xlink_href  NO_OP elevationGain.ElevationGainType.inDirection elevationGain.ElevationGainType.inDirection  NO_OP elevationGain.ElevationGainType.inDirection.uom elevationGain.ElevationGainType.inDirection.uom  NO_OP elevationGain.ElevationGainType.inOppositeDirection elevationGain.ElevationGainType.inOppositeDirection  NO_OP elevationGain.ElevationGainType.inOppositeDirection.uom elevationGain.ElevationGainType.inOppositeDirection.uom  NO_OP endGradeSeparation endGradeSeparation  NO_OP endNode.owns endNode.owns  NO_OP endNode endNode  NO_OP fictitious fictitious  NO_OP formOfWay formOfWay  NO_OP formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.owns formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.owns  NO_OP formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  NO_OP TOID TOID  NO_OP gml_original_coordinate_system gml_original_coordinate_system  NO_OP gml_parent_id gml_parent_id  NO_OP gml_parent_property gml_parent_property  NO_OP inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.owns inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.owns  NO_OP inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  NO_OP localId localId  NO_OP identifierNamespace identifierNamespace  NO_OP length length  NO_OP length.uom length.uom  NO_OP matchStatus matchStatus  NO_OP matchStatus.codeSpace matchStatus.codeSpace  NO_OP numberOfLanes&lt;opencurly&gt;&lt;closecurly&gt;.NumberOfLanesType.direction.owns numberOfLanes&lt;opencurly&gt;&lt;closecurly&gt;.NumberOfLanesType.direction.owns  NO_OP numberOfLanes&lt;opencurly&gt;&lt;closecurly&gt;.NumberOfLanesType.direction.xlink_href numberOfLanes&lt;opencurly&gt;&lt;closecurly&gt;.NumberOfLanesType.direction.xlink_href  NO_OP numberOfLanes&lt;opencurly&gt;&lt;closecurly&gt;.NumberOfLanesType.minMaxNumberOfLanes numberOfLanes&lt;opencurly&gt;&lt;closecurly&gt;.NumberOfLanesType.minMaxNumberOfLanes  NO_OP numberOfLanes&lt;opencurly&gt;&lt;closecurly&gt;.NumberOfLanesType.numberOfLanes numberOfLanes&lt;opencurly&gt;&lt;closecurly&gt;.NumberOfLanesType.numberOfLanes  NO_OP operationalState operationalState  NO_OP operationalState.codeSpace operationalState.codeSpace  NO_OP primaryRoute primaryRoute  NO_OP provenance provenance  NO_OP provenance.codeSpace provenance.codeSpace  NO_OP reasonForChange reasonForChange  NO_OP reasonForChange.codeSpace reasonForChange.codeSpace  NO_OP relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.owns relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.owns  NO_OP relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  NO_OP roadClassification roadClassification  NO_OP roadClassification.codeSpace roadClassification.codeSpace  NO_OP roadClassificationNumber roadClassificationNumber  NO_OP roadName&lt;opencurly&gt;&lt;closecurly&gt; roadName&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP roadWidth.RoadWidthType.averageWidth roadWidth.RoadWidthType.averageWidth  NO_OP roadWidth.RoadWidthType.averageWidth.uom roadWidth.RoadWidthType.averageWidth.uom  NO_OP roadWidth.RoadWidthType.confidenceLevel roadWidth.RoadWidthType.confidenceLevel  NO_OP roadWidth.RoadWidthType.minimumWidth roadWidth.RoadWidthType.minimumWidth  NO_OP roadWidth.RoadWidthType.minimumWidth.uom roadWidth.RoadWidthType.minimumWidth.uom  NO_OP routeHierarchy routeHierarchy  NO_OP routeHierarchy.codeSpace routeHierarchy.codeSpace  NO_OP startGradeSeparation startGradeSeparation  NO_OP startNode.owns startNode.owns  NO_OP startNode startNode  NO_OP trunkRoad trunkRoad  NO_OP validFrom validFrom  NO_OP validFrom.nilReason validFrom.nilReason  NO_OP validFrom.xsi_nil validFrom.xsi_nil  NO_OP xml_ns_uri xml_ns_uri  NO_OP roadName1 roadName1  NO_OP roadName1_Language roadName1_Language  NO_OP roadName2 roadName2  NO_OP roadName2_Language roadName2_Language  NO_OP alternativeName1 alternativeName1  NO_OP alternativeName1_Language alternativeName1_Language  NO_OP alternativeName2 alternativeName2  NO_OP alternativeName2_Language alternativeName2_Language  NO_OP operationsState_Reason operationsState_Reason  NO_OP operationalState_EndTime operationalState_EndTime  NO_OP identifierVersionId identifierVersionId  NO_OP operationalState_State operationalState_State  NO_OP operationalState_StartTime operationalState_StartTime  NO_OP  roadWidthAverage &lt;at&gt;Value&lt;openparen&gt;roadWidth.RoadWidthType.averageWidth&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;roadWidth.RoadWidthType.averageWidth.uom&lt;closeparen&gt; SET_TO  roadWidthMinimum &lt;at&gt;Value&lt;openparen&gt;roadWidth.RoadWidthType.minimumWidth&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;roadWidth.RoadWidthType.minimumWidth.uom&lt;closeparen&gt; SET_TO directinality_list&lt;opencurly&gt;&lt;closecurly&gt; directinality_list&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP directionality directionality  NO_OP  elevationGainInDirection &lt;at&gt;Value&lt;openparen&gt;elevationGain.ElevationGainType.inDirection&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;elevationGain.ElevationGainType.inDirection.uom&lt;closeparen&gt; SET_TO  elevationGainOppositeDirection &lt;at&gt;Value&lt;openparen&gt;elevationGain.ElevationGainType.inOppositeDirection&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;elevationGain.ElevationGainType.inOppositeDirection.uom&lt;closeparen&gt; SET_TO identifier identifier  NO_OP"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifier alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifier  NO_OP alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifierScheme alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifierScheme  NO_OP alternateName&lt;opencurly&gt;&lt;closecurly&gt; alternateName&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP beginLifespanVersion beginLifespanVersion  NO_OP cycleFacility cycleFacility  NO_OP cycleFacility.CycleFacilityType.cycleFacility.codeSpace cycleFacility.CycleFacilityType.cycleFacility.codeSpace  NO_OP cycleFacility.CycleFacilityType.wholeLink cycleFacility.CycleFacilityType.wholeLink  NO_OP cycleFacility.CycleFacilityType.wholeLink.nilReason cycleFacility.CycleFacilityType.wholeLink.nilReason  NO_OP cycleFacility.CycleFacilityType.wholeLink.xsi_nil cycleFacility.CycleFacilityType.wholeLink.xsi_nil  NO_OP directionality.owns directionality.owns  NO_OP directionality.xlink_href directionality.xlink_href  NO_OP elevationGain.ElevationGainType.inDirection elevationGain.ElevationGainType.inDirection  NO_OP elevationGain.ElevationGainType.inDirection.uom elevationGain.ElevationGainType.inDirection.uom  NO_OP elevationGain.ElevationGainType.inOppositeDirection elevationGain.ElevationGainType.inOppositeDirection  NO_OP elevationGain.ElevationGainType.inOppositeDirection.uom elevationGain.ElevationGainType.inOppositeDirection.uom  NO_OP endGradeSeparation endGradeSeparation  NO_OP endNode.owns endNode.owns  NO_OP endNode endNode  NO_OP fictitious fictitious  NO_OP formOfWay formOfWay  NO_OP formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.owns formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.owns  NO_OP formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  NO_OP TOID TOID  NO_OP gml_original_coordinate_system gml_original_coordinate_system  NO_OP gml_parent_id gml_parent_id  NO_OP gml_parent_property gml_parent_property  NO_OP inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.owns inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.owns  NO_OP inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  NO_OP localId localId  NO_OP identifierNamespace identifierNamespace  NO_OP length length  NO_OP length.uom length.uom  NO_OP matchStatus matchStatus  NO_OP matchStatus.codeSpace matchStatus.codeSpace  NO_OP numberOfLanes&lt;opencurly&gt;&lt;closecurly&gt;.NumberOfLanesType.direction.owns numberOfLanes&lt;opencurly&gt;&lt;closecurly&gt;.NumberOfLanesType.direction.owns  NO_OP numberOfLanes&lt;opencurly&gt;&lt;closecurly&gt;.NumberOfLanesType.direction.xlink_href numberOfLanes&lt;opencurly&gt;&lt;closecurly&gt;.NumberOfLanesType.direction.xlink_href  NO_OP numberOfLanes&lt;opencurly&gt;&lt;closecurly&gt;.NumberOfLanesType.minMaxNumberOfLanes numberOfLanes&lt;opencurly&gt;&lt;closecurly&gt;.NumberOfLanesType.minMaxNumberOfLanes  NO_OP numberOfLanes&lt;opencurly&gt;&lt;closecurly&gt;.NumberOfLanesType.numberOfLanes numberOfLanes&lt;opencurly&gt;&lt;closecurly&gt;.NumberOfLanesType.numberOfLanes  NO_OP operationalState operationalState  NO_OP operationalState.codeSpace operationalState.codeSpace  NO_OP primaryRoute primaryRoute  NO_OP provenance provenance  NO_OP provenance.codeSpace provenance.codeSpace  NO_OP reasonForChange reasonForChange  NO_OP reasonForChange.codeSpace reasonForChange.codeSpace  NO_OP relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.owns relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.owns  NO_OP relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  NO_OP roadClassification roadClassification  NO_OP roadClassification.codeSpace roadClassification.codeSpace  NO_OP roadClassificationNumber roadClassificationNumber  NO_OP roadName&lt;opencurly&gt;&lt;closecurly&gt; roadName&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP roadWidth.RoadWidthType.averageWidth roadWidth.RoadWidthType.averageWidth  NO_OP roadWidth.RoadWidthType.averageWidth.uom roadWidth.RoadWidthType.averageWidth.uom  NO_OP roadWidth.RoadWidthType.confidenceLevel roadWidth.RoadWidthType.confidenceLevel  NO_OP roadWidth.RoadWidthType.minimumWidth roadWidth.RoadWidthType.minimumWidth  NO_OP roadWidth.RoadWidthType.minimumWidth.uom roadWidth.RoadWidthType.minimumWidth.uom  NO_OP routeHierarchy routeHierarchy  NO_OP routeHierarchy.codeSpace routeHierarchy.codeSpace  NO_OP startGradeSeparation startGradeSeparation  NO_OP startNode.owns startNode.owns  NO_OP startNode startNode  NO_OP trunkRoad trunkRoad  NO_OP validFrom validFrom  NO_OP validFrom.nilReason validFrom.nilReason  NO_OP validFrom.xsi_nil validFrom.xsi_nil  NO_OP xml_ns_uri xml_ns_uri  NO_OP roadName1 roadName1  NO_OP roadName1_Language roadName1_Language  NO_OP roadName2 roadName2  NO_OP roadName2_Language roadName2_Language  NO_OP alternativeName1 alternativeName1  NO_OP alternativeName1_Language alternativeName1_Language  NO_OP alternativeName2 alternativeName2  NO_OP alternativeName2_Language alternativeName2_Language  NO_OP operationsState_Reason operationsState_Reason  NO_OP operationalState_EndTime operationalState_EndTime  NO_OP identifierVersionId identifierVersionId  NO_OP operationalState_State operationalState_State  NO_OP operationalState_StartTime operationalState_StartTime  NO_OP  roadWidthAverage &lt;at&gt;Value&lt;openparen&gt;roadWidth.RoadWidthType.averageWidth&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;roadWidth.RoadWidthType.averageWidth.uom&lt;closeparen&gt; SET_TO  roadWidthMinimum &lt;at&gt;Value&lt;openparen&gt;roadWidth.RoadWidthType.minimumWidth&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;roadWidth.RoadWidthType.minimumWidth.uom&lt;closeparen&gt; SET_TO directinality_list&lt;opencurly&gt;&lt;closecurly&gt; directinality_list&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP directionality directionality  NO_OP  elevationGainInDirection &lt;at&gt;Value&lt;openparen&gt;elevationGain.ElevationGainType.inDirection&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;elevationGain.ElevationGainType.inDirection.uom&lt;closeparen&gt; SET_TO  elevationGainOppositeDirection &lt;at&gt;Value&lt;openparen&gt;elevationGain.ElevationGainType.inOppositeDirection&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;elevationGain.ElevationGainType.inOppositeDirection.uom&lt;closeparen&gt; SET_TO identifier identifier  NO_OP"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="109"
@@ -4298,10 +4358,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4341,6 +4397,11 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4350,12 +4411,12 @@
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_StartTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="directinality_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="directionality" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_4_OUTPUT"/>
@@ -4395,10 +4456,6 @@
 #!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4438,6 +4495,11 @@
 #!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_original_coordinate_system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gml_parent_property" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="roadName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4447,12 +4509,12 @@
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_StartTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="directinality_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="directionality" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_2"/>
@@ -4556,6 +4618,7 @@
 #!     <XFORM_ATTR ATTR_NAME="elevationGainInDirection" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevationGainOppositeDirection" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
@@ -4645,16 +4708,17 @@
 #!     <XFORM_ATTR ATTR_NAME="elevationGainInDirection" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="elevationGainOppositeDirection" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INCOMING_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Incoming List"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListExploder_4"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="numberOfLanes{}"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Incoming List"/>
+#!     <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Incoming List"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="138"
@@ -4674,16 +4738,17 @@
 #!     <XFORM_ATTR ATTR_NAME="minMaxNumberOfLanes" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="numberOfLanes" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifier alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifier  REMOVE alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifierScheme alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifierScheme  REMOVE alternateName&lt;opencurly&gt;&lt;closecurly&gt; alternateName&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE beginLifespanVersion beginLifespanVersion  REMOVE cycleFacility cycleFacility  REMOVE cycleFacility.CycleFacilityType.cycleFacility.codeSpace cycleFacility.CycleFacilityType.cycleFacility.codeSpace  REMOVE cycleFacility.CycleFacilityType.wholeLink cycleFacility.CycleFacilityType.wholeLink  REMOVE cycleFacility.CycleFacilityType.wholeLink.nilReason cycleFacility.CycleFacilityType.wholeLink.nilReason  REMOVE cycleFacility.CycleFacilityType.wholeLink.xsi_nil cycleFacility.CycleFacilityType.wholeLink.xsi_nil  REMOVE directionality.owns directionality.owns  REMOVE directionality.xlink_href directionality.xlink_href  REMOVE elevationGain.ElevationGainType.inDirection elevationGain.ElevationGainType.inDirection  REMOVE elevationGain.ElevationGainType.inDirection.uom elevationGain.ElevationGainType.inDirection.uom  REMOVE elevationGain.ElevationGainType.inOppositeDirection elevationGain.ElevationGainType.inOppositeDirection  REMOVE elevationGain.ElevationGainType.inOppositeDirection.uom elevationGain.ElevationGainType.inOppositeDirection.uom  REMOVE endGradeSeparation endGradeSeparation  REMOVE endNode.owns endNode.owns  REMOVE endNode endNode  REMOVE fictitious fictitious  REMOVE formOfWay formOfWay  REMOVE formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.owns formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.owns  REMOVE formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  REMOVE TOID TOID  NO_OP gml_original_coordinate_system gml_original_coordinate_system  REMOVE gml_parent_id gml_parent_id  REMOVE gml_parent_property gml_parent_property  REMOVE inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.owns inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.owns  REMOVE inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  REMOVE localId localId  REMOVE identifierNamespace identifierNamespace  REMOVE length length  REMOVE length.uom length.uom  REMOVE matchStatus matchStatus  REMOVE matchStatus.codeSpace matchStatus.codeSpace  REMOVE NumberOfLanesType.direction.owns NumberOfLanesType.direction.owns  REMOVE NumberOfLanesType.direction.xlink_href direction  RENAME_SET_VALUE NumberOfLanesType.minMaxNumberOfLanes minMaxNumberOfLanes  RENAME_SET_VALUE NumberOfLanesType.numberOfLanes numberOfLanes  RENAME_SET_VALUE operationalState operationalState  REMOVE operationalState.codeSpace operationalState.codeSpace  REMOVE primaryRoute primaryRoute  REMOVE provenance provenance  REMOVE provenance.codeSpace provenance.codeSpace  REMOVE reasonForChange reasonForChange  REMOVE reasonForChange.codeSpace reasonForChange.codeSpace  REMOVE relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.owns relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.owns  REMOVE relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  REMOVE roadClassification roadClassification  REMOVE roadClassification.codeSpace roadClassification.codeSpace  REMOVE roadClassificationNumber roadClassificationNumber  REMOVE roadName&lt;opencurly&gt;&lt;closecurly&gt; roadName&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE roadWidth.RoadWidthType.averageWidth roadWidth.RoadWidthType.averageWidth  REMOVE roadWidth.RoadWidthType.averageWidth.uom roadWidth.RoadWidthType.averageWidth.uom  REMOVE roadWidth.RoadWidthType.confidenceLevel roadWidth.RoadWidthType.confidenceLevel  REMOVE roadWidth.RoadWidthType.minimumWidth roadWidth.RoadWidthType.minimumWidth  REMOVE roadWidth.RoadWidthType.minimumWidth.uom roadWidth.RoadWidthType.minimumWidth.uom  REMOVE routeHierarchy routeHierarchy  REMOVE routeHierarchy.codeSpace routeHierarchy.codeSpace  REMOVE startGradeSeparation startGradeSeparation  REMOVE startNode.owns startNode.owns  REMOVE startNode startNode  REMOVE trunkRoad trunkRoad  REMOVE validFrom validFrom  REMOVE validFrom.nilReason validFrom.nilReason  REMOVE validFrom.xsi_nil validFrom.xsi_nil  REMOVE xml_ns_uri xml_ns_uri  REMOVE roadName1 roadName1  REMOVE roadName1_Language roadName1_Language  REMOVE roadName2 roadName2  REMOVE roadName2_Language roadName2_Language  REMOVE alternativeName1 alternativeName1  REMOVE alternativeName1_Language alternativeName1_Language  REMOVE alternativeName2 alternativeName2  REMOVE alternativeName2_Language alternativeName2_Language  REMOVE operationsState_Reason operationsState_Reason  REMOVE operationalState_EndTime operationalState_EndTime  REMOVE identifierVersionId identifierVersionId  REMOVE operationalState_State operationalState_State  REMOVE operationalState_StartTime operationalState_StartTime  REMOVE roadWidthAverage roadWidthAverage  REMOVE roadWidthMinimum roadWidthMinimum  REMOVE directinality_list&lt;opencurly&gt;&lt;closecurly&gt; directinality_list&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE directionality directionality  REMOVE elevationGainInDirection elevationGainInDirection  REMOVE elevationGainOppositeDirection elevationGainOppositeDirection  REMOVE _element_index _element_index  REMOVE identifier identifier  NO_OP"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_3"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifier alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifier  REMOVE alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifierScheme alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifierScheme  REMOVE alternateName&lt;opencurly&gt;&lt;closecurly&gt; alternateName&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE beginLifespanVersion beginLifespanVersion  REMOVE cycleFacility cycleFacility  REMOVE cycleFacility.CycleFacilityType.cycleFacility.codeSpace cycleFacility.CycleFacilityType.cycleFacility.codeSpace  REMOVE cycleFacility.CycleFacilityType.wholeLink cycleFacility.CycleFacilityType.wholeLink  REMOVE cycleFacility.CycleFacilityType.wholeLink.nilReason cycleFacility.CycleFacilityType.wholeLink.nilReason  REMOVE cycleFacility.CycleFacilityType.wholeLink.xsi_nil cycleFacility.CycleFacilityType.wholeLink.xsi_nil  REMOVE directionality.owns directionality.owns  REMOVE directionality.xlink_href directionality.xlink_href  REMOVE elevationGain.ElevationGainType.inDirection elevationGain.ElevationGainType.inDirection  REMOVE elevationGain.ElevationGainType.inDirection.uom elevationGain.ElevationGainType.inDirection.uom  REMOVE elevationGain.ElevationGainType.inOppositeDirection elevationGain.ElevationGainType.inOppositeDirection  REMOVE elevationGain.ElevationGainType.inOppositeDirection.uom elevationGain.ElevationGainType.inOppositeDirection.uom  REMOVE endGradeSeparation endGradeSeparation  REMOVE endNode.owns endNode.owns  REMOVE endNode endNode  REMOVE fictitious fictitious  REMOVE formOfWay formOfWay  REMOVE formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.owns formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.owns  REMOVE formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  REMOVE TOID TOID  NO_OP gml_original_coordinate_system gml_original_coordinate_system  REMOVE gml_parent_id gml_parent_id  REMOVE gml_parent_property gml_parent_property  REMOVE inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.owns inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.owns  REMOVE inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  REMOVE localId localId  REMOVE identifierNamespace identifierNamespace  REMOVE length length  REMOVE length.uom length.uom  REMOVE matchStatus matchStatus  REMOVE matchStatus.codeSpace matchStatus.codeSpace  REMOVE NumberOfLanesType.direction.owns NumberOfLanesType.direction.owns  REMOVE NumberOfLanesType.direction.xlink_href direction  RENAME_SET_VALUE NumberOfLanesType.minMaxNumberOfLanes minMaxNumberOfLanes  RENAME_SET_VALUE NumberOfLanesType.numberOfLanes numberOfLanes  RENAME_SET_VALUE operationalState operationalState  REMOVE operationalState.codeSpace operationalState.codeSpace  REMOVE primaryRoute primaryRoute  REMOVE provenance provenance  REMOVE provenance.codeSpace provenance.codeSpace  REMOVE reasonForChange reasonForChange  REMOVE reasonForChange.codeSpace reasonForChange.codeSpace  REMOVE relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.owns relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.owns  REMOVE relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  REMOVE roadClassification roadClassification  REMOVE roadClassification.codeSpace roadClassification.codeSpace  REMOVE roadClassificationNumber roadClassificationNumber  REMOVE roadName&lt;opencurly&gt;&lt;closecurly&gt; roadName&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE roadWidth.RoadWidthType.averageWidth roadWidth.RoadWidthType.averageWidth  REMOVE roadWidth.RoadWidthType.averageWidth.uom roadWidth.RoadWidthType.averageWidth.uom  REMOVE roadWidth.RoadWidthType.confidenceLevel roadWidth.RoadWidthType.confidenceLevel  REMOVE roadWidth.RoadWidthType.minimumWidth roadWidth.RoadWidthType.minimumWidth  REMOVE roadWidth.RoadWidthType.minimumWidth.uom roadWidth.RoadWidthType.minimumWidth.uom  REMOVE routeHierarchy routeHierarchy  REMOVE routeHierarchy.codeSpace routeHierarchy.codeSpace  REMOVE startGradeSeparation startGradeSeparation  REMOVE startNode.owns startNode.owns  REMOVE startNode startNode  REMOVE trunkRoad trunkRoad  REMOVE validFrom validFrom  REMOVE validFrom.nilReason validFrom.nilReason  REMOVE validFrom.xsi_nil validFrom.xsi_nil  REMOVE xml_ns_uri xml_ns_uri  REMOVE roadName1 roadName1  REMOVE roadName1_Language roadName1_Language  REMOVE roadName2 roadName2  REMOVE roadName2_Language roadName2_Language  REMOVE alternativeName1 alternativeName1  REMOVE alternativeName1_Language alternativeName1_Language  REMOVE alternativeName2 alternativeName2  REMOVE alternativeName2_Language alternativeName2_Language  REMOVE operationsState_Reason operationsState_Reason  REMOVE operationalState_EndTime operationalState_EndTime  REMOVE identifierVersionId identifierVersionId  REMOVE operationalState_State operationalState_State  REMOVE operationalState_StartTime operationalState_StartTime  REMOVE roadWidthAverage roadWidthAverage  REMOVE roadWidthMinimum roadWidthMinimum  REMOVE directinality_list&lt;opencurly&gt;&lt;closecurly&gt; directinality_list&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE directionality directionality  REMOVE elevationGainInDirection elevationGainInDirection  REMOVE elevationGainOppositeDirection elevationGainOppositeDirection  REMOVE _element_index _element_index  REMOVE identifier identifier  NO_OP"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="147"
@@ -4703,16 +4768,17 @@
 #!     <XFORM_ATTR ATTR_NAME="minMaxNumberOfLanes" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="numberOfLanes" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="direction"/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="http:&lt;solidus&gt;&lt;solidus&gt;inspire.ec.europa.eu&lt;solidus&gt;codelist&lt;solidus&gt;LinkDirectionValue&lt;solidus&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_4"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="http:&lt;solidus&gt;&lt;solidus&gt;inspire.ec.europa.eu&lt;solidus&gt;codelist&lt;solidus&gt;LinkDirectionValue&lt;solidus&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="direction"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="137"
@@ -4813,6 +4879,7 @@
 #!     <XFORM_ATTR ATTR_NAME="elevationGainInDirection" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevationGainOppositeDirection" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_OUTPUT"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -4914,6 +4981,7 @@
 #!     <XFORM_ATTR ATTR_NAME="elevationGainInDirection" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevationGainOppositeDirection" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListExploder_5"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -5020,10 +5088,11 @@
 #!     <XFORM_ATTR ATTR_NAME="elevationGainInDirection" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevationGainOppositeDirection" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="alternateIdentifier&lt;opencurly&gt;0&lt;closecurly&gt;.ThematicIdentifier.identifier alternateIdentifier1 RENAME_SET_DEFAULT  alternateIdentifier&lt;opencurly&gt;1&lt;closecurly&gt;.ThematicIdentifier.identifier alternateIdentifier2 RENAME_SET_DEFAULT  alternateIdentifier&lt;opencurly&gt;2&lt;closecurly&gt;.ThematicIdentifier.identifier alternateIdentifier3 RENAME_SET_DEFAULT  alternateIdentifier&lt;opencurly&gt;3&lt;closecurly&gt;.ThematicIdentifier.identifier alternateIdentifier4 RENAME_SET_DEFAULT  alternateIdentifier&lt;opencurly&gt;4&lt;closecurly&gt;.ThematicIdentifier.identifier alternateIdentifier5 RENAME_SET_DEFAULT "/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_11"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="alternateIdentifier&lt;opencurly&gt;0&lt;closecurly&gt;.ThematicIdentifier.identifier alternateIdentifier1 RENAME_SET_DEFAULT  alternateIdentifier&lt;opencurly&gt;1&lt;closecurly&gt;.ThematicIdentifier.identifier alternateIdentifier2 RENAME_SET_DEFAULT  alternateIdentifier&lt;opencurly&gt;2&lt;closecurly&gt;.ThematicIdentifier.identifier alternateIdentifier3 RENAME_SET_DEFAULT  alternateIdentifier&lt;opencurly&gt;3&lt;closecurly&gt;.ThematicIdentifier.identifier alternateIdentifier4 RENAME_SET_DEFAULT  alternateIdentifier&lt;opencurly&gt;4&lt;closecurly&gt;.ThematicIdentifier.identifier alternateIdentifier5 RENAME_SET_DEFAULT "/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -5497,15 +5566,15 @@
 #!   IDENTIFIER="131202"
 #!   SOURCE_NODE="143"
 #!   TARGET_NODE="124"
-#!   SOURCE_PORT_DESC="ao 0 73 OUTPUT"
-#!   TARGET_PORT_DESC="14"
+#!   SOURCE_PORT_DESC="ao 0 71 OUTPUT"
+#!   TARGET_PORT_DESC="13"
 #! />
 #! <ATTR_LINK
 #!   IDENTIFIER="65666"
 #!   SOURCE_NODE="143"
 #!   TARGET_NODE="124"
-#!   SOURCE_PORT_DESC="ao 0 71 OUTPUT"
-#!   TARGET_PORT_DESC="13"
+#!   SOURCE_PORT_DESC="ao 0 73 OUTPUT"
+#!   TARGET_PORT_DESC="14"
 #! />
 #! </ATTR_LINKS>
 #! <SUBDOCUMENTS>
@@ -5517,9 +5586,9 @@ FME_PYTHON_VERSION 27
 GUI IGNORE SourceDataset_GML_1,GML_IN_IGNORE_APPLICATON_SCHEMA_GML_1,GML_IN_XSD_DOC_GML_1,GML_IN_VALIDATE_DATASET_GML_1,GML_IN_SKIP_SCHEMA_LOCATION_IN_DATASET_GML_1,GML_IN_MAP_FEATURE_COLLECTION_GML_1,GML_IN_GML_FEATURE_ELEMENTS_GML_1,GML_IN_SRS_GEOMETRY_PARAMETERS_GML_1,GML_IN_SRS_AXIS_ORDER_GML_1,GML_IN_SRS_ANGLE_DIRECTION_GML_1,GML_IN_ENFORCE_PATH_CONTINUITY_BY_GML_1,GML_IN_FEATURE_PROPERTIES_READER_GML_1,GML_IN_MAP_EMBEDDED_OBJECTS_AS_GML_1,GML_IN_MAP_PREDEFINED_GML_PROPERTIES_GML_1,GML_IN_MAP_GEOMETRY_COLUMNS_GML_1,GML_IN_MAP_ALL_SUBSTITUTABLE_PROPERTIES_GML_1,GML_IN_ADD_NAMESPACE_PREFIX_TO_NAMES_GML_1,GML_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_GML_1,GML_IN_ATTRIBUTE_HANDLING_GML_1,GML_IN_MAP_COMPLEX_PROPERTIES_AS_GML_1,GML_IN_MAX_MULTI_LIST_LEVEL_GML_1,GML_IN_ADD_GEOMETRIES_AS_XML_FRAGMENTS_GML_1,GML_IN_XML_FRAGMENTS_AS_DOCUMENTS_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_GML_1,GML_IN_GML_READER_GROUP_GML_1,GML_IN_USE_OLD_READER_GML_1,GML_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_GML_1,GML_IN_DISABLE_XML_NAMESPACE_PROCESSING_GML_1,GML_IN_EXPOSE_ATTRS_GROUP_GML_1,GML_IN_SEARCH_ENVELOPE_MINX_GML_1,GML_IN_SEARCH_ENVELOPE_MINY_GML_1,GML_IN_SEARCH_ENVELOPE_MAXX_GML_1,GML_IN_SEARCH_ENVELOPE_MAXY_GML_1,GML_IN_CLIP_TO_ENVELOPE_GML_1,GML_IN_GML_RDR_ADV_GML_1,GML_IN_CONTINUE_ON_GEOM_ERROR_GML_1,GML_IN_SYSTEM_ENCODING_GML_1,GML_IN_CACHE_XSD_GML_1,GML_IN_CACHE_XSD_EXPIRY_TIME_GML_1,GML_IN_MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV_GML_1,GML_IN_NETWORK_AUTHENTICATION_GML_1,SEARCH_ENVELOPE_COORDINATE_SYSTEM_GML_1,DestDataset_GEOPACKAGE_1,GEOPACKAGE_OUT_OVERWRITE_DATASET_GEOPACKAGE_1,GEOPACKAGE_OUT_DATASET_TEMPLATE_GEOPACKAGE_1,GEOPACKAGE_OUT_GEOPACKAGE_WRT_ADV_PARM_GEOPACKAGE_1,GEOPACKAGE_OUT_TRANSACTION_SIZE_GEOPACKAGE_1
 DEFAULT_MACRO Enter_ContractID SJ
 GUI OPTIONAL TEXT Enter_ContractID Enter_ContractID:
-DEFAULT_MACRO SourceDataset_GML C:\Temp\Highways_Data\Highways_RoadsAndRAM_RoadLink_001.gml.gz
+DEFAULT_MACRO SourceDataset_GML C:\Data\OSMasterMap\Highways\Data\SampleData\Highways_Rrami_RoadLink_FULL_001.gml
 GUI MULTIFILE SourceDataset_GML GML_Files(*.gml;*.gz;*.xml)|*.gml;*gz;*.xml|GML_Files(*.gml)|*.gml|Compressed_GML_Files(*.gz)|*.gz|GML_Files(*.xml)|*.xml|All_Files|* Source Geography Markup Language (GML) File(s):
-DEFAULT_MACRO DestDataset_GEOPACKAGE 
+DEFAULT_MACRO DestDataset_GEOPACKAGE C:\Data\OSMasterMap\Highways\Data\SampleData\exeter.gpkg
 GUI FILENAME DestDataset_GEOPACKAGE GeoPackage_Files(*.gpkg)|*.gpkg|All_files(*)|* Destination GeoPackage File:
 DEFAULT_MACRO featureCount 0
 GUI IGNORE OPTIONAL INTEGER featureCount featureCount:
@@ -5796,7 +5865,7 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 MACRO WORKSPACE_NAME RoadLink
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
-GML_1_DEF RoadLink   alternateIdentifier{}.ThematicIdentifier.identifier xml_char(20)   alternateIdentifier{}.ThematicIdentifier.identifierScheme xml_char(39)   alternateName{}              xml_char(24)   beginLifespanVersion         xml_char(24)   cycleFacility.CycleFacilityType.cycleFacility xml_char(39)   cycleFacility.CycleFacilityType.cycleFacility.codeSpace xml_char(62)   cycleFacility.CycleFacilityType.wholeLink xml_char(1)   cycleFacility.CycleFacilityType.wholeLink.nilReason xml_char(8)   cycleFacility.CycleFacilityType.wholeLink.xsi_nil xml_char(5)   directionality.owns          xml_char(6)   directionality.xlink_href    xml_char(76)   elevationGain.ElevationGainType.inDirection xml_decimal(4,0)   elevationGain.ElevationGainType.inDirection.uom xml_char(2)   elevationGain.ElevationGainType.inOppositeDirection xml_decimal(4,0)   elevationGain.ElevationGainType.inOppositeDirection.uom xml_char(2)   endGradeSeparation           xml_decimal(2,0)   endNode.owns                 xml_char(6)   endNode.xlink_href           xml_char(22)   fictitious                   xml_char(6)   formOfWay                    xml_char(32)   formsPartOf{}.owns           xml_char(6)   formsPartOf{}.xlink_href     xml_char(22)   inNetwork{}.owns             xml_char(6)   inNetwork{}.xlink_href       xml_char(18)   inspireId.Identifier.localId xml_decimal(17,0)   inspireId.Identifier.namespace xml_char(19)   length                       xml_decimal(7,2)   length.uom                   xml_char(2)   matchStatus                  xml_char(26)   matchStatus.codeSpace        xml_char(61)   numberOfLanes{}.NumberOfLanesType.direction.owns xml_char(6)   numberOfLanes{}.NumberOfLanesType.direction.xlink_href xml_char(76)   numberOfLanes{}.NumberOfLanesType.minMaxNumberOfLanes xml_char(8)   numberOfLanes{}.NumberOfLanesType.numberOfLanes xml_decimal(2,0)   operationalState             xml_char(5)   operationalState.codeSpace   xml_char(66)   primaryRoute                 xml_char(6)   provenance                   xml_char(16)   provenance.codeSpace         xml_char(66)   reasonForChange              xml_char(4)   reasonForChange.codeSpace    xml_char(47)   relatedRoadArea{}.owns       xml_char(6)   relatedRoadArea{}.xlink_href xml_char(22)   roadClassification           xml_char(22)   roadClassification.codeSpace xml_char(59)   roadClassificationNumber     xml_char(6)   roadName{}                   xml_char(37)   roadWidth.RoadWidthType.averageWidth xml_decimal(3,0)   roadWidth.RoadWidthType.averageWidth.uom xml_char(2)   roadWidth.RoadWidthType.confidenceLevel xml_decimal(2,0)   roadWidth.RoadWidthType.minimumWidth xml_decimal(3,0)   roadWidth.RoadWidthType.minimumWidth.uom xml_char(2)   routeHierarchy               xml_char(33)   routeHierarchy.codeSpace     xml_char(53)   startGradeSeparation         xml_decimal(2,0)   startNode.owns               xml_char(6)   startNode.xlink_href         xml_char(22)   trunkRoad                    xml_char(6)   validFrom                    xml_char(1)   validFrom.nilReason          xml_char(8)   validFrom.xsi_nil            xml_char(5)
+GML_1_DEF RoadLink   alternateIdentifier{}.ThematicIdentifier.identifier xml_char(20)   alternateIdentifier{}.ThematicIdentifier.identifierScheme xml_char(39)   alternateName{}              xml_char(24)   beginLifespanVersion         xml_char(24)   cycleFacility.CycleFacilityType.cycleFacility xml_char(39)   cycleFacility.CycleFacilityType.cycleFacility.codeSpace xml_char(62)   cycleFacility.CycleFacilityType.wholeLink xml_char(1)   cycleFacility.CycleFacilityType.wholeLink.nilReason xml_char(8)   cycleFacility.CycleFacilityType.wholeLink.xsi_nil xml_char(5)   directionality.owns          xml_char(6)   directionality.xlink_href    xml_char(76)   elevationGain.ElevationGainType.inDirection xml_decimal(4,0)   elevationGain.ElevationGainType.inDirection.uom xml_char(2)   elevationGain.ElevationGainType.inOppositeDirection xml_decimal(4,0)   elevationGain.ElevationGainType.inOppositeDirection.uom xml_char(2)   endGradeSeparation           xml_decimal(2,0)   endNode.owns                 xml_char(6)   endNode.xlink_href           xml_char(22)   fictitious                   xml_char(6)   formOfWay                    xml_char(32)   formsPartOf{}.owns           xml_char(6)   formsPartOf{}.xlink_href     xml_char(22)   inNetwork{}.owns             xml_char(6)   inNetwork{}.xlink_href       xml_char(18)   inspireId.Identifier.localId xml_decimal(17,0)   inspireId.Identifier.namespace xml_char(19)   length                       xml_decimal(7,2)   length.uom                   xml_char(2)   matchStatus                  xml_char(26)   matchStatus.codeSpace        xml_char(61)   numberOfLanes{}.NumberOfLanesType.direction.owns xml_char(6)   numberOfLanes{}.NumberOfLanesType.direction.xlink_href xml_char(76)   numberOfLanes{}.NumberOfLanesType.minMaxNumberOfLanes xml_char(8)   numberOfLanes{}.NumberOfLanesType.numberOfLanes xml_decimal(2,0)   operationalState             xml_char(5)   operationalState.codeSpace   xml_char(66)   primaryRoute                 xml_char(6)   provenance                   xml_char(16)   provenance.codeSpace         xml_char(66)   reasonForChange              xml_char(4)   reasonForChange.codeSpace    xml_char(47)   relatedRoadArea{}.owns       xml_char(6)   relatedRoadArea{}.xlink_href xml_char(22)   roadClassification           xml_char(22)   roadClassification.codeSpace xml_char(59)   roadClassificationNumber     xml_char(6)   roadName{}                   xml_char(37)   roadWidth.RoadWidthType.averageWidth xml_decimal(3,0)   roadWidth.RoadWidthType.averageWidth.uom xml_char(2)   roadWidth.RoadWidthType.confidenceLevel xml_decimal(2,0)   roadWidth.RoadWidthType.minimumWidth xml_decimal(3,0)   roadWidth.RoadWidthType.minimumWidth.uom xml_char(2)   routeHierarchy               xml_char(33)   routeHierarchy.codeSpace     xml_char(53)   startGradeSeparation         xml_decimal(2,0)   startNode.owns               xml_char(6)   startNode.xlink_href         xml_char(22)   trunkRoad                    xml_char(6)   validFrom                    xml_char(1)   validFrom.nilReason          xml_char(8)   validFrom.xsi_nil            xml_char(5)   roadStructure                xml_char(15)
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD GML_1   INPUT FEATURE_TYPE *    ROUTE GML GML_1::RoadLink TO FME_GENERIC ::RoadLink ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
@@ -5808,7 +5877,7 @@ DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
 Tcl2 proc DateFormatter_formatter {invalidValue} {       set dateFormat {FME Date (%Y%m%d)};       if { [string compare $dateFormat {FME Date/Time (%Y%m%d%H%M%S)}] == 0 } {          set dateFormat {%Y%m%d%H%M%S};       } elseif { [string compare $dateFormat {FME Date (%Y%m%d)}] == 0} {          set dateFormat {%Y%m%d};       } elseif { [string compare $dateFormat {FME Time (%H%M%S)}] == 0} {          set dateFormat {%H%M%S};       } elseif { [string compare $dateFormat {ISO Date (%Y-%m-%d)}] == 0} {          set dateFormat {%Y-%m-%d};       } elseif { [string compare $dateFormat {ISO DateTime (%Y-%m-%dT%H:%M:%S)}] == 0} {          set dateFormat {%Y-%m-%dT%H:%M:%S};       } elseif { [string compare $dateFormat {ISO Time (%H:%M:%S)}] == 0} {          set dateFormat {%H:%M:%S};       } elseif { [string compare $dateFormat {Locale Date (%c)}] == 0} {          set dateFormat {%c};       };     set attrs [split {beginLifespanVersion,validFrom} {,}];     foreach attr $attrs {        set date [string trim [FME_GetAttribute $attr]];        set srcfmt {};        if {{FME_AUTOMATIC} != {FME_AUTOMATIC}} {            set srcfmt {FME_AUTOMATIC};        } else {          set comment { In Automatic mode we ignore the millisecond part };          regexp {^[^.]*} $date date;        };        set dateLen [string length $date];        if {$dateLen > 0} {           if {[string length $srcfmt] == 0} {              set attrFull $attr;              append attrFull .full;              set fullDate [FME_GetAttribute $attrFull];              if { [string compare -length $dateLen $date $fullDate] == 0 } {                 set extra [string range $fullDate $dateLen end]000000;                 set date [string range \"$date$extra\" 0 13];                 set dateLen 14              };              if {($dateLen == 14) && [regexp {^[0-9]*$} $date]} {                 set srcfmt %Y%m%d%H%M%S;              };           };        };        set sourceFormatOpt {};        if {[string length $srcfmt] > 0} {           set sourceFormatOpt \"-format {$srcfmt}\";        };        set comment { Compute the output value and catch any errors };        set error [catch { set seconds [eval clock scan "{$date}" $sourceFormatOpt];                           set output [clock format $seconds -format $dateFormat];        }];        set comment { If there was error then we try again by removing digits after last decimal };        if { $error != 0 } {           set index [string last "." $date];           if { $index > 0 } {              set date [eval string range $date 0 [expr $index-1]];              set dateLen [string length $date];              set error [catch { set seconds [eval clock scan "{$date}" $sourceFormatOpt]; set output [clock format $seconds -format $dateFormat]; }];           };        };        if { $error == 0 } {           FME_SetAttribute $attr $output;        };        if { (0 == $dateLen) || ($error != 0) } {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };        };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME DateFormatter    INPUT  FEATURE_TYPE RoadLink_GML_1    OUTPUT FEATURE_TYPE DateFormatter_OUTPUT         @Tcl2("DateFormatter_formatter {_FME_NO_OP_}")
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateFormatter    INPUT  FEATURE_TYPE RoadLink_GML_1    OUTPUT FEATURE_TYPE DateFormatter_OUTPUT         @Tcl2("DateFormatter_formatter {FME_NULL_VALUE}")
 
 # -------------------------------------------------------------------------
 
@@ -5861,12 +5930,12 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_fc18dafa_b5f6_43ce_84e6_dee333476ce32_replacer { findText replaceText invalidValue} {     set attrs [split \"endNode,startNode\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_fc18dafa_b5f6_43ce_84e6_dee333476ce32_replacer {#} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_15e754b1_c1b4_4355_99de_97b4b2353ce10_replacer { findText replaceText invalidValue} {     set attrs [split \"endNode,startNode\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_15e754b1_c1b4_4355_99de_97b4b2353ce10_replacer {#} {} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 
-Tcl2 set AttributeSplitter_0c94c21c_3b09_4beb_b888_2a6149e7634b2_splitDelim [FME_DecodeText {<solidus>}];      if { [regexp {^([1-9][0-9]*s)+$} [set AttributeSplitter_0c94c21c_3b09_4beb_b888_2a6149e7634b2_splitDelim]] }      {         set AttributeSplitter_0c94c21c_3b09_4beb_b888_2a6149e7634b2_splitWidths [split [regsub -all {s$} {<solidus>} {}] s];         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_0c94c21c_3b09_4beb_b888_2a6149e7634b2_splitWidths;            set source [FME_GetAttribute [FME_DecodeText {directionality.xlink_href}]];            set attrNum 0;            set listName [FME_DecodeText {directinality_list}];            set attrPos 0;            set keepEmptyParts [string equal {No} {No}];            foreach width [set AttributeSplitter_0c94c21c_3b09_4beb_b888_2a6149e7634b2_splitWidths]            {               set endPos [expr $attrPos + $width - 1];               set bit [string range $source $attrPos $endPos];               set part [string trim $bit];               if { $keepEmptyParts || $part != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $part;                  incr attrNum;               };               incr attrPos $width;            };         };      }      else      {         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_0c94c21c_3b09_4beb_b888_2a6149e7634b2_splitDelim;            set delim [set AttributeSplitter_0c94c21c_3b09_4beb_b888_2a6149e7634b2_splitDelim];            set delimLength [string length $delim];            set source [FME_GetAttribute [FME_DecodeText {directionality.xlink_href}]];            set keepEmptyParts [string equal {No} {No}];            set bits {};            set startIndex 0;            set nextIndex [string first $delim $source $startIndex];            while {$nextIndex >= 0} {              lappend bits [string range $source $startIndex [expr $nextIndex-1]];              set startIndex [expr $nextIndex + $delimLength];              set nextIndex [string first $delim $source $startIndex];            };            lappend bits [string range $source $startIndex end];            set listName [FME_DecodeText {directinality_list}];            set attrNum 0;            foreach bit $bits            {               set trimmedPart [string trim $bit];               if { $keepEmptyParts || $trimmedPart != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $trimmedPart;                  incr attrNum;               };            }          }       }
+Tcl2 set AttributeSplitter_2ccf1a33_24ff_4667_9e80_54abb97379360_splitDelim [FME_DecodeText {<solidus>}];      if { [regexp {^([1-9][0-9]*s)+$} [set AttributeSplitter_2ccf1a33_24ff_4667_9e80_54abb97379360_splitDelim]] }      {         set AttributeSplitter_2ccf1a33_24ff_4667_9e80_54abb97379360_splitWidths [split [regsub -all {s$} {<solidus>} {}] s];         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_2ccf1a33_24ff_4667_9e80_54abb97379360_splitWidths;            set source [FME_GetAttribute [FME_DecodeText {directionality.xlink_href}]];            set attrNum 0;            set listName [FME_DecodeText {directinality_list}];            set attrPos 0;            set keepEmptyParts [string equal {No} {No}];            foreach width [set AttributeSplitter_2ccf1a33_24ff_4667_9e80_54abb97379360_splitWidths]            {               set endPos [expr $attrPos + $width - 1];               set bit [string range $source $attrPos $endPos];               set part [string trim $bit];               if { $keepEmptyParts || $part != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $part;                  incr attrNum;               };               incr attrPos $width;            };         };      }      else      {         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_2ccf1a33_24ff_4667_9e80_54abb97379360_splitDelim;            set delim [set AttributeSplitter_2ccf1a33_24ff_4667_9e80_54abb97379360_splitDelim];            set delimLength [string length $delim];            set source [FME_GetAttribute [FME_DecodeText {directionality.xlink_href}]];            set keepEmptyParts [string equal {No} {No}];            set bits {};            set startIndex 0;            set nextIndex [string first $delim $source $startIndex];            while {$nextIndex >= 0} {              lappend bits [string range $source $startIndex [expr $nextIndex-1]];              set startIndex [expr $nextIndex + $delimLength];              set nextIndex [string first $delim $source $startIndex];            };            lappend bits [string range $source $startIndex end];            set listName [FME_DecodeText {directinality_list}];            set attrNum 0;            foreach bit $bits            {               set trimmedPart [string trim $bit];               if { $keepEmptyParts || $trimmedPart != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $trimmedPart;                  incr attrNum;               };            }          }       }
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeSplitter    INPUT  FEATURE_TYPE StringReplacer_OUTPUT    OUTPUT FEATURE_TYPE AttributeSplitter_OUTPUT         @Tcl2(AttributeSplitter_doSplit)
 
 # -------------------------------------------------------------------------
@@ -5904,8 +5973,8 @@ FACTORY_DEF * AttrSetFactory    FACTORY_NAME AttributeManager_3    INPUT  FEATUR
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_4_8b4ba39d_5fa0_460c_8524_14f8c3c55e412_replacer { findText replaceText invalidValue} {     set attrs [split \"direction\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_4    INPUT  FEATURE_TYPE AttributeManager_3_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_4_OUTPUT         @Tcl2("StringReplacer_4_8b4ba39d_5fa0_460c_8524_14f8c3c55e412_replacer {http:<solidus><solidus>inspire.ec.europa.eu<solidus>codelist<solidus>LinkDirectionValue<solidus>} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_4_c2a46500_b9dd_4d6d_933a_205aef3b22650_replacer { findText replaceText invalidValue} {     set attrs [split \"direction\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_4    INPUT  FEATURE_TYPE AttributeManager_3_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_4_OUTPUT         @Tcl2("StringReplacer_4_c2a46500_b9dd_4d6d_933a_205aef3b22650_replacer {http:<solidus><solidus>inspire.ec.europa.eu<solidus>codelist<solidus>LinkDirectionValue<solidus>} {} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 
@@ -5932,16 +6001,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRenamer_9    INPUT  FEATURE_TY
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_2_875e4f8f_9921_44c4_ae3f_549c0d4cd2d52_replacer { findText replaceText invalidValue} {     set attrs [split \"formsPartOf\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_2    INPUT  FEATURE_TYPE AttributeRenamer_9_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_2_OUTPUT         @Tcl2("StringReplacer_2_875e4f8f_9921_44c4_ae3f_549c0d4cd2d52_replacer {#} {} {_FME_NO_OP_}")
-
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * ElementFactory    FACTORY_NAME ListExploder    INPUT  FEATURE_TYPE AttributeRenamer_5_OUTPUT_3_EIbDt6bJk1I=    LIST_NAME "alternateIdentifier{}"    ELEMENT_NUMBER_FIELD "_element_index"    CLONE_GEOMETRY    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "ORIGINAL_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    OUTPUT ELEMENT FEATURE_TYPE ListExploder_LIST_FOUND         @RemoveAttributes(ElementFactory.baseCloned)
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRenamer_8    INPUT  FEATURE_TYPE ListExploder_LIST_FOUND    OUTPUT FEATURE_TYPE AttributeRenamer_8_OUTPUT         @RenameAttributes(ATTR_LIST_DEF_VAL_ENCODED, ThematicIdentifier.identifier,alternateIdentifier,,ThematicIdentifier.identifierScheme,alternateIdentifierSchema,)
-
+Tcl2 proc StringReplacer_2_8f0769a7_8eb0_4df3_8703_62b0728ca7780_replacer { findText replaceText invalidValue} {     set attrs [split \"formsPartOf\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_2    INPUT  FEATURE_TYPE AttributeRenamer_9_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_2_OUTPUT         @Tcl2("StringReplacer_2_8f0769a7_8eb0_4df3_8703_62b0728ca7780_replacer {#} {} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 
@@ -5955,23 +6016,31 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRenamer_10    INPUT  FEATURE_T
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_3_82162631_056a_4499_a886_7790c55d54f52_replacer { findText replaceText invalidValue} {     set attrs [split \"RelatedRoadAreaTOID\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_3    INPUT  FEATURE_TYPE AttributeRenamer_10_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_3_OUTPUT         @Tcl2("StringReplacer_3_82162631_056a_4499_a886_7790c55d54f52_replacer {#} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_3_c68b4e1a_836d_49fb_a729_693e7cac441f0_replacer { findText replaceText invalidValue} {     set attrs [split \"RelatedRoadAreaTOID\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_3    INPUT  FEATURE_TYPE AttributeRenamer_10_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_3_OUTPUT         @Tcl2("StringReplacer_3_c68b4e1a_836d_49fb_a729_693e7cac441f0_replacer {#} {} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeRenamer_11_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>roadName1_Name<comma>roadName1<comma>roadName2_Name<comma>roadName2<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>RoadLink<closeparen> GEOMETRY    ROUTE FME_GENERIC StringReplacer_4_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>numberOfLanes<closeparen> GEOMETRY    ROUTE FME_GENERIC StringReplacer_2_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>RoadLink_FormsPartOf<closeparen> GEOMETRY    ROUTE FME_GENERIC StringReplacer_3_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>RoadLink_TopoTOIDRef<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeRenamer_8_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>RoadLink_AlternateIdentifier<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * ElementFactory    FACTORY_NAME ListExploder    INPUT  FEATURE_TYPE AttributeRenamer_5_OUTPUT_3_EIbDt6bJk1I=    LIST_NAME "alternateIdentifier{}"    ELEMENT_NUMBER_FIELD "_element_index"    CLONE_GEOMETRY    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "ORIGINAL_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    OUTPUT ELEMENT FEATURE_TYPE ListExploder_LIST_FOUND         @RemoveAttributes(ElementFactory.baseCloned)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRenamer_8    INPUT  FEATURE_TYPE ListExploder_LIST_FOUND    OUTPUT FEATURE_TYPE AttributeRenamer_8_OUTPUT         @RenameAttributes(ATTR_LIST_DEF_VAL_ENCODED, ThematicIdentifier.identifier,alternateIdentifier,,ThematicIdentifier.identifierScheme,alternateIdentifierSchema,)
+
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC StringReplacer_2_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>RoadLink_FormsPartOf<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeRenamer_8_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>RoadLink_AlternateIdentifier<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeRenamer_11_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>roadName1_Name<comma>roadName1<comma>roadName2_Name<comma>roadName2<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>RoadLink<closeparen> GEOMETRY    ROUTE FME_GENERIC StringReplacer_3_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>RoadLink_TopoTOIDRef<closeparen> GEOMETRY    ROUTE FME_GENERIC StringReplacer_4_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>numberOfLanes<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-GEOPACKAGE_1_DEF RoadLink   geopackage_type              All   fme_table_handling           CREATE_IF_MISSING   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   identifier                   text(37)   identifierVersionId          text(20)   beginLifespanVersion         datetime   fictitious                   boolean   validFrom                    datetime   reasonForChange              text(32)   roadClassification           text(21)   routeHierarchy               text(32)   formOfWay                    text(42)   trunkRoad                    boolean   primaryRoute                 boolean   roadClassificationNumber     text(10)   roadName1_Name               text(255)   roadName2_Name               text(255)   roadName1_Language           text(3)   roadName2_Language           text(3)   operationalState             text(19)   provenance                   text(23)   directionality               text(21)   length                       double   matchStatus                  text(39)   alternateIdentifier1         text(20)   alternateIdentifier2         text(20)   alternateIdentifier3         text(20)   alternateIdentifier4         text(20)   alternateIdentifier5         text(20)   startGradeSeparation         mediumint   endGradeSeparation           mediumint   roadStructure                text(14)   cycleFacility                text(120)   roadWidthMinimum             text(20)   roadWidthAverage             text(20)   elevationGainInDirection     text(20)   elevationGainOppositeDirection text(20)   startNode                    text(20)   endNode                      text(20)
-# -------------------------------------------------------------------------
-GEOPACKAGE_1_DEF numberOfLanes   geopackage_type              All   fme_table_handling           CREATE_IF_MISSING   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   direction                    text(50)   minMaxNumberOfLanes          text(20)   numberOfLanes                mediumint
-# -------------------------------------------------------------------------
 GEOPACKAGE_1_DEF RoadLink_FormsPartOf   geopackage_type              All   fme_table_handling           CREATE_IF_MISSING   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   formsPartOf                  text(20)   refType                      text(20)
+# -------------------------------------------------------------------------
+GEOPACKAGE_1_DEF RoadLink_AlternateIdentifier   geopackage_type              All   fme_table_handling           CREATE_IF_MISSING   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   alternateIdentifier          text(20)   alternateIdentifierSchema    text(50)
+# -------------------------------------------------------------------------
+GEOPACKAGE_1_DEF RoadLink   geopackage_type              All   fme_table_handling           CREATE_IF_MISSING   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   identifier                   text(37)   identifierVersionId          text(20)   beginLifespanVersion         datetime   fictitious                   boolean   validFrom                    datetime   reasonForChange              text(32)   roadClassification           text(21)   routeHierarchy               text(32)   formOfWay                    text(42)   trunkRoad                    boolean   primaryRoute                 boolean   roadClassificationNumber     text(10)   roadName1_Name               text(255)   roadName2_Name               text(255)   roadName1_Language           text(3)   roadName2_Language           text(3)   operationalState             text(19)   provenance                   text(23)   directionality               text(21)   length                       double   matchStatus                  text(39)   alternateIdentifier1         text(20)   alternateIdentifier2         text(20)   alternateIdentifier3         text(20)   alternateIdentifier4         text(20)   alternateIdentifier5         text(20)   startGradeSeparation         mediumint   endGradeSeparation           mediumint   roadStructure                text(14)   cycleFacility                text(120)   roadWidthMinimum             text(20)   roadWidthAverage             text(20)   elevationGainInDirection     text(20)   elevationGainOppositeDirection text(20)   startNode                    text(20)   endNode                      text(20)
 # -------------------------------------------------------------------------
 GEOPACKAGE_1_DEF RoadLink_TopoTOIDRef   geopackage_type              All   fme_table_handling           CREATE_IF_MISSING   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   RelatedRoadAreaTOID          text(39)
 # -------------------------------------------------------------------------
-GEOPACKAGE_1_DEF RoadLink_AlternateIdentifier   geopackage_type              All   fme_table_handling           CREATE_IF_MISSING   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   alternateIdentifier          text(20)   alternateIdentifierSchema    text(50)
+GEOPACKAGE_1_DEF numberOfLanes   geopackage_type              All   fme_table_handling           CREATE_IF_MISSING   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   direction                    text(50)   minMaxNumberOfLanes          text(20)   numberOfLanes                mediumint
