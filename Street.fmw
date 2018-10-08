@@ -5,55 +5,56 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files (x86)\FME Desktop 2016.1\fme.exe" "\\os2k05\products\Product Management\OS MasterMap Networks\Highways\FME_workbenches\v2\Geopackage\Street.fmw"
+#    "C:\Program Files\FME Desktop 2017\fme.exe" "\\os2k05\Products\Product Management\OS MasterMap Networks\Highways\FME_workbenches\v3\Geopackage\Street.fmw"
 #          --SourceDataset_GML "C:\Temp\Highways_Data\Paths\Bedford_Street.gml.gz"
 #          --DestDataset_GEOPACKAGE ""
 #    
 #    
-#!   IGNORE_READER_FAILURE="No"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   DOC_EXTENTS="6200.9 2403.02"
+#!   DOC_TOP_LEFT="-2312.86 -1251.01"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   END_PYTHON=""
+#!   HISTORY=""
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_DOCUMENT_PRIORGUID="8f355a05-317c-4ca7-805b-56d4e2ee4185,5135efcd-7109-47c4-8567-3dae240668c8,b2343c9c-7ea3-4cb2-bf60-1aad7d76f6d1,326c28d8-3f32-4c98-90e1-9a9ebec57d86,22ee8a3d-9dc4-4eed-b5de-1ce8e5bf9490,1bfec943-2d89-4f27-bc99-0c1cecd1b0f6,52f89f0b-653a-4931-9464-cf1b06eac741,2c2a0cac-d58d-491d-a8bc-5006fa1ad929,f333bc03-1788-4983-b7aa-f329d81f4fdc,ac31de6e-6177-4d8e-a4db-5475a5eb8684,bc9de0f0-c7a0-4490-ac76-ba46d97abfdc,c8639cd7-1a49-4573-b37d-9f7035d07e40,66554f5b-9acb-461c-9765-582892b5b4f2,7764d637-d34a-4896-b061-f1b2c7975006,f86fde59-c9d6-4292-8ad5-63cc78868ceb,7c331ddd-8f30-4942-bb5d-7147542b1092,429c5dff-c407-4a0e-8f3a-17451b04968d,47a4ec15-92d6-4b74-bcd8-16eb26b6f633,06035d6b-b33d-4623-a2c9-9b85c8ed4a2c,b0c083af-f7fe-4804-8ca1-0de034d8aaab,25122c4d-cf75-42e9-90ee-229a31a919d2,6de4a3a1-35ed-4d02-8f15-40ba49714531,a6da06a2-051f-47b6-92dd-b3aeec187ca1,933f4c9e-d3c1-46b1-ac43-66ac7f446ab8,2f22b119-5905-4479-9480-d5f8c8a16d58,eceb3604-891b-47eb-ae1f-ccc854144977,0e5a05a2-0ac2-4fc9-a1ba-ed9a3f7e743e,3294a877-fa43-458a-b8e2-3edfd8e1d431,2ce44767-7a9e-4863-a621-add592520710,d2ccf0e3-78f1-4337-9826-9a1934cb64d0,75a542c1-b15b-4f9c-9ed6-4a90f83e82ed,270b8b8c-cb20-4d2a-8b18-40a83a892cde,92b6f2be-3045-4f19-9515-fad4931050e9,03b30b79-9aa8-46f5-99f8-0ee97d961611,5ca93b25-9c90-4254-ada9-1a4539ae4dc3,c069e5f7-80a1-406b-9b3f-e79bd9f4b8e7,4c9e3eb1-3df7-4721-a1b3-5b8ea8914120,ee24e8a0-5de7-4665-a8f2-4a0c4408f706,71b64a43-b5ad-4bbd-9785-5d7aa94cfbde,ea24a251-5a17-480d-a58b-16622537465d"
+#!   END_TCL=""
+#!   TITLE=""
+#!   DESTINATION_ROUTING_FILE=""
+#!   FME_SERVER_SERVICES=""
+#!   REDIRECT_TERMINATORS="NONE"
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.1 (20170316 - Build 17271 - WIN64)"
+#!   BEGIN_PYTHON=""
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_BUILD_NUM="17271"
+#!   PYTHON_COMPATIBILITY="27"
 #!   USAGE=""
 #!   MAX_LOG_FEATURES="200"
-#!   FME_DOCUMENT_PRIORGUID="8f355a05-317c-4ca7-805b-56d4e2ee4185,5135efcd-7109-47c4-8567-3dae240668c8,b2343c9c-7ea3-4cb2-bf60-1aad7d76f6d1,326c28d8-3f32-4c98-90e1-9a9ebec57d86,22ee8a3d-9dc4-4eed-b5de-1ce8e5bf9490,1bfec943-2d89-4f27-bc99-0c1cecd1b0f6,52f89f0b-653a-4931-9464-cf1b06eac741,2c2a0cac-d58d-491d-a8bc-5006fa1ad929,f333bc03-1788-4983-b7aa-f329d81f4fdc,ac31de6e-6177-4d8e-a4db-5475a5eb8684,bc9de0f0-c7a0-4490-ac76-ba46d97abfdc,c8639cd7-1a49-4573-b37d-9f7035d07e40,66554f5b-9acb-461c-9765-582892b5b4f2,7764d637-d34a-4896-b061-f1b2c7975006,f86fde59-c9d6-4292-8ad5-63cc78868ceb,7c331ddd-8f30-4942-bb5d-7147542b1092,429c5dff-c407-4a0e-8f3a-17451b04968d,47a4ec15-92d6-4b74-bcd8-16eb26b6f633,06035d6b-b33d-4623-a2c9-9b85c8ed4a2c,b0c083af-f7fe-4804-8ca1-0de034d8aaab,25122c4d-cf75-42e9-90ee-229a31a919d2,6de4a3a1-35ed-4d02-8f15-40ba49714531,a6da06a2-051f-47b6-92dd-b3aeec187ca1,933f4c9e-d3c1-46b1-ac43-66ac7f446ab8,2f22b119-5905-4479-9480-d5f8c8a16d58,eceb3604-891b-47eb-ae1f-ccc854144977,0e5a05a2-0ac2-4fc9-a1ba-ed9a3f7e743e,3294a877-fa43-458a-b8e2-3edfd8e1d431,2ce44767-7a9e-4863-a621-add592520710,d2ccf0e3-78f1-4337-9826-9a1934cb64d0,75a542c1-b15b-4f9c-9ed6-4a90f83e82ed,270b8b8c-cb20-4d2a-8b18-40a83a892cde,92b6f2be-3045-4f19-9515-fad4931050e9,03b30b79-9aa8-46f5-99f8-0ee97d961611,5ca93b25-9c90-4254-ada9-1a4539ae4dc3,c069e5f7-80a1-406b-9b3f-e79bd9f4b8e7,4c9e3eb1-3df7-4721-a1b3-5b8ea8914120,ee24e8a0-5de7-4665-a8f2-4a0c4408f706"
-#!   SHOW_ANNOTATIONS="true"
-#!   LOG_FILE=""
-#!   WORKSPACE_VERSION="1"
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   SOURCE="NONE"
-#!   VIEW_POSITION="163.891 847.231"
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   SHOW_INFO_NODES="true"
-#!   DESTINATION_ROUTING_FILE=""
-#!   SOURCE_ROUTING_FILE=""
-#!   REQUIREMENTS_KEYWORD=""
-#!   PYTHON_COMPATIBILITY="27"
-#!   FME_SERVER_SERVICES=""
-#!   TITLE=""
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   PASSWORD=""
-#!   REDIRECT_TERMINATORS="NONE"
-#!   LAST_SAVE_BUILD="FME(R) 2016.1.0.0 (20160419 - Build 16492 - WIN32)"
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   DESCRIPTION=""
-#!   END_TCL=""
-#!   DOC_EXTENTS="6200.9 2403.02"
-#!   BEGIN_PYTHON=""
-#!   END_PYTHON=""
-#!   DOC_TOP_LEFT="-2312.86 -1251.01"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   DESTINATION="NONE"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   FME_BUILD_NUM="16492"
-#!   REQUIREMENTS=""
-#!   LAST_SAVE_DATE="2016-12-13T13:25:47"
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   ZOOM_SCALE="90"
-#!   LEGAL_TERMS_CONDITIONS=""
-#!   FME_DOCUMENT_GUID="71b64a43-b5ad-4bbd-9785-5d7aa94cfbde"
+#!   SHOW_ANNOTATIONS="true"
+#!   SOURCE="NONE"
 #!   CATEGORY=""
-#!   HISTORY=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   USE_MARKDOWN=""
+#!   MARKDOWN_USAGE=""
+#!   SHOW_INFO_NODES="true"
+#!   LOG_FILE=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   FME_DOCUMENT_GUID="01c4f25c-87f7-45b6-b993-51fdbf86318a"
 #!   BEGIN_TCL=""
+#!   IGNORE_READER_FAILURE="No"
+#!   MARKDOWN_DESCRIPTION=""
+#!   LAST_SAVE_DATE="2018-10-08T12:54:37"
+#!   DESTINATION="NONE"
+#!   WORKSPACE_VERSION="1"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   VIEW_POSITION="583.339 308.336"
+#!   ZOOM_SCALE="90"
+#!   TERMINATE_REJECTED="NO"
+#!   PASSWORD=""
+#!   SOURCE_ROUTING_FILE=""
+#!   DESCRIPTION=""
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -69,7 +70,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_text_size xml_real64 fme_geometry fme_char(50) gml_id xml_char(254) fme_primary_axis xml_real64 fme_feature_type xml_char(50) fme_dataset xml_char(50) fme_basename xml_char(50) fme_secondary_axis xml_real64 xml_type xml_char(50) gml_parent_id xml_char(254) multi_reader_id xml_int32 fme_start_angle xml_real64 multi_reader_full_id xml_int32 gml_parent_property xml_char(254) fme_type xml_char(50) fme_color xml_char(50) fme_text_string xml_char(50) multi_reader_keyword xml_char(50) gml_original_coordinate_system xml_char(64) fme_fill_color xml_char(50) multi_reader_type xml_char(50) fme_rotation xml_real64 fme_sweep_angle xml_real64 xml_ns_uri xml_char(254)"
+#!   EXPOSABLE_ATTRS="fme_secondary_axis xml_real64 fme_start_angle xml_real64 multi_reader_type xml_char(50) fme_rotation xml_real64 fme_text_size xml_real64 fme_type xml_char(50) fme_feature_type xml_char(50) gml_id xml_char(254) gml_parent_property xml_char(254) fme_geometry fme_char(50) multi_reader_keyword xml_char(50) fme_fill_color xml_char(50) fme_color xml_char(50) multi_reader_full_id xml_int32 gml_original_coordinate_system xml_char(64) xml_type xml_char(50) xml_ns_uri xml_char(254) fme_sweep_angle xml_real64 multi_reader_id xml_int32 fme_basename xml_char(50) fme_text_string xml_char(50) fme_dataset xml_char(50) gml_parent_id xml_char(254) fme_primary_axis xml_real64"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -80,30 +81,22 @@
 #!   GENERATE_FME_BUILD_NUM="16492"
 #!   MAX_FEATURES_PER_FEATURE_TYPE=""
 #!   MIN_FEATURES=""
-#!   START_FEATURE=""
 #!   COORDSYS=""
+#!   START_FEATURE=""
 #!   MAX_FEATURES=""
 #!   FEATURE_TYPES=""
 #! >
 #! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a name for the GML file"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="MIME_TYPE"
-#!   VALUE="application/xml"
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
 #!   VALUE="gml file"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="GML_IN_SEARCH_ENVELOPE_MINX GML_IN_SEARCH_ENVELOPE_MINY GML_IN_SEARCH_ENVELOPE_MAXX GML_IN_SEARCH_ENVELOPE_MAXY GML_IN_CLIP_TO_ENVELOPE SEARCH_ENVELOPE_COORDINATE_SYSTEM"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="NETWORK_PROXY"
-#!   VALUE="NO"
+#!   NAME="MIME_TYPE"
+#!   VALUE="application/xml"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_AUTHENTICATION"
@@ -112,6 +105,14 @@
 #! <METAFILE_PARAMETER
 #!   NAME="READER_DATASET_HINT"
 #!   VALUE="Select the GML file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the GML file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="GML_IN_SEARCH_ENVELOPE_MINX GML_IN_SEARCH_ENVELOPE_MINY GML_IN_SEARCH_ENVELOPE_MAXX GML_IN_SEARCH_ENVELOPE_MAXY GML_IN_CLIP_TO_ENVELOPE SEARCH_ENVELOPE_COORDINATE_SYSTEM"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -127,8 +128,8 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="geopackage_type {FME_GEN_GEOMETRY} fme_table_handling CREATE_IF_MISSING geopackage_geometry_column &quot;&quot; geopackage_primary_index_column &quot;&quot; geopackage_create_spatial_index YES"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_sweep_angle double fme_geometry fme_char(50) fme_fill_color text(50) fme_text_size double fme_type text(50) fme_color text(50) fme_rotation double fme_basename text(50) fme_start_angle double fme_feature_type text(50) fme_text_string text(50) fme_secondary_axis double geopackage_type text(255) fme_dataset text(50) fme_primary_axis double"
-#!   DEFLINE_PARMS="&quot;GUI NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table Settings&quot; &quot;&quot; &quot;GUI NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE fme_table_handling Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE Table Handling&quot; CREATE_IF_MISSING &quot;GUI DISCLOSUREGROUP fme_table_creation_group geopackage_geometry_column%geopackage_primary_index_column%geopackage_create_spatial_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_geometry_column Spatial Column&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_primary_index_column Primary Index Column&quot; &quot;&quot; &quot;GUI CHOICE geopackage_create_spatial_index Yes%No Create Spatial Index&quot; Yes "
+#!   EXPOSABLE_ATTRS="fme_text_size double fme_start_angle double fme_fill_color text(50) fme_basename text(50) geopackage_type text(255) fme_text_string text(50) fme_primary_axis double fme_secondary_axis double fme_rotation double fme_feature_type text(50) fme_color text(50) fme_geometry fme_char(50) fme_sweep_angle double fme_dataset text(50) fme_type text(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE fme_table_handling Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE Table Handling&quot; CREATE_IF_MISSING &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group geopackage_geometry_column%geopackage_primary_index_column%geopackage_create_spatial_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_geometry_column Spatial Column&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_primary_index_column Primary Index Column&quot; &quot;&quot; &quot;GUI CHOICE geopackage_create_spatial_index Yes%No Create Spatial Index&quot; Yes "
 #!   ATTR_INDEX_TYPES="indexed"
 #!   ATTR_NAME_INVALID_CHARS="\\&quot;{}()&apos;,@&amp;`~!#$%^*+-=|[]:;&lt;&gt;?./"
 #!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
@@ -141,32 +142,20 @@
 #!   FANOUT_GROUP="NO"
 #! >
 #! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a name for the GeoPackage file"
+#!   NAME="ALLOW_DATASET_CONFLICT"
+#!   VALUE="YES"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="Table"
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
 #!   VALUE="GeoPackage file"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="ALLOW_DATASET_CONFLICT"
-#!   VALUE="YES"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
-#!   VALUE="Table1"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="GEOPACKAGE_OUT_TRANSACTION_SIZE"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="NETWORK_PROXY"
-#!   VALUE="NO"
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_AUTHENTICATION"
@@ -175,6 +164,18 @@
 #! <METAFILE_PARAMETER
 #!   NAME="READER_DATASET_HINT"
 #!   VALUE="Select the GeoPackage file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the GeoPackage file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="GEOPACKAGE_OUT_TRANSACTION_SIZE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -772,12 +773,12 @@
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="USRN" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="RoadLink_TOID" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
-#!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
@@ -791,7 +792,7 @@
 #!   POSITION="3320.7 -3.182"
 #!   BOUNDING_RECT="3320.7 -3.182 -1 -1"
 #!   ORDER="5e+14"
-#!   COLLAPSED="true"
+#!   COLLAPSED="false"
 #!   KEYWORD="GEOPACKAGE_1"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -801,8 +802,8 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="identifier" ATTR_TYPE="text(37)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="beginLifespanVersion" ATTR_TYPE="datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="validFrom" ATTR_TYPE="datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="localRoadCode" ATTR_TYPE="text(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="nationalRoadCode" ATTR_TYPE="text(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="localRoadCode" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="nationalRoadCode" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="descriptor1" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="descriptor1_Language" ATTR_TYPE="text(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="descriptor2" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -843,12 +844,12 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="gssCode1" ATTR_TYPE="text(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="gssCode2" ATTR_TYPE="text(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="geometryProvenance" ATTR_TYPE="text(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
-#!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geopackage_primary_index_column" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
@@ -1491,7 +1492,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="139"
@@ -1509,7 +1510,7 @@
 #!   BOUNDING_RECT="-963.635 163.428 584.942 1344.72"
 #!   STICKY="true"
 #!   COLOUR="0.211765,0.403922,0.694118"
-#!   CONTENTS="8 11 21 22 10 34 31 33 20 9 32 "
+#!   CONTENTS="32 21 20 10 9 31 8 22 11 34 33 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="44"
@@ -1520,7 +1521,7 @@
 #!   BOUNDING_RECT="-363.626 159.368 554 1340.66"
 #!   STICKY="true"
 #!   COLOUR="0.654902,0.34902,0.937255"
-#!   CONTENTS="13 15 26 25 36 37 35 38 12 14 24 "
+#!   CONTENTS="37 35 14 12 25 38 15 24 13 26 36 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="45"
@@ -1531,7 +1532,7 @@
 #!   BOUNDING_RECT="212.381 159.368 588.824 1323.54"
 #!   STICKY="true"
 #!   COLOUR="0.121569,0.827451,0.839216"
-#!   CONTENTS="41 16 19 40 42 18 29 30 28 17 39 "
+#!   CONTENTS="28 30 41 29 39 18 42 19 16 40 17 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="74"
@@ -1542,7 +1543,7 @@
 #!   BOUNDING_RECT="825.008 159.368 588.824 1323.54"
 #!   STICKY="true"
 #!   COLOUR="0.839216,0.0901961,0.537255"
-#!   CONTENTS="68 67 63 69 85 65 70 66 87 86 64 "
+#!   CONTENTS="69 86 67 70 87 63 65 85 66 68 64 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="88"
@@ -1553,7 +1554,7 @@
 #!   BOUNDING_RECT="1439.39 159.368 588.824 1323.54"
 #!   STICKY="true"
 #!   COLOUR="0.509804,0.839216,0.784314"
-#!   CONTENTS="83 81 97 98 96 79 77 78 82 80 99 "
+#!   CONTENTS="98 82 96 83 99 77 81 78 79 97 80 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="100"
@@ -1564,7 +1565,7 @@
 #!   BOUNDING_RECT="2057.4 159.368 588.824 1323.54"
 #!   STICKY="true"
 #!   COLOUR="0.619608,0.839216,0.101961"
-#!   CONTENTS="89 91 92 104 94 90 105 93 106 103 95 "
+#!   CONTENTS="105 103 89 106 94 90 91 104 95 93 92 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="113"
@@ -1575,7 +1576,7 @@
 #!   BOUNDING_RECT="-1013.06 1152.01 2783.91 630.696"
 #!   STICKY="true"
 #!   COLOUR="0.101961,0.321569,0.00784314"
-#!   CONTENTS="108 109 117 57 122 119 49 123 121 "
+#!   CONTENTS="121 122 117 119 109 57 49 108 123 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="118"
@@ -1586,7 +1587,7 @@
 #!   BOUNDING_RECT="-1029.01 490.642 4917.05 1741.65"
 #!   STICKY="true"
 #!   COLOUR="0.964706,0.384314,0.631373"
-#!   CONTENTS="112 68 104 95 64 5 12 40 26 67 24 14 19 107 77 75 92 21 23 43 94 111 85 20 30 103 35 114 22 99 32 74 93 9 66 38 88 11 16 80 101 120 41 100 91 34 83 86 98 29 63 37 44 82 81 8 106 28 13 39 18 33 78 36 89 87 97 27 42 31 134 110 65 105 25 96 10 79 76 15 45 124 17 90 130 54 69 70 "
+#!   CONTENTS="8 28 54 23 80 134 67 114 92 93 36 39 15 64 106 32 110 79 26 70 91 20 87 74 69 98 95 5 82 14 29 78 27 90 21 19 34 104 37 107 12 40 101 33 31 112 9 13 75 43 77 85 96 44 88 99 24 18 11 68 94 81 111 66 35 63 105 17 10 38 25 41 22 89 76 130 124 65 83 42 86 45 97 30 103 100 16 120 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -1790,16 +1791,18 @@
 #!     <XFORM_ATTR ATTR_NAME="town1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="town2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="town2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="administrativeUnit" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="locality" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gssCode1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="gssCode2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="onsCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gssCode1" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="town" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="locality" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="administrativeUnit" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="inspireId.Identifier.localId,localId,,inspireId.Identifier.versionId,versionId,,operationalState.OperationalStateType.state,operationalState_State,,operationalState.OperationalStateType.reason,operationsState_Reason,,operationalState.OperationalStateType.validTime.gml_TimePeriod.gml_beginPosition,operationalState_StartTime,,operationalState.OperationalStateType.validTime.gml_TimePeriod.gml_endPosition,operationalState_EndTime,,onsCode.xlink_href,onsCode,,area.xlink_href,area,,administrativeUnit.xlink_href,administrativeUnit,,town.xlink_href,town,,locality.xlink_href,locality,,responsibleAuthority.ResponsibleAuthority.identifier,responsibleAuthority_AuthorityID,,responsibleAuthority.ResponsibleAuthority.authorityName,responsibleAuthority_Authority,,gssCode&lt;opencurly&gt;0&lt;closecurly&gt;.xlink_href,gssCode1,,gssCode&lt;opencurly&gt;1&lt;closecurly&gt;.xlink_href,gssCode2,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="8"
@@ -1976,8 +1979,8 @@
 #!     <XFORM_ATTR ATTR_NAME="designatedName1_DesignatedNameType.namingAuthority.ResponsibleAuthority.identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="designatedName1_DesignatedNameType.namingAuthority.ResponsibleAuthority.authorityName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="designatedName{}"/>
 #!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="designatedName1_"/>
@@ -2158,6 +2161,8 @@
 #!     <XFORM_ATTR ATTR_NAME="designatedName1_Authority" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_2"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="designatedName1_DesignatedNameType.name,designatedName1,,designatedName1_DesignatedNameType.name.xml_lang,designatedName1_Language,,designatedName1_DesignatedNameType.namingAuthority.ResponsibleAuthority.authorityName,designatedName1_Authority,,designatedName1_DesignatedNameType.namingAuthority.ResponsibleAuthority.identifier,designatedName1_AuthorityID,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="10"
@@ -2338,8 +2343,8 @@
 #!     <XFORM_ATTR ATTR_NAME="designatedName2_DesignatedNameType.namingAuthority.ResponsibleAuthority.identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="designatedName2_DesignatedNameType.namingAuthority.ResponsibleAuthority.authorityName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer_2"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="designatedName{}"/>
 #!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="designatedName2_"/>
@@ -2524,6 +2529,8 @@
 #!     <XFORM_ATTR ATTR_NAME="designatedName2_Authority" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_3"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="designatedName2_DesignatedNameType.name,designatedName2,,designatedName2_DesignatedNameType.name.xml_lang,designatedName2_Language,,designatedName2_DesignatedNameType.namingAuthority.ResponsibleAuthority.authorityName,designatedName2_Authority,,designatedName2_DesignatedNameType.namingAuthority.ResponsibleAuthority.identifier,designatedName2_AuthorityID,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="12"
@@ -2706,8 +2713,8 @@
 #!     <XFORM_ATTR ATTR_NAME="descriptor1_descriptor" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="descriptor1_xml_lang" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer_3"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="descriptor{}"/>
 #!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="descriptor1_"/>
@@ -2894,6 +2901,8 @@
 #!     <XFORM_ATTR ATTR_NAME="descriptor1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_4"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="descriptor1_descriptor,descriptor1,,descriptor1_xml_lang,descriptor1_Language,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="14"
@@ -3078,8 +3087,8 @@
 #!     <XFORM_ATTR ATTR_NAME="descriptor2_descriptor" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="descriptor2_xml_lang" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer_4"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="descriptor{}"/>
 #!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="descriptor2_"/>
@@ -3268,6 +3277,8 @@
 #!     <XFORM_ATTR ATTR_NAME="descriptor2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_5"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="descriptor2_descriptor,descriptor2,,descriptor2_xml_lang,descriptor2_Language,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="16"
@@ -3454,8 +3465,8 @@
 #!     <XFORM_ATTR ATTR_NAME="localName1_localName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="localName1_xml_lang" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer_5"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="localName{}"/>
 #!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="localName1_"/>
@@ -3646,6 +3657,8 @@
 #!     <XFORM_ATTR ATTR_NAME="localName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_6"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="localName1_localName,localName1,,localName1_xml_lang,localName1_Language,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="18"
@@ -3834,8 +3847,8 @@
 #!     <XFORM_ATTR ATTR_NAME="localName2_localName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="localName2_xml_lang" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer_6"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="localName{}"/>
 #!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="localName2_"/>
@@ -4028,6 +4041,8 @@
 #!     <XFORM_ATTR ATTR_NAME="localName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_7"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="localName2_localName,localName2,,localName2_xml_lang,localName2_Language,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="49"
@@ -4356,14 +4371,14 @@
 #!     <XFORM_ATTR ATTR_NAME="gssCode{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="gssCode{}.owns" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListExploder"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Original"/>
+#!     <XFORM_PARM PARM_NAME="INCOMING_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Incoming List"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="link{}"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Original"/>
+#!     <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Incoming List"/>
-#!     <XFORM_PARM PARM_NAME="INCOMING_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="51"
@@ -4537,6 +4552,8 @@
 #!     <XFORM_ATTR ATTR_NAME="gssCode{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_8"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="gml_id,USRN,,inspireId.Identifier.localId,identifier,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="54"
@@ -4547,7 +4564,7 @@
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="15250"
+#!   LAST_PARM_EDIT="16492"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -4738,21 +4755,21 @@
 #!     <XFORM_ATTR ATTR_NAME="town1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="town2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="town2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="administrativeUnit" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="locality" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gssCode1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="gssCode2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="onsCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gssCode1" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="town" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="locality" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="administrativeUnit" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateFormatter"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="beginLifespanVersion,operationalState_EndTime,operationalState_StartTime,validFrom"/>
-#!     <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date (%Y%m%d)"/>
 #!     <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
-#!     <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date (%Y%m%d)"/>
+#!     <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="FME_NULL_VALUE"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="57"
@@ -4925,16 +4942,16 @@
 #!     <XFORM_ATTR ATTR_NAME="gssCode{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="gssCode{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
-#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="no"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="#"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="RoadLink_TOID"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
 #!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="#"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="no"/>
 #!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="RoadLink_TOID"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="63"
@@ -5125,8 +5142,8 @@
 #!     <XFORM_ATTR ATTR_NAME="locality1_locality" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="locality1_xml_lang" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer_7"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="locality{}"/>
 #!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="locality1_"/>
@@ -5321,6 +5338,8 @@
 #!     <XFORM_ATTR ATTR_NAME="locality1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_9"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="locality1_locality,locality1,,locality1_xml_lang,locality1_Language,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="65"
@@ -5513,8 +5532,8 @@
 #!     <XFORM_ATTR ATTR_NAME="localitName2_localName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="localitName2_xml_lang" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer_8"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="localName{}"/>
 #!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="localitName2_"/>
@@ -5713,6 +5732,8 @@
 #!     <XFORM_ATTR ATTR_NAME="locality2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_10"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="localityName2_localName,locality2,,localityName2_xml_lang,locality2_Language,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="77"
@@ -5909,8 +5930,8 @@
 #!     <XFORM_ATTR ATTR_NAME="administrative_area1_administrativeArea" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="administrative_area1_xml_lang" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer_9"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="administrativeArea{}"/>
 #!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="administrative_area1_"/>
@@ -6111,6 +6132,8 @@
 #!     <XFORM_ATTR ATTR_NAME="administrativeArea1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_11"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="administrative_area1_administrativeArea,administrativeArea1,,administrative_area1_xml_lang,administrativeArea1_Language,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="79"
@@ -6309,8 +6332,8 @@
 #!     <XFORM_ATTR ATTR_NAME="administrative_area2_administrativeArea" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="administrative_area2_xml_lang" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer_10"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="administrativeArea{}"/>
 #!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="administrative_area2_"/>
@@ -6513,6 +6536,8 @@
 #!     <XFORM_ATTR ATTR_NAME="administrativeArea2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_12"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="administrative_area2_administrativeArea,administrativeArea2,,administrative_area2_xml_lang,administrativeArea2_Language,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="89"
@@ -6713,8 +6738,8 @@
 #!     <XFORM_ATTR ATTR_NAME="town1_town" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="town1_xml_lang" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer_11"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="town{}"/>
 #!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="town1_"/>
@@ -6919,6 +6944,8 @@
 #!     <XFORM_ATTR ATTR_NAME="town1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_13"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="town1_town,town1,,town1_xml_lang,town1_Language,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="91"
@@ -7121,8 +7148,8 @@
 #!     <XFORM_ATTR ATTR_NAME="town2_town" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="town2_xml_lang" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListIndexer_12"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="town{}"/>
 #!     <XFORM_PARM PARM_NAME="PREFIX" PARM_VALUE="town2_"/>
@@ -7329,6 +7356,8 @@
 #!     <XFORM_ATTR ATTR_NAME="town2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_14"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="town2_town,town2,,town2_xml_lang,town2_Language,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="109"
@@ -7503,6 +7532,8 @@
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_15"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="xlink_href,RoadLink_TOID,"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="111"
@@ -7704,21 +7735,21 @@
 #!     <XFORM_ATTR ATTR_NAME="town1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="town2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="town2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="administrativeUnit" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="locality" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gssCode1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="gssCode2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="onsCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="gssCode1" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="town" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="locality" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="administrativeUnit" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRIM_TYPE" PARM_VALUE="Both"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeTrimmer"/>
+#!     <XFORM_PARM PARM_NAME="TRIM_CHARS" PARM_VALUE="#"/>
+#!     <XFORM_PARM PARM_NAME="TRIM_TO_NONE" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="gssCode1,gssCode2"/>
-#!     <XFORM_PARM PARM_NAME="TRIM_CHARS" PARM_VALUE="#"/>
-#!     <XFORM_PARM PARM_NAME="TRIM_TO_NONE" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="TRIM_TYPE" PARM_VALUE="Both"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -8503,13 +8534,13 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc AttributeTrimmer_e56bcb3f_17ca_48ff_9ce6_276f5e436b4d1_trimmer { trimChars} {    set attrs [split {gssCode1,gssCode2} {,}];    set trimChars [FME_DecodeText $trimChars];    foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set length [string length $attrVal];       if {$length > 0} {          if {[string length $trimChars] == 0} {             set result [string trim $attrVal];         } else {             set result [string trim $attrVal $trimChars];         };          if {[string length $result] == 0 && {Yes} == {No}} {              if { {trim} == {trimleft}} {                set lastPos [expr $length - 1];                set result [string range $attrVal $lastPos $lastPos ];              } elseif { {trim} == {trimright}} {                set result [string range $attrVal 0 0];              } else {                set midPos [expr $length / 2];                set result [string range $attrVal $midPos $midPos];              };          };          FME_SetAttribute $attr $result;       };    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeTrimmer    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE AttributeTrimmer_OUTPUT      @Tcl2("AttributeTrimmer_e56bcb3f_17ca_48ff_9ce6_276f5e436b4d1_trimmer {#} ")
+Tcl2 proc AttributeTrimmer_c5fbed89_9bb3_4942_b470_28fd568a9e3b0_trimmer { trimChars} {    set attrs [split {gssCode1,gssCode2} {,}];    set trimChars [FME_DecodeText $trimChars];    foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set length [string length $attrVal];       if {$length > 0} {          if {[string length $trimChars] == 0} {             set result [string trim $attrVal];         } else {             set result [string trim $attrVal $trimChars];         };          if {[string length $result] == 0 && {Yes} == {No}} {              if { {trim} == {trimleft}} {                set lastPos [expr $length - 1];                set result [string range $attrVal $lastPos $lastPos ];              } elseif { {trim} == {trimright}} {                set result [string range $attrVal 0 0];              } else {                set midPos [expr $length / 2];                set result [string range $attrVal $midPos $midPos];              };          };          FME_SetAttribute $attr $result;       };    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeTrimmer    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE AttributeTrimmer_OUTPUT      @Tcl2("AttributeTrimmer_c5fbed89_9bb3_4942_b470_28fd568a9e3b0_trimmer {#} ")
 
 # -------------------------------------------------------------------------
 
 Tcl2 proc DateFormatter_formatter {invalidValue} {       set dateFormat {FME Date (%Y%m%d)};       if { [string compare $dateFormat {FME Date/Time (%Y%m%d%H%M%S)}] == 0 } {          set dateFormat {%Y%m%d%H%M%S};       } elseif { [string compare $dateFormat {FME Date (%Y%m%d)}] == 0} {          set dateFormat {%Y%m%d};       } elseif { [string compare $dateFormat {FME Time (%H%M%S)}] == 0} {          set dateFormat {%H%M%S};       } elseif { [string compare $dateFormat {ISO Date (%Y-%m-%d)}] == 0} {          set dateFormat {%Y-%m-%d};       } elseif { [string compare $dateFormat {ISO DateTime (%Y-%m-%dT%H:%M:%S)}] == 0} {          set dateFormat {%Y-%m-%dT%H:%M:%S};       } elseif { [string compare $dateFormat {ISO Time (%H:%M:%S)}] == 0} {          set dateFormat {%H:%M:%S};       } elseif { [string compare $dateFormat {Locale Date (%c)}] == 0} {          set dateFormat {%c};       };     set attrs [split {beginLifespanVersion,operationalState_EndTime,operationalState_StartTime,validFrom} {,}];     foreach attr $attrs {        set date [string trim [FME_GetAttribute $attr]];        set srcfmt {};        if {{FME_AUTOMATIC} != {FME_AUTOMATIC}} {            set srcfmt {FME_AUTOMATIC};        } else {          set comment { In Automatic mode we ignore the millisecond part };          regexp {^[^.]*} $date date;        };        set dateLen [string length $date];        if {$dateLen > 0} {           if {[string length $srcfmt] == 0} {              set attrFull $attr;              append attrFull .full;              set fullDate [FME_GetAttribute $attrFull];              if { [string compare -length $dateLen $date $fullDate] == 0 } {                 set extra [string range $fullDate $dateLen end]000000;                 set date [string range \"$date$extra\" 0 13];                 set dateLen 14              };              if {($dateLen == 14) && [regexp {^[0-9]*$} $date]} {                 set srcfmt %Y%m%d%H%M%S;              };           };        };        set sourceFormatOpt {};        if {[string length $srcfmt] > 0} {           set sourceFormatOpt \"-format {$srcfmt}\";        };        set comment { Compute the output value and catch any errors };        set error [catch { set seconds [eval clock scan "{$date}" $sourceFormatOpt];                           set output [clock format $seconds -format $dateFormat];        }];        set comment { If there was error then we try again by removing digits after last decimal };        if { $error != 0 } {           set index [string last "." $date];           if { $index > 0 } {              set date [eval string range $date 0 [expr $index-1]];              set dateLen [string length $date];              set error [catch { set seconds [eval clock scan "{$date}" $sourceFormatOpt]; set output [clock format $seconds -format $dateFormat]; }];           };        };        if { $error == 0 } {           FME_SetAttribute $attr $output;        };        if { (0 == $dateLen) || ($error != 0) } {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };        };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME DateFormatter    INPUT  FEATURE_TYPE AttributeTrimmer_OUTPUT    OUTPUT FEATURE_TYPE DateFormatter_OUTPUT         @Tcl2("DateFormatter_formatter {_FME_NO_OP_}")
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateFormatter    INPUT  FEATURE_TYPE AttributeTrimmer_OUTPUT    OUTPUT FEATURE_TYPE DateFormatter_OUTPUT         @Tcl2("DateFormatter_formatter {FME_NULL_VALUE}")
 
 # -------------------------------------------------------------------------
 
@@ -8523,8 +8554,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRenamer_15    INPUT  FEATURE_T
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_c9ab8d17_29b4_4d52_955d_079790ed802e1_replacer { findText replaceText invalidValue} {     set attrs [split \"RoadLink_TOID\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeRenamer_15_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_c9ab8d17_29b4_4d52_955d_079790ed802e1_replacer {#} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_0200dca0_3e15_4cc5_8298_da3cead1330a0_replacer { findText replaceText invalidValue} {     set attrs [split \"RoadLink_TOID\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeRenamer_15_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_0200dca0_3e15_4cc5_8298_da3cead1330a0_replacer {#} {} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 
@@ -8536,4 +8567,4 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYP
 # -------------------------------------------------------------------------
 GEOPACKAGE_1_DEF Street_NetworkRef   geopackage_type              All   fme_table_handling           CREATE_IF_MISSING   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   USRN                         text(20)   RoadLink_TOID                text(20)
 # -------------------------------------------------------------------------
-GEOPACKAGE_1_DEF Street   geopackage_type              All   fme_table_handling           CREATE_IF_MISSING   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   USRN                         text(20)   identifier                   text(37)   beginLifespanVersion         datetime   validFrom                    datetime   localRoadCode                text(10)   nationalRoadCode             text(10)   descriptor1                  text(120)   descriptor1_Language         text(10)   descriptor2                  text(120)   descriptor2_Language         text(10)   designatedName1              text(120)   designatedName1_Language     text(10)   designatedName1_AuthorityID  text(4)   designatedName1_Authority    text(120)   designatedName2              text(120)   designatedName2_Language     text(10)   designatedName2_AuthorityID  text(4)   designatedName2_Authority    text(120)   localName1                   text(120)   localName1_Language          text(10)   localName2                   text(120)   localName2_Language          text(10)   reasonForChange              text(32)   roadClassification           text(21)   streetType                   text(35)   operationalState_State       text(20)   operationsState_Reason       text(120)   operationalState_StartTime   datetime   operationalState_EndTime     datetime   locality1                    text(35)   locality1_Language           text(20)   locality2                    text(35)   locality2_Language           text(20)   town1                        text(30)   town1_Language               text(10)   town2                        text(30)   town2_Language               text(10)   responsibleAuthority_AuthorityID text(4)   responsibleAuthority_Authority text(120)   administrativeArea1          text(30)   administrativeArea1_Language text(10)   administrativeArea2          text(30)   administrativeArea2_Language text(10)   gssCode1                     text(10)   gssCode2                     text(10)   geometryProvenance           text(30)
+GEOPACKAGE_1_DEF Street   geopackage_type              All   fme_table_handling           CREATE_IF_MISSING   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   USRN                         text(20)   identifier                   text(37)   beginLifespanVersion         datetime   validFrom                    datetime   localRoadCode                text(120)   nationalRoadCode             text(120)   descriptor1                  text(120)   descriptor1_Language         text(10)   descriptor2                  text(120)   descriptor2_Language         text(10)   designatedName1              text(120)   designatedName1_Language     text(10)   designatedName1_AuthorityID  text(4)   designatedName1_Authority    text(120)   designatedName2              text(120)   designatedName2_Language     text(10)   designatedName2_AuthorityID  text(4)   designatedName2_Authority    text(120)   localName1                   text(120)   localName1_Language          text(10)   localName2                   text(120)   localName2_Language          text(10)   reasonForChange              text(32)   roadClassification           text(21)   streetType                   text(35)   operationalState_State       text(20)   operationsState_Reason       text(120)   operationalState_StartTime   datetime   operationalState_EndTime     datetime   locality1                    text(35)   locality1_Language           text(20)   locality2                    text(35)   locality2_Language           text(20)   town1                        text(30)   town1_Language               text(10)   town2                        text(30)   town2_Language               text(10)   responsibleAuthority_AuthorityID text(4)   responsibleAuthority_Authority text(120)   administrativeArea1          text(30)   administrativeArea1_Language text(10)   administrativeArea2          text(30)   administrativeArea2_Language text(10)   gssCode1                     text(10)   gssCode2                     text(10)   geometryProvenance           text(30)
